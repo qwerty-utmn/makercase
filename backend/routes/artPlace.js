@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 const db = require('../models');
+const { route } = require('./user');
 
 const { Op } = db.Sequelize;
 
@@ -14,7 +15,7 @@ router.get('/', async (req, res) => {
     console.error(err);
   }
 });
-
+/*
 router.get('/:id', async (req, res) => {
   try {
     const { id } = req.params;
@@ -30,6 +31,28 @@ router.get('/:id', async (req, res) => {
     console.error(err);
   }
 });
+*/
+router.get('/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    const place = await db.ArtPlace.findOne({
+      where: {
+        id: {
+          [Op.eq]: id
+        }
+      },
+      include:[{
+        model: db.Image     
+      }]
+    });
+    res.status(200).json(place);
+  } catch (err) {
+    console.error(err);
+  }
+});
+
+
+
 
 router.post('/', async (req, res) => {
   try {
@@ -46,5 +69,5 @@ router.put('/:id', async (req, res) => {
     console.error(err);
   }
 });
-
-module.exports = express();
+module.exports = router;
+//module.exports = express();
