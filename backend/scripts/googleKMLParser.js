@@ -29,7 +29,7 @@ const {
           name: clearPlacemarkName,
         },
         defaults: {
-          coordinates: [lat, lng],
+          coordinates: [parseFloat(lat), parseFloat(lng)],
           name: clearPlacemarkName,
           description: clearPlacemarkDescription,
           // author_name: ,
