@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[Копия карты "Морфология улиц. "]]></name>
+    <description>Карта объектов городской инфраструктуры участвующих в стрит-арт фестивале. Выбери свой!</description>
+    <Style id="icon-1526-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1526-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1526-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1526-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1526-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1535-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1535-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1535-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1535-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1535-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1603-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1603-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1603-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1603-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1603-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name><![CDATA[Работы фестиваля "Морфология улиц"]]></name>
+      <Placemark>
+        <name><![CDATA[Серия работ "Новый Эдем"]]></name>
+        <description><![CDATA[<img src="https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ekmi01tuu0np3jnqko4ugnle9g/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrvRBeGTyfFrBYksxOnuz1KbdvsHjDb3eFw_VOYhw_4ycDU4g-m_DfBtSRRMMwRFfmssDmbu163Xk3gNfH-WL_YJLrBd2Y_MjrQGKcesglsVV8Y9nVoIbAaCbSDoN7fAM3xw1G3VBnTx9hdqFKEfQKd1bauVoR-pCM25XVnSqjHctVGcI-N0c46SrV5A3KLhoy-qZjTUA_JPNS38lfpOvOf1_q7u5sexSO1Ws2iUSr7Ohl0O_GVeBP3ZKeAfvDjWHoLwgwnIqM7g18y5NLa6tgjimtevg?session=0&fife" height="200" width="auto" /><br><br>Команда "Цаппята"]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ekmi01tuu0np3jnqko4ugnle9g/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrvRBeGTyfFrBYksxOnuz1KbdvsHjDb3eFw_VOYhw_4ycDU4g-m_DfBtSRRMMwRFfmssDmbu163Xk3gNfH-WL_YJLrBd2Y_MjrQGKcesglsVV8Y9nVoIbAaCbSDoN7fAM3xw1G3VBnTx9hdqFKEfQKd1bauVoR-pCM25XVnSqjHctVGcI-N0c46SrV5A3KLhoy-qZjTUA_JPNS38lfpOvOf1_q7u5sexSO1Ws2iUSr7Ohl0O_GVeBP3ZKeAfvDjWHoLwgwnIqM7g18y5NLa6tgjimtevg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5035353,57.1627633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Ассоль"]]></name>
+        <description><![CDATA[<img src="https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/i72qiibbkd3cnq38mnp40em3o4/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpFkdZVdxzV3wFXimr99Kyj4Xf0ItLxcDEzxQSBOoqdWA0NB_VNlQdPsQseGNwnU5C1oNUlvunEUTJgipazovM00H19tfbLQJZHpV8F2IteUHr_nnltqOOFECcKqPb1TYHnqPAWJGJs6Hg7foBObEDXVbCWYeAiJDTsTuUh8sZJ6OKIn0qxyxEzl2JqfWnzPdzdUxvAboDI8KsFAyS1tQtdJsqyBzf-W6fiYl3iYQ9LhOldo_3PFQ33Pz4CSq_vUINcIvuyRbXFIRbGET6gRiH7JLKjWw?session=0&fife" height="200" width="auto" /><br><br>Автор Сергей Болясов.<br><br><img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/7esisuak6s76onuoc5f290qqcg/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpJ1xRu6pgVNveMdCUiyP9JdJccrfbJ8ytampsc-hXInZ9EpK0o1ohM9Gzb_-z8nCHWFknhloTTb3l_G9dSJ0WRD-_FtfN5EplqowVUWOAtucVK0nqCJKBx8RbMISn1kAaQKuWUhJGSvHSpWOdVqzNdgM5-y3iCwCQZlKbElIXdvbv-9R0cSxUwRO4PLB30HAcg75k6Dqfpc_mnNriPt0UPGiG-IMzMGPTa8PdATwpgXL67dNoedcGXDg_-B1vjzLmXtwwAj1yVTq_aiosBWYGhuSQWzg?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/kv0d1f329bok4p0pl4hv9gdbbk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoJxkK-Lp06WxvsVzYA8TkJI2DpWkRElG8Yb90LEy1iBWaGLgrF2h3sBrmF60l_u8efInER4eAkspYhzW3eNW4gk8sg1hcKee2Lk_6sWv5T_KV6H-P0pcIB3hQ5cXEAqhnELkF_Ty_LCwDOJiTHq_iIUTfnako9ygmkhPUmI-jfhhTbCI583QfsAluCqs1iBimQoaFtO-bgy2hnPGv220ppXJzlvjgTAh4EV8FRVSugJNMhd4qr1-qDdkGc3F3K9p0kmLbpQASCW9js-IDfJcsrd_QT-w?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/qskdhqiid04vqnsj1g3fd4l8cc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrk9IPidYRzc7-mmBe9BwXEe2lpZXDylZ0KIXFy-enh_D-MuBTiucBdXm4TghqNSL6HlND0d827uSfJlAxSqnvgIAKEbXWOaHeq9Ys4IUhXpcrUVjEu8J0OMBbZjwOo4jyr_WMTry17M3eCAAVlTDOnZGmGX2ij9WKR7iAR8EIwZfrYMesVZiPcUpcr0k0UhqP-PKoEkjpvtEqR3AUmgSfXfg_zaGNHVBlIPLucPP63iF2hf9ohZwMzrQfDwHop4YOiNlHtyS6OpjT49kqMRLGVku7lHA?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/c8b9ts3uhv8gijq7l5de5k3kn0/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp3HszbEjG26WA3oNjsQ0lE6m_eobXS1PuRyz-2q6sEt_5jdfhqODOWAeO2w97VOhvN1viKMY4xXcxwjSnOqgcXSgpWC3EXfSA8hqnJP466Ar9CTES-GOHWK2m3pDQKinfC8WeJbkApCBTIBSBbeosPjIWJQM4YDjcTjWrzx_McFl6VZR2IEqZN9X18uGf9eON95NUBySNXO38VI1OQfQbzU63BtjDs6cZ4q3Dg9J9466NYSeH6g5btnEGPceZrjMoEsK-AcB8H0H6382q_8RKHUbCbUw?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/gg2m8nimdt6j8h84r38mg7v3q4/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpQjjNXGyVEOKDu8H3C0ASbWFJmKQnUauI-aRx3HTfk0aFkcSkTX5bWKlqC75W4M4eecWwhi5xBjFLY-E5f-RE3KtvG1ZQadheGvIBFWPb6D9obxDuDZjYwvIejVlUzqaSlnaisBrFv93wjCOvkEeMm7oNJUkXXbQfYs3nX3E5r1qdjEBuDpMv_xzQ_RLDNukE8G8owr2-ZdY5ZOLAAuu2sFdjIMnwoaroBY7O-t5igXydujVrn7Ndmy0JvRkM6RBVfUJFtWYras3x7M9XY6M7U0GI7lg?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/i72qiibbkd3cnq38mnp40em3o4/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpFkdZVdxzV3wFXimr99Kyj4Xf0ItLxcDEzxQSBOoqdWA0NB_VNlQdPsQseGNwnU5C1oNUlvunEUTJgipazovM00H19tfbLQJZHpV8F2IteUHr_nnltqOOFECcKqPb1TYHnqPAWJGJs6Hg7foBObEDXVbCWYeAiJDTsTuUh8sZJ6OKIn0qxyxEzl2JqfWnzPdzdUxvAboDI8KsFAyS1tQtdJsqyBzf-W6fiYl3iYQ9LhOldo_3PFQ33Pz4CSq_vUINcIvuyRbXFIRbGET6gRiH7JLKjWw?session=0&fife https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/7esisuak6s76onuoc5f290qqcg/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpJ1xRu6pgVNveMdCUiyP9JdJccrfbJ8ytampsc-hXInZ9EpK0o1ohM9Gzb_-z8nCHWFknhloTTb3l_G9dSJ0WRD-_FtfN5EplqowVUWOAtucVK0nqCJKBx8RbMISn1kAaQKuWUhJGSvHSpWOdVqzNdgM5-y3iCwCQZlKbElIXdvbv-9R0cSxUwRO4PLB30HAcg75k6Dqfpc_mnNriPt0UPGiG-IMzMGPTa8PdATwpgXL67dNoedcGXDg_-B1vjzLmXtwwAj1yVTq_aiosBWYGhuSQWzg?session=0&fife https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/kv0d1f329bok4p0pl4hv9gdbbk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoJxkK-Lp06WxvsVzYA8TkJI2DpWkRElG8Yb90LEy1iBWaGLgrF2h3sBrmF60l_u8efInER4eAkspYhzW3eNW4gk8sg1hcKee2Lk_6sWv5T_KV6H-P0pcIB3hQ5cXEAqhnELkF_Ty_LCwDOJiTHq_iIUTfnako9ygmkhPUmI-jfhhTbCI583QfsAluCqs1iBimQoaFtO-bgy2hnPGv220ppXJzlvjgTAh4EV8FRVSugJNMhd4qr1-qDdkGc3F3K9p0kmLbpQASCW9js-IDfJcsrd_QT-w?session=0&fife https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/qskdhqiid04vqnsj1g3fd4l8cc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrk9IPidYRzc7-mmBe9BwXEe2lpZXDylZ0KIXFy-enh_D-MuBTiucBdXm4TghqNSL6HlND0d827uSfJlAxSqnvgIAKEbXWOaHeq9Ys4IUhXpcrUVjEu8J0OMBbZjwOo4jyr_WMTry17M3eCAAVlTDOnZGmGX2ij9WKR7iAR8EIwZfrYMesVZiPcUpcr0k0UhqP-PKoEkjpvtEqR3AUmgSfXfg_zaGNHVBlIPLucPP63iF2hf9ohZwMzrQfDwHop4YOiNlHtyS6OpjT49kqMRLGVku7lHA?session=0&fife https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/c8b9ts3uhv8gijq7l5de5k3kn0/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp3HszbEjG26WA3oNjsQ0lE6m_eobXS1PuRyz-2q6sEt_5jdfhqODOWAeO2w97VOhvN1viKMY4xXcxwjSnOqgcXSgpWC3EXfSA8hqnJP466Ar9CTES-GOHWK2m3pDQKinfC8WeJbkApCBTIBSBbeosPjIWJQM4YDjcTjWrzx_McFl6VZR2IEqZN9X18uGf9eON95NUBySNXO38VI1OQfQbzU63BtjDs6cZ4q3Dg9J9466NYSeH6g5btnEGPceZrjMoEsK-AcB8H0H6382q_8RKHUbCbUw?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/gg2m8nimdt6j8h84r38mg7v3q4/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpQjjNXGyVEOKDu8H3C0ASbWFJmKQnUauI-aRx3HTfk0aFkcSkTX5bWKlqC75W4M4eecWwhi5xBjFLY-E5f-RE3KtvG1ZQadheGvIBFWPb6D9obxDuDZjYwvIejVlUzqaSlnaisBrFv93wjCOvkEeMm7oNJUkXXbQfYs3nX3E5r1qdjEBuDpMv_xzQ_RLDNukE8G8owr2-ZdY5ZOLAAuu2sFdjIMnwoaroBY7O-t5igXydujVrn7Ndmy0JvRkM6RBVfUJFtWYras3x7M9XY6M7U0GI7lg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5229115,57.1648081,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RE:Марка</name>
+        <description><![CDATA[<img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/e2ml2s94kealb36ou7d2onfh10/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpASDYt9Zr-VFTUPaf2OGiovAnZ42ROTQip5JbG3aDy62JFkUgiOQ8oR4hBpOoD6xvWHhc3FH1FJOYiE8xUkkU4s6qjboSrrL08eYkxK3ISg6-wLSKir8l5frzzHFhU5G_o4m7GopyFLgy3_K1CPEssokOFVU5pZsV7Fm58umum6WQTTv36FcgZE5RwYeoDiXIbYIbce7KFOerI7pOgA1a8kIl7Aspo6MpJT4DTBYcnghIlbzaSaffOm4qG_cp1fVr6KJjUlqqqoEScyQOKYKn7TQayaQ?session=0&fife" height="200" width="auto" /><br><br>Фрукты Врукты<br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ca40ip1bq57v8b1n3el2sr7l6o/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq16tmgm4WkETkbOFYvyJHK3N7APTXkKXL44-CdRNbzizLQABq8XnJzzp5zqf30CtpkelJeXnQMXRHJ3HM-dCEkv6Um6sPPORh5Ih_HCXfXsNaFgtPFoCUZH7CmP7VpbpDqhcCNXmPQTT_oHFnzwQxbWJ1pzQse3xMTvuYFuKLUg_ufiuhDL_fTR2VDlYaXFwTQMJHP2I9YkOg6m7qfpBMC8u0VoUum6JJdQAce9l2npD2BQLWdeTbIwUWOqIX8ZVCsI5CtULv9Eail8AtTTXOjkMyKuA?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/mv19a9rfbek511lhfnhd6iqvlk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqSRAMftusy7M7w95OViiu4w-lmFonwSX_AMD6P1gdflUJteTqqYYrjWFbMuByohU_KDCTdIGBg5yUwXLMl3WaF5sYudu4NYhUgcYVk-HhT-DkwBHxN3sdMOo1Sv4mYln-Xh-Z2SqNy4wdyjnDXGbFdG-eJrN7hW8lLg3amYEKgqFJooqoyjV0XDyvL1_FB2fwEGgaEP_mQlpbTEoKxuDUBAluOYbK4RJATir0uqjif3pnGZTceflLUEsZZJoot2uU8yM4MqZMGFnp0hMOv6TsX66x8sA?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/e2ml2s94kealb36ou7d2onfh10/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpASDYt9Zr-VFTUPaf2OGiovAnZ42ROTQip5JbG3aDy62JFkUgiOQ8oR4hBpOoD6xvWHhc3FH1FJOYiE8xUkkU4s6qjboSrrL08eYkxK3ISg6-wLSKir8l5frzzHFhU5G_o4m7GopyFLgy3_K1CPEssokOFVU5pZsV7Fm58umum6WQTTv36FcgZE5RwYeoDiXIbYIbce7KFOerI7pOgA1a8kIl7Aspo6MpJT4DTBYcnghIlbzaSaffOm4qG_cp1fVr6KJjUlqqqoEScyQOKYKn7TQayaQ?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ca40ip1bq57v8b1n3el2sr7l6o/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq16tmgm4WkETkbOFYvyJHK3N7APTXkKXL44-CdRNbzizLQABq8XnJzzp5zqf30CtpkelJeXnQMXRHJ3HM-dCEkv6Um6sPPORh5Ih_HCXfXsNaFgtPFoCUZH7CmP7VpbpDqhcCNXmPQTT_oHFnzwQxbWJ1pzQse3xMTvuYFuKLUg_ufiuhDL_fTR2VDlYaXFwTQMJHP2I9YkOg6m7qfpBMC8u0VoUum6JJdQAce9l2npD2BQLWdeTbIwUWOqIX8ZVCsI5CtULv9Eail8AtTTXOjkMyKuA?session=0&fife https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/mv19a9rfbek511lhfnhd6iqvlk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqSRAMftusy7M7w95OViiu4w-lmFonwSX_AMD6P1gdflUJteTqqYYrjWFbMuByohU_KDCTdIGBg5yUwXLMl3WaF5sYudu4NYhUgcYVk-HhT-DkwBHxN3sdMOo1Sv4mYln-Xh-Z2SqNy4wdyjnDXGbFdG-eJrN7hW8lLg3amYEKgqFJooqoyjV0XDyvL1_FB2fwEGgaEP_mQlpbTEoKxuDUBAluOYbK4RJATir0uqjif3pnGZTceflLUEsZZJoot2uU8yM4MqZMGFnp0hMOv6TsX66x8sA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5490363,57.158263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>#сладкий Арт</name>
+        <description><![CDATA[<img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4nte26u1i8rq3uibta73vtctb8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpHE2Zt7H8RDKcBfVHHRtvnVn7vyTiGvSsPECrEdGUFqVNypemVHf-SvOhu7cc6ZiwEkPnrUYbEqaiw8E5KtReBax25Ft33RY_013_gxnr5O7Uh4XcN9z8TWaGXQYc5W0kXMPqVlA55zEGUs0F_Mv-ZZhXztPSGJfxfttLKuWuBUpFJvvBtX52TbgDpZ6NMafRWeVUW9bG5NRDthXiMvO_Z-F2eqsaRZ76P-VvzgK5MhZ3_144GrmBw0R1NdgqqH7W4WkzmseT6CJBaJIElEqqCGx1ccw?session=0&fife" height="200" width="auto" /><br><br>Денис Живило ]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4nte26u1i8rq3uibta73vtctb8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpHE2Zt7H8RDKcBfVHHRtvnVn7vyTiGvSsPECrEdGUFqVNypemVHf-SvOhu7cc6ZiwEkPnrUYbEqaiw8E5KtReBax25Ft33RY_013_gxnr5O7Uh4XcN9z8TWaGXQYc5W0kXMPqVlA55zEGUs0F_Mv-ZZhXztPSGJfxfttLKuWuBUpFJvvBtX52TbgDpZ6NMafRWeVUW9bG5NRDthXiMvO_Z-F2eqsaRZ76P-VvzgK5MhZ3_144GrmBw0R1NdgqqH7W4WkzmseT6CJBaJIElEqqCGx1ccw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5798692,57.1317831,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Дарующая свободу</name>
+        <description><![CDATA[<img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/sapebk5k93aqsho8q8roncl200/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpXjX5HvQYUnX4B2ZnBcvt1S5y0j0RMagW9KSiCRnxc5uXG0z8PVIUmGyIVLztjy68Kh05dGxufJ4TjD2ElmK4j6DXcPbhC7TEimJ7lcIYAs0xcGYStLRBkEW7zZsCW7d7sm6405jop0z_GrIu_SEuBZQ-BkpikcJnkP39or-yJebxOh7GyQW4pI7Wsg1Q-u92i3CLb2d9fnK1epLr9RtU8Rds1iz9euxPMjHy58kB7NyO1w3RdIqhj_gXXgSE57iC2f7sYEM7aH6l2XOXzPRU1nMr5Ug?session=0&fife" height="200" width="auto" /><br><br>Яна Белик]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/sapebk5k93aqsho8q8roncl200/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpXjX5HvQYUnX4B2ZnBcvt1S5y0j0RMagW9KSiCRnxc5uXG0z8PVIUmGyIVLztjy68Kh05dGxufJ4TjD2ElmK4j6DXcPbhC7TEimJ7lcIYAs0xcGYStLRBkEW7zZsCW7d7sm6405jop0z_GrIu_SEuBZQ-BkpikcJnkP39or-yJebxOh7GyQW4pI7Wsg1Q-u92i3CLb2d9fnK1epLr9RtU8Rds1iz9euxPMjHy58kB7NyO1w3RdIqhj_gXXgSE57iC2f7sYEM7aH6l2XOXzPRU1nMr5Ug?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5847391,57.1055363,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ТП 747
+</name>
+        <description><![CDATA[<img src="https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/oakelajlg4ka44ukn6eplngucc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALplwcD1q_HBi5QoAsY-Xi_qmV1b8Z8J05_3S-AnY_HPUSbis30yegFYp7Ih023N8fvkBySFgxsFv3XLD8OKW-O2RD0AirI9bymzoTcXf0YcBliB-_gJE6wKn3rOgxjQlH23HNNtjaBOIqCoAP5CyfvVIyMKnkPM6Rw7e340l7fj1tl6F-vSAlq_c6HraK2xb4rSxSn99Wc2LJ0mBghrHPktLVFadCnlnGqjgV7FW4qxcTis3VchJR3zzPyOF95zQa3ZWZIHIl6MTZ3J4AXM4sIXnZ4mdg?session=0&fife" height="200" width="auto" /><br><br>Александр Степанов]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/oakelajlg4ka44ukn6eplngucc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALplwcD1q_HBi5QoAsY-Xi_qmV1b8Z8J05_3S-AnY_HPUSbis30yegFYp7Ih023N8fvkBySFgxsFv3XLD8OKW-O2RD0AirI9bymzoTcXf0YcBliB-_gJE6wKn3rOgxjQlH23HNNtjaBOIqCoAP5CyfvVIyMKnkPM6Rw7e340l7fj1tl6F-vSAlq_c6HraK2xb4rSxSn99Wc2LJ0mBghrHPktLVFadCnlnGqjgV7FW4qxcTis3VchJR3zzPyOF95zQa3ZWZIHIl6MTZ3J4AXM4sIXnZ4mdg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.58431,57.1056922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Герцена, 84</name>
+        <description><![CDATA[<img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/f7p8p13p9pg7popudok1tlqpks/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp_jyCpmys1_ZBXM3kDsyxtJ79vPwH-eRSKkqPzDWySbcWTXErJqcD4o1Y9Xog4pxfsv81W35CSxD0rzNOzhtAChLnr0JFPJtaodc8uO9u-jvmgDMW4V7m3ebYUYb7SLyHatPj9PWzyXVIGf2CWYUQGfgptZLtAHLT34kdyzFOLqGvNIjOLRMKVLnIXK3jGufJw64iO1ZoMMQzMHIJU2G_MicrojuCUzCd1-5gH1TZkbv3vfRX_MEivHNflBpcBeLDRybcnhd7yn1QGf0xR0rY_SSzNNQ?session=0&fife" height="200" width="auto" /><br><br>Сенникова Екатерина<br><br><img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/76bq0qc5oinr8h5d8nurhc7rbo/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALo3r-BCIS-hVBBBLCMkrDIgvbHhLJ5ChxlrMvFvZJlhaCjlarrd2Ujkg6hl0k3_CihymiCky1GoZw6rMNU0KylfTHOyn2n0zSkTSAfMeCEnGGKcvDtsqKvZQMc0ODZJuU6H3Cm4roUEBbXGodXY1Du4ipBOz754N1PoE4jnK9NY-dlUZUVOv4TFm-AyibRiGxYIoHX-qzCMoFWhmtKxLjKYW1pYJcFD8U2r_yoeuTHpBR-R7jVOrZNv_dK5fLhFfztxQeuRZ1lTQ7K_LuRyBYzJuOJZBA?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/f7p8p13p9pg7popudok1tlqpks/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp_jyCpmys1_ZBXM3kDsyxtJ79vPwH-eRSKkqPzDWySbcWTXErJqcD4o1Y9Xog4pxfsv81W35CSxD0rzNOzhtAChLnr0JFPJtaodc8uO9u-jvmgDMW4V7m3ebYUYb7SLyHatPj9PWzyXVIGf2CWYUQGfgptZLtAHLT34kdyzFOLqGvNIjOLRMKVLnIXK3jGufJw64iO1ZoMMQzMHIJU2G_MicrojuCUzCd1-5gH1TZkbv3vfRX_MEivHNflBpcBeLDRybcnhd7yn1QGf0xR0rY_SSzNNQ?session=0&fife https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/76bq0qc5oinr8h5d8nurhc7rbo/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALo3r-BCIS-hVBBBLCMkrDIgvbHhLJ5ChxlrMvFvZJlhaCjlarrd2Ujkg6hl0k3_CihymiCky1GoZw6rMNU0KylfTHOyn2n0zSkTSAfMeCEnGGKcvDtsqKvZQMc0ODZJuU6H3Cm4roUEBbXGodXY1Du4ipBOz754N1PoE4jnK9NY-dlUZUVOv4TFm-AyibRiGxYIoHX-qzCMoFWhmtKxLjKYW1pYJcFD8U2r_yoeuTHpBR-R7jVOrZNv_dK5fLhFfztxQeuRZ1lTQ7K_LuRyBYzJuOJZBA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5390477,57.1489872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>#сладкийАрт</name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/rna6ka55n3nggogj256nus02ig/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqOijLXUGsaI0E5wOW0Aiw3xATd5x2N8gqvQK_VHHQBR3FNgbylN19NZmZZdFtodx-ATORLtI7_NksyNp6yeKVSVw-u9eG-VqssXJECOlSASBDyz0GsQZZIk3ZTMKSQni1l6hZkn95_ZtFa03UPaqGl0wBMiUvzLY2ivm_8FjG2KlLSawantq3jal5rVrJwTAsxG4XEwh5YQ5icCCrpPpEeFeZJZexYStEE5GHBYWgbHLGllwYhOXjiuRq2JE9QvtjKRZlPFsgcKvrtHMWKq7rWvBeVlg?session=0&fife" height="200" width="auto" /><br><br>Денис Живило. ]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/rna6ka55n3nggogj256nus02ig/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqOijLXUGsaI0E5wOW0Aiw3xATd5x2N8gqvQK_VHHQBR3FNgbylN19NZmZZdFtodx-ATORLtI7_NksyNp6yeKVSVw-u9eG-VqssXJECOlSASBDyz0GsQZZIk3ZTMKSQni1l6hZkn95_ZtFa03UPaqGl0wBMiUvzLY2ivm_8FjG2KlLSawantq3jal5rVrJwTAsxG4XEwh5YQ5icCCrpPpEeFeZJZexYStEE5GHBYWgbHLGllwYhOXjiuRq2JE9QvtjKRZlPFsgcKvrtHMWKq7rWvBeVlg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5619207,57.1423222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Незабываемая 2</name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/rij1bl5sh0be8o805ud58k19v4/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALr4Q0EzD4UajRV-9M7lQBtniAmo-QihqLbOo7im60-xaV1-l5weQ24FGsGCr6Ha0FQ6tjT9QF62cPjGaOA2T3EPjbyysEreq2nymb2okbsS8xXxrd5HIwO_9KXY9N_Wx0kRNT-ymjskYRoPELS2rovOhpItCzswUhFtl47QO39a7LLjySKkjcw5OwxNkvSgb8zbxQ8o-91Nibrj92qEM0U0pvLeeXFD4O9kxhCNKIjkLvMPqvFzyOiT4vvH8QBtlSYEU0V-D0vENM7j-EQUBv9A8QvNhw?session=0&fife" height="200" width="auto" /><br><br>Анастасия Карпова<br><br><img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/60bjkocgjk3euq4lhpa14kmb1o/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq3UwOrwSOXSkSopmWFfbpDCIqVwYEIBcYszjtFUl4hsy5paGAspEZWoqcLza1Id8V57Q8RQFb5SpEZwITogqVy0z6gaeolJ1WN5Qq_T1tlV1--1JXUqJLAKokoczO0aLgNGGwuX7pxmea0iTT24q3MbqVA2ZRmiSgTmy86Fpu-cR8mKUQAzrKZYLZnHaNKO88wJpKEkEFezvDxaJTZ1dRVZ9gZAHhtdzeiioAgbxBQDMaXVsuCCOwRvxGrS3b6hdB0xzUZgoXOOeuo3frjEdqWDTXjOg?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/rij1bl5sh0be8o805ud58k19v4/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALr4Q0EzD4UajRV-9M7lQBtniAmo-QihqLbOo7im60-xaV1-l5weQ24FGsGCr6Ha0FQ6tjT9QF62cPjGaOA2T3EPjbyysEreq2nymb2okbsS8xXxrd5HIwO_9KXY9N_Wx0kRNT-ymjskYRoPELS2rovOhpItCzswUhFtl47QO39a7LLjySKkjcw5OwxNkvSgb8zbxQ8o-91Nibrj92qEM0U0pvLeeXFD4O9kxhCNKIjkLvMPqvFzyOiT4vvH8QBtlSYEU0V-D0vENM7j-EQUBv9A8QvNhw?session=0&fife https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/60bjkocgjk3euq4lhpa14kmb1o/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq3UwOrwSOXSkSopmWFfbpDCIqVwYEIBcYszjtFUl4hsy5paGAspEZWoqcLza1Id8V57Q8RQFb5SpEZwITogqVy0z6gaeolJ1WN5Qq_T1tlV1--1JXUqJLAKokoczO0aLgNGGwuX7pxmea0iTT24q3MbqVA2ZRmiSgTmy86Fpu-cR8mKUQAzrKZYLZnHaNKO88wJpKEkEFezvDxaJTZ1dRVZ9gZAHhtdzeiioAgbxBQDMaXVsuCCOwRvxGrS3b6hdB0xzUZgoXOOeuo3frjEdqWDTXjOg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5437791,57.1588681,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Серия работ "Новый Эдем"]]></name>
+        <description><![CDATA[<img src="https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/hthmpebgk0cl81vh7tfauq9lac/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpjmrrPggTbJLOY6TxLNuS_rNwDWmadVw7YH-GeD2Cb8JoB7cXSSfXLKQ9sIB_z_DDoC1QcMYpPzMFGbLYFDmmjOaXfWkU1wXxmDe09MHmuwbVpgsj16xMn7b7CmzybrQQ51R85LS2kkmoizLspxD159Qd0RtJ2KD7SAvGFt-LM8nm1qlvlnG3EryuKPRv8ZTsX_osKGjG9_w-qk1qdTEJvWN5DQL2NeWRYirhI_1lXmzxtlaJL9-8usuHHzGvlkYQS4uARYKZjXyzlCs5AyPpU7qwH9A?session=0&fife" height="200" width="auto" /><br><br>Команда "Цаппята"]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/hthmpebgk0cl81vh7tfauq9lac/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpjmrrPggTbJLOY6TxLNuS_rNwDWmadVw7YH-GeD2Cb8JoB7cXSSfXLKQ9sIB_z_DDoC1QcMYpPzMFGbLYFDmmjOaXfWkU1wXxmDe09MHmuwbVpgsj16xMn7b7CmzybrQQ51R85LS2kkmoizLspxD159Qd0RtJ2KD7SAvGFt-LM8nm1qlvlnG3EryuKPRv8ZTsX_osKGjG9_w-qk1qdTEJvWN5DQL2NeWRYirhI_1lXmzxtlaJL9-8usuHHzGvlkYQS4uARYKZjXyzlCs5AyPpU7qwH9A?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5060106,57.1638597,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Сержант ДПС Стёпа
+</name>
+        <description><![CDATA[<img src="https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4ge8gbeh4617on1er7qq7qse2o/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqP5h96T4fG8z11nZeM0b66D7pjRAtiDHOLNFJAozB0XkV2XCr6mPJamcbC5eqG-EbL3DvGzu2PaBO9V9DSxVn85hYbUsUjVJzMSFsErxoDJUG2LihHdcuc3eODhoGr12QEBJh1upmXBM5bUFsoZ7HDaWlrr8b156wIoijecCH1RCfvY20Jn78HdBjWnKD__l25T1u6s9F2KZnF2qn2iOWmuyzA6VkEIQ8ocj46JKub1Qr1Ss8v2ZFDcBgQyezeCNhcH6BsP3F49qEM9y8Q2zVvnVTIng?session=0&fife" height="200" width="auto" /><br><br>Абрамова Екатерина<br><br><img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4aiuitgsg6rvm54vu02n3bkjbk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALr9Rse4aqjDCgWGB9J3jqv4DjrqUHww9i3tu1-RLW-5CzyQJPQRRrhT6Osvia6loF-txTNkC13yMi97cgBZw1zlLA4j-rbcV1CZH0l5znGGfvdfi3lCCe1V6wd8MNU1uT7fR0TUdvth81x37HlE7_bQRZEyVnnC68Yp3xKVzDTc0BgyqrJBa0wu_Dv-dN7WwZ25rUbw9SEz4qIHqGZBS-DShwth7oWCOKGTUhoYWERQ2Irpp0VQlvgUfJky4pWF6NZteEPVJo0-XRup_UtJNSBKkRVdzw?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/lqk8uon4d2p4jhkp07s09pta7o/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqN9wc5VGcS3KRb5L9nCO9aizQqIVVZLYAeKNHIpZBaCd60dKDOY_cR7Ip9Ba66oEi3XXA5dzVzmdDBkXARX-FZnXEwKMSuK7BNNeFI63zRk_RIJe88t5MSuwRfyLrrJzQukANY06KtxO4LDct0-xQy5iMMmInCfqWtTohk7-X4wsEdrvpwhInoul3oJtNx13JyC4kGmliwCoMJDfNc7xD7_b_wOg8cwVKIplfHyVz-1pUllOmiYjHI7We11Fs9iQrQdQyFPZfgZQK2EMnr30wGfea5DQ?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4ge8gbeh4617on1er7qq7qse2o/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqP5h96T4fG8z11nZeM0b66D7pjRAtiDHOLNFJAozB0XkV2XCr6mPJamcbC5eqG-EbL3DvGzu2PaBO9V9DSxVn85hYbUsUjVJzMSFsErxoDJUG2LihHdcuc3eODhoGr12QEBJh1upmXBM5bUFsoZ7HDaWlrr8b156wIoijecCH1RCfvY20Jn78HdBjWnKD__l25T1u6s9F2KZnF2qn2iOWmuyzA6VkEIQ8ocj46JKub1Qr1Ss8v2ZFDcBgQyezeCNhcH6BsP3F49qEM9y8Q2zVvnVTIng?session=0&fife https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4aiuitgsg6rvm54vu02n3bkjbk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALr9Rse4aqjDCgWGB9J3jqv4DjrqUHww9i3tu1-RLW-5CzyQJPQRRrhT6Osvia6loF-txTNkC13yMi97cgBZw1zlLA4j-rbcV1CZH0l5znGGfvdfi3lCCe1V6wd8MNU1uT7fR0TUdvth81x37HlE7_bQRZEyVnnC68Yp3xKVzDTc0BgyqrJBa0wu_Dv-dN7WwZ25rUbw9SEz4qIHqGZBS-DShwth7oWCOKGTUhoYWERQ2Irpp0VQlvgUfJky4pWF6NZteEPVJo0-XRup_UtJNSBKkRVdzw?session=0&fife https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/lqk8uon4d2p4jhkp07s09pta7o/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqN9wc5VGcS3KRb5L9nCO9aizQqIVVZLYAeKNHIpZBaCd60dKDOY_cR7Ip9Ba66oEi3XXA5dzVzmdDBkXARX-FZnXEwKMSuK7BNNeFI63zRk_RIJe88t5MSuwRfyLrrJzQukANY06KtxO4LDct0-xQy5iMMmInCfqWtTohk7-X4wsEdrvpwhInoul3oJtNx13JyC4kGmliwCoMJDfNc7xD7_b_wOg8cwVKIplfHyVz-1pUllOmiYjHI7We11Fs9iQrQdQyFPZfgZQK2EMnr30wGfea5DQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5616641,57.1416941,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Республики, 152</name>
+        <description><![CDATA[<img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/cbb56n1q6itgojcdk9gp34v274/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrO8aVsW8Vmlgc9i5dGCZN1UVVIlbM_G2bCmwhWvcGLb2xSJcT2kqATjWCW-6B8Iwg0pDFZLMJicc4hV3jqaJdlkKCv-ci-ypXpTWrnTYcFWId26mM9FfRcV7AbHKY36y-J3M-9ctrTtsvKyTFsdROARjdXCAwUOzFSLq7YSmPLmZ9ENBzR6nxlTdjcL9hqyqgBpU-msWL0-8G5MB1m6hPmlsWKLWMfjQe3R2S0LHRQJxJ2V7BVixCfJU-qViW_E5ZGUIvSyMuB525hW9JxuE2tw_Oxmg?session=0&fife" height="200" width="auto" /><br><br>Екатерина Васильева<br><br><img src="https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/7m8j5g79llks7q1r2ge569u34k/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqZDEsOEU2uLKxO0cNRXTiiAbRGpxcvH4tKOxWG0NeN9MJu3bGzQtJLf2RygEahiHK9tBbClPMV8AKwK_vvIukrfuuIcE2I7BWklqo_2VbeoNtvmAAR0wHtcLexM1sC9x4BeQ9LUStnVNDmf0ffuAjb8wIsFnRnhmMFgd0L2D1breXtYzFkYUlasMrKJes87AhIB5_G8mvp-gOjd4Dzokomr6C8xBphZMhI31XxkH8vXYGyjJ_E1MzAr6kJhV6eV3l_SbTCLLLsmJHOpf_fLO2ZDegPkw?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/cbb56n1q6itgojcdk9gp34v274/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrO8aVsW8Vmlgc9i5dGCZN1UVVIlbM_G2bCmwhWvcGLb2xSJcT2kqATjWCW-6B8Iwg0pDFZLMJicc4hV3jqaJdlkKCv-ci-ypXpTWrnTYcFWId26mM9FfRcV7AbHKY36y-J3M-9ctrTtsvKyTFsdROARjdXCAwUOzFSLq7YSmPLmZ9ENBzR6nxlTdjcL9hqyqgBpU-msWL0-8G5MB1m6hPmlsWKLWMfjQe3R2S0LHRQJxJ2V7BVixCfJU-qViW_E5ZGUIvSyMuB525hW9JxuE2tw_Oxmg?session=0&fife https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/7m8j5g79llks7q1r2ge569u34k/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqZDEsOEU2uLKxO0cNRXTiiAbRGpxcvH4tKOxWG0NeN9MJu3bGzQtJLf2RygEahiHK9tBbClPMV8AKwK_vvIukrfuuIcE2I7BWklqo_2VbeoNtvmAAR0wHtcLexM1sC9x4BeQ9LUStnVNDmf0ffuAjb8wIsFnRnhmMFgd0L2D1breXtYzFkYUlasMrKJes87AhIB5_G8mvp-gOjd4Dzokomr6C8xBphZMhI31XxkH8vXYGyjJ_E1MzAr6kJhV6eV3l_SbTCLLLsmJHOpf_fLO2ZDegPkw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5743241,57.1353136,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>#сладкийАрт</name>
+        <description><![CDATA[<img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/nmoie2nddlbu7b8brvdk8t3cdc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqO3XStGZLyyz7Llhamgp4gzRGNew36UITNk2Brz8qWaFHZHbNNQCcy0UZL27KonJymoBFqYS0iDOKdptNNhEKZdwKMmvKwPfx55MHtZCFakZLMEOvm6svJ2yfnm_c1vSDHK3O1H6vScajeL25lbMsDdEXq3M-JNH6FQ-Ywr_fR-ETZORrjjBbtoXaCyHm9qsa415XAKphcg8MlSBqtIX32BxTkAb9O6GJvJGGVRoGvi04M74GcvMrKnyzzxAg2zowmMJ2Xqa3U1G9L3Eo0evFFqg7jug?session=0&fife" height="200" width="auto" /><br><br>Денис Живило.]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/nmoie2nddlbu7b8brvdk8t3cdc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqO3XStGZLyyz7Llhamgp4gzRGNew36UITNk2Brz8qWaFHZHbNNQCcy0UZL27KonJymoBFqYS0iDOKdptNNhEKZdwKMmvKwPfx55MHtZCFakZLMEOvm6svJ2yfnm_c1vSDHK3O1H6vScajeL25lbMsDdEXq3M-JNH6FQ-Ywr_fR-ETZORrjjBbtoXaCyHm9qsa415XAKphcg8MlSBqtIX32BxTkAb9O6GJvJGGVRoGvi04M74GcvMrKnyzzxAg2zowmMJ2Xqa3U1G9L3Eo0evFFqg7jug?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5508173,57.1473866,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Орнамент</name>
+        <description><![CDATA[<img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/draoprrbm6e1a98ol1mjrqh650/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp922HvNY5yoigq_6lulkApLmzW5tLJdgDXsza0LYA99Z1fwFewMlkKen3GYhlD4QK-aRfEd09HWbre5PY7nsxKAXU8BMRn644yTuioxz-gBuxdBLUlrhtKnuBOBTl8Rwe_tihT2AWkIZiU0gTpT1D8xdbPY4OyVQgxbmKM37kyLhLvlxKbUtiBfvvPTm1jtGLUuJlQqJMB0t2okz3zT70WFjNQFrQYIQBpVOqwqRQVWOj-wKGOfrGctex0yKkItCkHme9nriXbCtlRZKMUMmNXnlBl7g?session=0&fife" height="200" width="auto" /><br><br>Динара Сайфулина <br><br><img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/e05n23fmcen8f3ep96vhmfbmoc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq9QDXrDLZbv8oJ2QTZ2TGVPPdeShelqIenX_3z05UXP5kfqd4Z1lO0yn0CU1aTCsOWLxUQWcIdP-6qPKW0EGufgNl4PDrTB0XhFTt0qDkNNI6sgLA7KzhFFol9DmgU2mFEtDs5gdHOznkR3SqY4LQJLzq3RKAO1ndKg5s-B9wAOvo8X04O7l4tcHs4vb2tN0VIep5Pd_pYmjdR8MS0ew4qTH4MUcmbeNki4bnscPupbREUbmdVmt_qY7j6xpiko1DYLE-mabHdto8opH7oV-7Iy4U43g?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/draoprrbm6e1a98ol1mjrqh650/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp922HvNY5yoigq_6lulkApLmzW5tLJdgDXsza0LYA99Z1fwFewMlkKen3GYhlD4QK-aRfEd09HWbre5PY7nsxKAXU8BMRn644yTuioxz-gBuxdBLUlrhtKnuBOBTl8Rwe_tihT2AWkIZiU0gTpT1D8xdbPY4OyVQgxbmKM37kyLhLvlxKbUtiBfvvPTm1jtGLUuJlQqJMB0t2okz3zT70WFjNQFrQYIQBpVOqwqRQVWOj-wKGOfrGctex0yKkItCkHme9nriXbCtlRZKMUMmNXnlBl7g?session=0&fife https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/e05n23fmcen8f3ep96vhmfbmoc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq9QDXrDLZbv8oJ2QTZ2TGVPPdeShelqIenX_3z05UXP5kfqd4Z1lO0yn0CU1aTCsOWLxUQWcIdP-6qPKW0EGufgNl4PDrTB0XhFTt0qDkNNI6sgLA7KzhFFol9DmgU2mFEtDs5gdHOznkR3SqY4LQJLzq3RKAO1ndKg5s-B9wAOvo8X04O7l4tcHs4vb2tN0VIep5Pd_pYmjdR8MS0ew4qTH4MUcmbeNki4bnscPupbREUbmdVmt_qY7j6xpiko1DYLE-mabHdto8opH7oV-7Iy4U43g?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5470568,57.1762987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Сказочный сад
+</name>
+        <description><![CDATA[<img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/r2de6cban3mk480ltmn4atarq8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrfnMAKA2obW0PbOXulla8U1y4-F0uo2DUS7q7VPk-Ggu0uikM0DizRo34VtnXSs3pwneBnIT9eVt8nehtOZ4jLLjujmgRlXsjxCc880afEIn-yTEPWlmi1-GKoyJlQiTgQuclnYYI2_uTKv1qBuAlmUr7X3h_GhdDFar58Dw1ktc6Es8wOLKY2HApRcEgsvCooc1bkh5ZWtkwQfxXJl_kXemixa-5SrZyVzUQ2uIyMeXNuYrbreXV9lPA3tqaV3ZChQszkMzjfppqccyPlYZTpLKoOCA?session=0&fife" height="200" width="auto" /><br><br>Екатерина Бережная, детсад 101]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/r2de6cban3mk480ltmn4atarq8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrfnMAKA2obW0PbOXulla8U1y4-F0uo2DUS7q7VPk-Ggu0uikM0DizRo34VtnXSs3pwneBnIT9eVt8nehtOZ4jLLjujmgRlXsjxCc880afEIn-yTEPWlmi1-GKoyJlQiTgQuclnYYI2_uTKv1qBuAlmUr7X3h_GhdDFar58Dw1ktc6Es8wOLKY2HApRcEgsvCooc1bkh5ZWtkwQfxXJl_kXemixa-5SrZyVzUQ2uIyMeXNuYrbreXV9lPA3tqaV3ZChQszkMzjfppqccyPlYZTpLKoOCA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5835992,57.1475627,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>#СладкийАрт </name>
+        <description><![CDATA[<img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ctquhipmau9kqo2645ud7kbch0/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrWlRE56_JVNSS_1dclGGvd-JwAdGsi0NX0UVOzpI7sio4CqQkMoS0d0VgfWNk0eyT62yceDdxCCIXAfZLNwQXV3vJoHyfe0AXR4LlhI5NakgycOIdzHPlAeoyTZ1gCPih0qtSkXqZ_tkGVX6PJbHQvjWeiSHNTkrAEmupVP-mCymbkrym-Bd054q0l4S9axGqiiPwhvjoJtiA7DoxJulaswpY6z5BjGe9zTpfg1Une-RuKuWmZ_W72jcAVBo_AKBpCPRmXyBZYIVMaAl96C18YOVFnxg?session=0&fife" height="200" width="auto" /><br><br>Денис Живило, ул. Профсоюзная, 88<br><br><img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/bj72b18ldg403geo7htsn0plks/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrrdUuaoHynS54dxSk71L4hRD-YtTlGNOPEPbxvuiZxXbbDzbg4zn30q84PiREf9sJELgmSWPSTyirwM9kuBUi0lTYJjTRODlsLpX2XaF04vBSYmGns8zZyja23zlZTpWI4qiMa6stpcZNMtQSNPZ1gIPipWw5H2ZUHKzmnEhIvSD_Cu3X-VfyoNlwdlRZqZlA5wAGsqvd_2cp5dmI91N3izwRF96QoGj-TvpyOPtGPuLRJKWxjOcPZM1UlV1JXu0G_iB5HihPn_J7zneAIZOl99IxV4Q?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/h0pb904qut7jbvm8529mjs4i9g/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALr4Nr6TzQuSGA4BdeTFFfSQ9e5vYeclmkO2NA33GBviJuc79flT9awrQbyqAZ3j6RRgghTojNmAZfO-y3-9MWfpWB23XwMwNQlfSl-_6O7sOgNZiqk3NHdVnAdpk27bRC0Iijb0c2CAyy8pXLJ6oTry5PRB3yzxwj9eO_ogs3MWO1Mb0UPzaCiOAqpLveG7JKNcUwvi1yYd4lJy67OEEGSwoEdxdrU5qTxEVH9_3Yga8FcoW83B2n_HQ3M-OqBKdYHHBuf2zmq9q3-KMGleDEcUPIXzqw?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ctquhipmau9kqo2645ud7kbch0/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrWlRE56_JVNSS_1dclGGvd-JwAdGsi0NX0UVOzpI7sio4CqQkMoS0d0VgfWNk0eyT62yceDdxCCIXAfZLNwQXV3vJoHyfe0AXR4LlhI5NakgycOIdzHPlAeoyTZ1gCPih0qtSkXqZ_tkGVX6PJbHQvjWeiSHNTkrAEmupVP-mCymbkrym-Bd054q0l4S9axGqiiPwhvjoJtiA7DoxJulaswpY6z5BjGe9zTpfg1Une-RuKuWmZ_W72jcAVBo_AKBpCPRmXyBZYIVMaAl96C18YOVFnxg?session=0&fife https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/bj72b18ldg403geo7htsn0plks/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrrdUuaoHynS54dxSk71L4hRD-YtTlGNOPEPbxvuiZxXbbDzbg4zn30q84PiREf9sJELgmSWPSTyirwM9kuBUi0lTYJjTRODlsLpX2XaF04vBSYmGns8zZyja23zlZTpWI4qiMa6stpcZNMtQSNPZ1gIPipWw5H2ZUHKzmnEhIvSD_Cu3X-VfyoNlwdlRZqZlA5wAGsqvd_2cp5dmI91N3izwRF96QoGj-TvpyOPtGPuLRJKWxjOcPZM1UlV1JXu0G_iB5HihPn_J7zneAIZOl99IxV4Q?session=0&fife https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/h0pb904qut7jbvm8529mjs4i9g/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALr4Nr6TzQuSGA4BdeTFFfSQ9e5vYeclmkO2NA33GBviJuc79flT9awrQbyqAZ3j6RRgghTojNmAZfO-y3-9MWfpWB23XwMwNQlfSl-_6O7sOgNZiqk3NHdVnAdpk27bRC0Iijb0c2CAyy8pXLJ6oTry5PRB3yzxwj9eO_ogs3MWO1Mb0UPzaCiOAqpLveG7JKNcUwvi1yYd4lJy67OEEGSwoEdxdrU5qTxEVH9_3Yga8FcoW83B2n_HQ3M-OqBKdYHHBuf2zmq9q3-KMGleDEcUPIXzqw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.549987,57.1491785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Новые матрешки
+</name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/9940uj2mcrkoqefirn4k26k1n8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrfEftrf5XF-Tl4jUZ7OUIeOImuIPxUVIjFvzBZRVPD0Ben5ygKU1mH67lRHzYJ8IYQsFqtG0ThfmQKZqX34JTqRH59Qralg4LCikwbYoatyh7oNYrF2X1EfBWIu6Pt29tsJ11aFpyrl8v6lOsdFCOEVn-vp8iPlSBTzFrdeM3UW_3GB2MBLmtB2BWU2SeYiZf7FJCd7rdmX_WVoYiPwjhKnM1CW4e1TRjGU4rQEDgofA-QR9c_0-lTO73Cgdg81_sgR3fTs8_IP2Eg671KcxYtKbTnPw?session=0&fife" height="200" width="auto" /><br><br>Ямов Александр. https://www.google.com/maps/@57.1602318,65.5264601,3a,75y,91.36h,86.4t/data=!3m9!1e1!3m7!1swoc4ku-S4x5bbr6QDEhvXA!2e0!7i13312!8i6656!9m2!1b1!2i36!6m1!1e1]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/9940uj2mcrkoqefirn4k26k1n8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrfEftrf5XF-Tl4jUZ7OUIeOImuIPxUVIjFvzBZRVPD0Ben5ygKU1mH67lRHzYJ8IYQsFqtG0ThfmQKZqX34JTqRH59Qralg4LCikwbYoatyh7oNYrF2X1EfBWIu6Pt29tsJ11aFpyrl8v6lOsdFCOEVn-vp8iPlSBTzFrdeM3UW_3GB2MBLmtB2BWU2SeYiZf7FJCd7rdmX_WVoYiPwjhKnM1CW4e1TRjGU4rQEDgofA-QR9c_0-lTO73Cgdg81_sgR3fTs8_IP2Eg671KcxYtKbTnPw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5265808,57.1603459,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ул. Советская, 55</name>
+        <description><![CDATA[<img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/uctn7bi6i5e5ojmnt1l3q5v1uc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpYy_dUJlmodML-MOcHmsFz-TGkRf6ydm33BmA7LKuoYoQjSnmnxQAXYo07lYzWh-d3fTpgxV016e1lr9nenKMIUsWb5CuQE6TeJEUKPQ-obmr-3fw9rXcVt3hKk4TyNK1iboLFh_dOEiWWjedE2J2MIPhBNZhynsv3PYeB5nE0j8Xc4UNu4iFkTwoyBLQGvybajR__jUyv9lDCED1uAr-ZsIer5Isxzb3u2zdhgHlNxOfCAZCG7_BHhm281MasmTIKffsTzXFHj-hwZDEgtcriuXea0A?session=0&fife" height="200" width="auto" /><br><br>Катя Чикирева<br><br><img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/9a1sg4kf0ahn6h1shsmd4269co/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq4U7scP28rKEr4RiSNWxic0UtF0k8GmRsBxXnF98R0_8N_kcuqtHoXE5lj72mSiScP3JFOiuQM6tmACRfN1VJhzxY5Httd189b7oJXriKBOt6fxWUi7mmjRvC-PDpzRQWoOBwVKma80sR7OvtPJmZB_uUCXAd6Kcl2Rt-cFnRwkk7A8ebrjGDwKhKpwjxl6DuwhxurUS_3FquW90cpYpIK1p4JQArsDlgXfsMCtRh1-07OPnyued9oaTmU9zX4MOOlr-ue2yFCKWNHRbpRmQK8EUdBPg?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/uctn7bi6i5e5ojmnt1l3q5v1uc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpYy_dUJlmodML-MOcHmsFz-TGkRf6ydm33BmA7LKuoYoQjSnmnxQAXYo07lYzWh-d3fTpgxV016e1lr9nenKMIUsWb5CuQE6TeJEUKPQ-obmr-3fw9rXcVt3hKk4TyNK1iboLFh_dOEiWWjedE2J2MIPhBNZhynsv3PYeB5nE0j8Xc4UNu4iFkTwoyBLQGvybajR__jUyv9lDCED1uAr-ZsIer5Isxzb3u2zdhgHlNxOfCAZCG7_BHhm281MasmTIKffsTzXFHj-hwZDEgtcriuXea0A?session=0&fife https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/9a1sg4kf0ahn6h1shsmd4269co/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq4U7scP28rKEr4RiSNWxic0UtF0k8GmRsBxXnF98R0_8N_kcuqtHoXE5lj72mSiScP3JFOiuQM6tmACRfN1VJhzxY5Httd189b7oJXriKBOt6fxWUi7mmjRvC-PDpzRQWoOBwVKma80sR7OvtPJmZB_uUCXAd6Kcl2Rt-cFnRwkk7A8ebrjGDwKhKpwjxl6DuwhxurUS_3FquW90cpYpIK1p4JQArsDlgXfsMCtRh1-07OPnyued9oaTmU9zX4MOOlr-ue2yFCKWNHRbpRmQK8EUdBPg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5471193999999,57.1546549,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Пианино "Тюмень" 
+]]></name>
+        <description><![CDATA[<img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/q89181qo8mp0qsae8ckm1emuvg/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoGyFU7LnymkY_25cdhh5kH9s810otdwNDnErZN3M4L70WxZYujtH-X901DzFPKkIZer_TD6PannGh9fVOoCBBe5LRPnXOk683Is_5x9TAQQA-z8G_gTNWL3q-qlyoZiYZo6-Tllffkx58F42ck4MhNBj9ME2fjTciJqFyfsOOuzwpMpYC1JGo0ERN26xW8NuCVqMpcVPl7YJikpAPoFGpXtZNkM9ATFjnR52geae2HRB2eNlDErFORp1E0UPAbVu2Ppki6PSEua7xcRjOQQ0IfkR5trg?session=0&fife" height="200" width="auto" /><br><br>Окунева Екатерина<br><br><img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/v8qbaap8iuaj9l8rnfogns84h0/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrtiLtH5YtghIVe2IM2HsoVCbeLe4toin-1zXLth_0j3pp4o4Cy1_ZEMNr_y3383465WpEGwd8JKe5GhEKnOpzhcmh53WbhsSI9QjgsRHdizAyw5A1LTjcVUyeqMDBDCH8kCc9pozZ52Pwcwu3FB7WYHdrKN-stTsNXioTuztuo3qyrJ-fStMux0fmFDvP7llYtehHI5msg0SLUbhY_5yTokCl2fSPOJZR-OWUEogh0uu7bpY740DPrJLjGzlYLWv1KXAJae14O_wVDau-bUF0cQ_9OKg?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/q89181qo8mp0qsae8ckm1emuvg/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoGyFU7LnymkY_25cdhh5kH9s810otdwNDnErZN3M4L70WxZYujtH-X901DzFPKkIZer_TD6PannGh9fVOoCBBe5LRPnXOk683Is_5x9TAQQA-z8G_gTNWL3q-qlyoZiYZo6-Tllffkx58F42ck4MhNBj9ME2fjTciJqFyfsOOuzwpMpYC1JGo0ERN26xW8NuCVqMpcVPl7YJikpAPoFGpXtZNkM9ATFjnR52geae2HRB2eNlDErFORp1E0UPAbVu2Ppki6PSEua7xcRjOQQ0IfkR5trg?session=0&fife https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/v8qbaap8iuaj9l8rnfogns84h0/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrtiLtH5YtghIVe2IM2HsoVCbeLe4toin-1zXLth_0j3pp4o4Cy1_ZEMNr_y3383465WpEGwd8JKe5GhEKnOpzhcmh53WbhsSI9QjgsRHdizAyw5A1LTjcVUyeqMDBDCH8kCc9pozZ52Pwcwu3FB7WYHdrKN-stTsNXioTuztuo3qyrJ-fStMux0fmFDvP7llYtehHI5msg0SLUbhY_5yTokCl2fSPOJZR-OWUEogh0uu7bpY740DPrJLjGzlYLWv1KXAJae14O_wVDau-bUF0cQ_9OKg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5445033,57.1586208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Точки" Nikita Nomerz]]></name>
+        <description><![CDATA[<img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/9v1r7dtibueurmu0vkm6af68vs/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrMq91RDWJjpSBlJCXdorihKc08niT-x5n3ygcrGlI_0nnruDBJf_Q9nv2GPlxFx9UNePBByT7-MOqbc-EAJW5J51yUxkeYRqRzxs2nhN0oT8b59XGx4EQK44pJF4PghdgprVJJdKOXRdYSZkLRCOlkE2eZG2d7pEFKNe2fuyzw3Zm-yfujDAobh2fwP5ZZ5TLm_dDY9OV78VJjrHDkEldDdo1Hs3NYDhz19Nj1l_jLsmwioaqAokR3ajDjcPMq-DHDz4nm9LbC3fuCM_VJglNWb5WD0Q?session=0&fife" height="200" width="auto" /><br><br><br><br><img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/aimlvdmhlm63v7kc4ndojb4r7o/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp98fNnqIGKhKSKt8Ucx26VvFhBMDYBnpxj1OStNtFC-tqw5KYZ-k7_xH801x7wtQbQj7g8VfKPaKmKsrJ86evceqqVGe3rnhHIqZ5J_8ACz-UY-8EiQibqwTDL2WB3z01YpD4QaInitwIT4JVOsoodNqbTcMyDuJq_41z36x7VlyToT5vsJTEz3AGzleHxCq1hVIKacXJuOMmbiot9zi_DfAkNW7TLdIxsF3tk4te8vc9etSBGVZzg6As8wYyNU8tBLy8fWWZKd9RTRuaTIqVobcRENw?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/9v1r7dtibueurmu0vkm6af68vs/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrMq91RDWJjpSBlJCXdorihKc08niT-x5n3ygcrGlI_0nnruDBJf_Q9nv2GPlxFx9UNePBByT7-MOqbc-EAJW5J51yUxkeYRqRzxs2nhN0oT8b59XGx4EQK44pJF4PghdgprVJJdKOXRdYSZkLRCOlkE2eZG2d7pEFKNe2fuyzw3Zm-yfujDAobh2fwP5ZZ5TLm_dDY9OV78VJjrHDkEldDdo1Hs3NYDhz19Nj1l_jLsmwioaqAokR3ajDjcPMq-DHDz4nm9LbC3fuCM_VJglNWb5WD0Q?session=0&fife https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/aimlvdmhlm63v7kc4ndojb4r7o/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp98fNnqIGKhKSKt8Ucx26VvFhBMDYBnpxj1OStNtFC-tqw5KYZ-k7_xH801x7wtQbQj7g8VfKPaKmKsrJ86evceqqVGe3rnhHIqZ5J_8ACz-UY-8EiQibqwTDL2WB3z01YpD4QaInitwIT4JVOsoodNqbTcMyDuJq_41z36x7VlyToT5vsJTEz3AGzleHxCq1hVIKacXJuOMmbiot9zi_DfAkNW7TLdIxsF3tk4te8vc9etSBGVZzg6As8wYyNU8tBLy8fWWZKd9RTRuaTIqVobcRENw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.4883111,57.1603488,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Минская, 59
+</name>
+        <description><![CDATA[<img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/qb641qk1h90bpmq4sogen9odu8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrN8Fol1LlLlmJwtpzZZ8gdDedLOLpEtQ9QWsANW1_pRm1JLXcHc-aYrMWpnybTXsHSTH-_OG7XxDdef8w1wELhgMQHHtoYRO8WfyUZI07CzOofHzwAh37_1mRbMmeoVoi8ZPewyv7_zu1GhukrlP7pXpWSbbzOFI2V6hwfsGjpJL7QEW6k4Rx1w37FrfRkIuQSKuNPlUzSN-fZ9e9ZhtTD8S1Axl9jlYcL-YN6FvhSxpUN1R0apXBjnk7HOvXEgiQ4VsVa7IT9FwZE_ZRTWzIlQ3Cq9A?session=0&fife" height="200" width="auto" /><br><br>Спицын Артур <br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/u3eq7o1bod94nfnsse6g9egs2k/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqE-aernTwfKWtI3_V0QzV3WKJhSHN7coCsF-l4mfLXart2e5pFm14d4d8vY_lJT8udImUFeynCPs55A3JbZInEFPcQsdEIyPI176MAVVf-rvN231p-6QHHkumE7-YUiW-h9ChrxfxHRT8bYm-ekDB5tIk7uLWJbNO6BZbObJvHFMPm2Q1qZdcFLMgtW_13t_f5BB1IE3bmmY6EoEZ9CYOQGHd993Uz0hCT_dfw1CgV2-P9Yy5tbz40jlrHGTLNfSnPKhSVk8Sxrgxk6VmcEYd0feaO3A?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/qb641qk1h90bpmq4sogen9odu8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrN8Fol1LlLlmJwtpzZZ8gdDedLOLpEtQ9QWsANW1_pRm1JLXcHc-aYrMWpnybTXsHSTH-_OG7XxDdef8w1wELhgMQHHtoYRO8WfyUZI07CzOofHzwAh37_1mRbMmeoVoi8ZPewyv7_zu1GhukrlP7pXpWSbbzOFI2V6hwfsGjpJL7QEW6k4Rx1w37FrfRkIuQSKuNPlUzSN-fZ9e9ZhtTD8S1Axl9jlYcL-YN6FvhSxpUN1R0apXBjnk7HOvXEgiQ4VsVa7IT9FwZE_ZRTWzIlQ3Cq9A?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/u3eq7o1bod94nfnsse6g9egs2k/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqE-aernTwfKWtI3_V0QzV3WKJhSHN7coCsF-l4mfLXart2e5pFm14d4d8vY_lJT8udImUFeynCPs55A3JbZInEFPcQsdEIyPI176MAVVf-rvN231p-6QHHkumE7-YUiW-h9ChrxfxHRT8bYm-ekDB5tIk7uLWJbNO6BZbObJvHFMPm2Q1qZdcFLMgtW_13t_f5BB1IE3bmmY6EoEZ9CYOQGHd993Uz0hCT_dfw1CgV2-P9Yy5tbz40jlrHGTLNfSnPKhSVk8Sxrgxk6VmcEYd0feaO3A?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.571143,57.1439351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мульти-трио </name>
+        <description><![CDATA[<img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4c3t81nrk43jtp5fs0cufr9otg/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpkeljSu8XTqNXwrMnTz3WfHh41vskhLq-QNq5JlaitbF9Yhs5lPFfSLcwVI3rOWEAsJ8RdRLKC1n4hSrDvClU8rdBxTg9eLyzLxRFDXOffFxfOfndSbzhu7mGXsE7kI-r-NBaShcnOtrMCPv4ykBPuNphyfSuHIYQAl_Sw9ZG6-C0deOkPk9WHbKn3Vb4rY3rgnwUnGgKaPL8yZZ_Jtlre6qs8Jwl83EuKeQAc_t4wVqH8ZRzsgzW-yj0wQAMffWIoNFhak8A2Kk9J3hvEtZSxkp3vOQ?session=0&fife" height="200" width="auto" /><br><br>Андрей Егоров ]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4c3t81nrk43jtp5fs0cufr9otg/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpkeljSu8XTqNXwrMnTz3WfHh41vskhLq-QNq5JlaitbF9Yhs5lPFfSLcwVI3rOWEAsJ8RdRLKC1n4hSrDvClU8rdBxTg9eLyzLxRFDXOffFxfOfndSbzhu7mGXsE7kI-r-NBaShcnOtrMCPv4ykBPuNphyfSuHIYQAl_Sw9ZG6-C0deOkPk9WHbKn3Vb4rY3rgnwUnGgKaPL8yZZ_Jtlre6qs8Jwl83EuKeQAc_t4wVqH8ZRzsgzW-yj0wQAMffWIoNFhak8A2Kk9J3hvEtZSxkp3vOQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5785245,57.1467988,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Винни. Мульти-трио </name>
+        <description><![CDATA[<img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/kg2c44q0a995qljgleqt4gc2lk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALr6O7JmDvDPKMJ_0_RLU3bOXm3JDEQmF8cvDoTWAK1UX2G6-cWgOk1txFl-kgq7FlzsYnYuQWndSlsgRXhdYIrEKiPMp15n1lOKlY0FfxZ7NqR__Qz2VwqqSKiMhiH3sv-sxYa1kpvcxpK4kcm817p_E44-7dZvSwnK498UyAmXwcH3uU9jbRPw5o4nuPQSmLDwwrBzu0eTbexVmhy7Ak-deOWf-SSXhQSWCybPriDVBKrmlBAgwGNwmUzcAiHxMbuCOLgxDM4JyvNqoQOs3CxR1JBnzw?session=0&fife" height="200" width="auto" /><br><br>Андрей Егоров]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/kg2c44q0a995qljgleqt4gc2lk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALr6O7JmDvDPKMJ_0_RLU3bOXm3JDEQmF8cvDoTWAK1UX2G6-cWgOk1txFl-kgq7FlzsYnYuQWndSlsgRXhdYIrEKiPMp15n1lOKlY0FfxZ7NqR__Qz2VwqqSKiMhiH3sv-sxYa1kpvcxpK4kcm817p_E44-7dZvSwnK498UyAmXwcH3uU9jbRPw5o4nuPQSmLDwwrBzu0eTbexVmhy7Ak-deOWf-SSXhQSWCybPriDVBKrmlBAgwGNwmUzcAiHxMbuCOLgxDM4JyvNqoQOs3CxR1JBnzw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5786157,57.1190839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Миньон Ростик
+</name>
+        <description><![CDATA[<img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/tkl7heseme70plj2qh0pljs85c/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrbM914RAtRdo4KYL807_G6TNl5ffyj4sJ4kfrNa6HJN1i06ueQ-xwUgQYHo_qx9ZvCDN7APMPfMH0gruIfJq8ggryCCEUo1s7cI6KtqcJMpHooTf4HIG1AxzvfyhU0JNfzweHQSfeY-IhiwL8kEUvKz1y1siYapLKDhnU8W8d01caHgpTeUxoL5g_QXJ3TiCediiuXaqbSWASTcA1NVESZXhq3hjARvRkvtMS4mY_LUYEs_Lti9R0ejMXMeWOOiKmR7QRenOTK3dd19GYsnb3EKy4cLw?session=0&fife" height="200" width="auto" /><br><br>Абрамова Екатерина<br><br><img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/t98dejva8d7u0bhj1rta0e29po/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqXzklvvgFcbrGpJ4acTUmxf0kwNj1RLhSYO6i4UTbDTsp0v8bFWh3a65noZwdzcpJ8G0jMjTynkzrn3_Mbqh-W9SDI16iW9tz6sH5Pjy-zw6zrVP-CgD8rfdNiS1OLzSwE3tYcWV0GBA1gKsI0khmqHD27-RmY9NISehMVtSO7RN-XAEd0tLMvHFD3Sl2OwdA0yu7dGK-m8U6yvfXtsgwA_kzkKzdh6e4FVUkzB1KoP1BO194cMsFkZdB3HDifadT9MgWVKSdZIpmnnbwtVteUEvkvtQ?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/tkl7heseme70plj2qh0pljs85c/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrbM914RAtRdo4KYL807_G6TNl5ffyj4sJ4kfrNa6HJN1i06ueQ-xwUgQYHo_qx9ZvCDN7APMPfMH0gruIfJq8ggryCCEUo1s7cI6KtqcJMpHooTf4HIG1AxzvfyhU0JNfzweHQSfeY-IhiwL8kEUvKz1y1siYapLKDhnU8W8d01caHgpTeUxoL5g_QXJ3TiCediiuXaqbSWASTcA1NVESZXhq3hjARvRkvtMS4mY_LUYEs_Lti9R0ejMXMeWOOiKmR7QRenOTK3dd19GYsnb3EKy4cLw?session=0&fife https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/t98dejva8d7u0bhj1rta0e29po/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqXzklvvgFcbrGpJ4acTUmxf0kwNj1RLhSYO6i4UTbDTsp0v8bFWh3a65noZwdzcpJ8G0jMjTynkzrn3_Mbqh-W9SDI16iW9tz6sH5Pjy-zw6zrVP-CgD8rfdNiS1OLzSwE3tYcWV0GBA1gKsI0khmqHD27-RmY9NISehMVtSO7RN-XAEd0tLMvHFD3Sl2OwdA0yu7dGK-m8U6yvfXtsgwA_kzkKzdh6e4FVUkzB1KoP1BO194cMsFkZdB3HDifadT9MgWVKSdZIpmnnbwtVteUEvkvtQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5199703000001,57.12327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Валли</name>
+        <description><![CDATA[<img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ob0s5t61391l00mda6a2mjmefc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALo7dxvq9tTlfWE3Wt0TCxS83TGD9RwiGqbF4qwKzSSmXwknh3XHKhArHS1My4Y2CQF90vOQhxTo2PLPT960dqgHyOj7WPxglI08SfGLqe0vwv-mVR0IFoW4WzfHlgvQSAjOTcpP-8u1v9Rls0sXVzey_wLMTC5-C4pCyKdGwklAQt51mLl1kjROCRJuorZHQmgFe67RBboQLauGGzhBL1VcZB2_8E9KcqeM8zLNG5QbL3pFs2weT6oahvnvrL8Tkxm6D0bcD2OheUmgiTsI7sotY-ngHg?session=0&fife" height="200" width="auto" /><br><br>Автор Олег Иванов]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ob0s5t61391l00mda6a2mjmefc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALo7dxvq9tTlfWE3Wt0TCxS83TGD9RwiGqbF4qwKzSSmXwknh3XHKhArHS1My4Y2CQF90vOQhxTo2PLPT960dqgHyOj7WPxglI08SfGLqe0vwv-mVR0IFoW4WzfHlgvQSAjOTcpP-8u1v9Rls0sXVzey_wLMTC5-C4pCyKdGwklAQt51mLl1kjROCRJuorZHQmgFe67RBboQLauGGzhBL1VcZB2_8E9KcqeM8zLNG5QbL3pFs2weT6oahvnvrL8Tkxm6D0bcD2OheUmgiTsI7sotY-ngHg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5550015,57.142608,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Группа товарищей
+</name>
+        <description><![CDATA[<img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ap9vntg3odfkt6a27n8ahi29pg/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoH7f5nb6S9Cas-TdAXltBnv_GI7K41KV1ciFlk7Kc29ADY86V6RA5DQelwMJbpclpYApXRh9MeW1CbQt04WHppZZ1hs3L9B-CdxER_WM2OZXdhEUdV0SWhNbt0hgKPqN5J33pWwWNfA_4-2RJNK0LlrRTmHSUrURTimoIum_Jl1w24anhPQgqlapf3DbFbwEh_tsMqbtW8T_MGxbuZ6GwQJtWvHyO7tm8LvgKGo6F-yMB0uG8woIzAHdkXRpZNTFsOKBRDfKw2nw9hp2HLwsfa7MnCig?session=0&fife" height="200" width="auto" /><br><br>Дутова Екатерина<br><br><img src="https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/10o3vv9ln9n100chdl06r2p28k/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrsdZH0wdBEMCFAllce2woViKAtOwnVvB-8oTnMjgOHbJruXSmQL04vTYoSr8qtqWSF-Qd7UixePu-9YqXHT1F5nQwkgxE9x_CEWQt-Mz8Az_NkqLdQM9GguWB8i7hebVt3BHHriqBtr4H-d2VstFN2QInG_UpC_wiPy0b-6UDgJ5fxB_ayq0vNmYrXz5c585iR0FsU2P_C-8Yd1S2iEjjMSAaNYycZaGEiGYkGqXOmLI2CD-D6vrCS9-Y5cK-pOkD1znOVjJAjnZTJ338sccRbDkLnkg?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ap9vntg3odfkt6a27n8ahi29pg/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoH7f5nb6S9Cas-TdAXltBnv_GI7K41KV1ciFlk7Kc29ADY86V6RA5DQelwMJbpclpYApXRh9MeW1CbQt04WHppZZ1hs3L9B-CdxER_WM2OZXdhEUdV0SWhNbt0hgKPqN5J33pWwWNfA_4-2RJNK0LlrRTmHSUrURTimoIum_Jl1w24anhPQgqlapf3DbFbwEh_tsMqbtW8T_MGxbuZ6GwQJtWvHyO7tm8LvgKGo6F-yMB0uG8woIzAHdkXRpZNTFsOKBRDfKw2nw9hp2HLwsfa7MnCig?session=0&fife https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/10o3vv9ln9n100chdl06r2p28k/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrsdZH0wdBEMCFAllce2woViKAtOwnVvB-8oTnMjgOHbJruXSmQL04vTYoSr8qtqWSF-Qd7UixePu-9YqXHT1F5nQwkgxE9x_CEWQt-Mz8Az_NkqLdQM9GguWB8i7hebVt3BHHriqBtr4H-d2VstFN2QInG_UpC_wiPy0b-6UDgJ5fxB_ayq0vNmYrXz5c585iR0FsU2P_C-8Yd1S2iEjjMSAaNYycZaGEiGYkGqXOmLI2CD-D6vrCS9-Y5cK-pOkD1znOVjJAjnZTJ338sccRbDkLnkg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5647862,57.1432832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Лесная фея
+</name>
+        <description><![CDATA[<img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/07tm6rv07chhdu5e86o489heh8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALojRzW_LDuxW0a-Bj3mR9afRuXKoOypxJb6mtmIi1QF_Vpf--ayjhdr0o8M6BUu2L6Ozv_AAEdZjaPkO1CyZz7OvdSKVT2CpPaduJ5t-iqLT9fzWXxlYBsoPXe8WC9t3ZuCBLhXrhUHfBzYAn6rONpJP7BtzK9fdx2eC6Q5QZK3uMmEqAwd_SO3hkTA_VK0sbt3-mEIjwBzrtfrA0QEDdrL41x1Xj1pgPooNbE2lp6JGhlznTV2Kn3d32helz1SKGheFYxxBFfU31IoyOZRDDQySVGAMg?session=0&fife" height="200" width="auto" /><br><br>Ягоды Иван и Марина. Ссылка на альбом МК https://vk.com/album-143270705_244724580<br><br><img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/14uu2uj7v430jvsbijq3h9ujm8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALopb77vxh30h2ywqXOIlkXXorAmuxpl4hj14oa6LIADnkowwDJCQbGk50a-aHb_K3KfJUHX5coor3GTVGw1sHMUSbpw1Wu-UhQJf3x3iMOxYQLCznjiy6meEl55X99ABEx_DzQjm_AzyTV3IeDng94Te1am_zfmeM9YNVIWT7xqxKvLX_foqJpDkD725zPZ7IYeCpUNSFz6aVRWAHCo886vxseAqpd-ViUW2cks-WbTM_rxZwCgSo8g5c_6dHxxGceYizpNYc8njIdpQrr51Im8B7l9TQ?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/07tm6rv07chhdu5e86o489heh8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALojRzW_LDuxW0a-Bj3mR9afRuXKoOypxJb6mtmIi1QF_Vpf--ayjhdr0o8M6BUu2L6Ozv_AAEdZjaPkO1CyZz7OvdSKVT2CpPaduJ5t-iqLT9fzWXxlYBsoPXe8WC9t3ZuCBLhXrhUHfBzYAn6rONpJP7BtzK9fdx2eC6Q5QZK3uMmEqAwd_SO3hkTA_VK0sbt3-mEIjwBzrtfrA0QEDdrL41x1Xj1pgPooNbE2lp6JGhlznTV2Kn3d32helz1SKGheFYxxBFfU31IoyOZRDDQySVGAMg?session=0&fife https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/14uu2uj7v430jvsbijq3h9ujm8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALopb77vxh30h2ywqXOIlkXXorAmuxpl4hj14oa6LIADnkowwDJCQbGk50a-aHb_K3KfJUHX5coor3GTVGw1sHMUSbpw1Wu-UhQJf3x3iMOxYQLCznjiy6meEl55X99ABEx_DzQjm_AzyTV3IeDng94Te1am_zfmeM9YNVIWT7xqxKvLX_foqJpDkD725zPZ7IYeCpUNSFz6aVRWAHCo886vxseAqpd-ViUW2cks-WbTM_rxZwCgSo8g5c_6dHxxGceYizpNYc8njIdpQrr51Im8B7l9TQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5755284,57.1315291,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA["Незабываемая"
+]]></name>
+        <description><![CDATA[<img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/6ptlfforfubgida5jg5fgpagh8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrxLKK5WxtK6OrOWto6PCT8dLOUae1YOv0H8BRk2Ow20cfMpqjJQL_XX-vW-Kv3nNsOyBaOjk5Qj2ORWLgycgGa-MGVcbihz0PCJx3EWaHfvaekKvRlsJ_SYouJFzzw1U4Z6zCV_5QDzyptY3WIPZv105CW-8jh0hqIyMxhSOyRD-VI52eFkSB6DnK21gaiLf9rSoiqLExlZ0zz_7CGmXdPm_Rqmy8XUKfP-dzg0R_qjO_H5rBZt7HSVxhugUf9OdPpF9BX1Ry8F3n7yaFylEgZIgsatA?session=0&fife" height="200" width="auto" /><br><br>Автор Анастасия Карпова.]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/6ptlfforfubgida5jg5fgpagh8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrxLKK5WxtK6OrOWto6PCT8dLOUae1YOv0H8BRk2Ow20cfMpqjJQL_XX-vW-Kv3nNsOyBaOjk5Qj2ORWLgycgGa-MGVcbihz0PCJx3EWaHfvaekKvRlsJ_SYouJFzzw1U4Z6zCV_5QDzyptY3WIPZv105CW-8jh0hqIyMxhSOyRD-VI52eFkSB6DnK21gaiLf9rSoiqLExlZ0zz_7CGmXdPm_Rqmy8XUKfP-dzg0R_qjO_H5rBZt7HSVxhugUf9OdPpF9BX1Ry8F3n7yaFylEgZIgsatA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.532023,57.1575458,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Мальчик со шпагой
+</name>
+        <description><![CDATA[<img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/jn5pvl8vqsb518q2mj8bvk91jc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqeWVBsLbLn6pROO3dpWMJye9qL4YAAoV435eGS7rbNEUn6btsmjHBkcmQxDVyWhNsoTY-0GyA0dwIrn8ouOV_Y8RhN0OU6uTycyk0SiaEJJj7CcsxmcIICRPUfDsx8PQzWaO04MvZJb9s3jAmyY836LqgXBLyZGZBzucVQmP55Rz9OoKtBwEnwR1LaMBrXLXxX5W1oekvMqC-2ETjK-UWcn5gelbpqEVjpgkAKiOVgB4sB5G36_8tfCDkmvFW_Fwh5BElP2vJ5AeYdcrTdLO5iFx7h4Q?session=0&fife" height="200" width="auto" /><br><br>Автор Елизавета Аржиловская]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/jn5pvl8vqsb518q2mj8bvk91jc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqeWVBsLbLn6pROO3dpWMJye9qL4YAAoV435eGS7rbNEUn6btsmjHBkcmQxDVyWhNsoTY-0GyA0dwIrn8ouOV_Y8RhN0OU6uTycyk0SiaEJJj7CcsxmcIICRPUfDsx8PQzWaO04MvZJb9s3jAmyY836LqgXBLyZGZBzucVQmP55Rz9OoKtBwEnwR1LaMBrXLXxX5W1oekvMqC-2ETjK-UWcn5gelbpqEVjpgkAKiOVgB4sB5G36_8tfCDkmvFW_Fwh5BElP2vJ5AeYdcrTdLO5iFx7h4Q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5247086,57.159991,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Каравелла</name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/p9meea4fldgk269nfnrdsqla78/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrgsGUEYspmdG8Sz0Lj1d_CI9g5mzSAYtcrgE85LPzwqk_Z6A2I5Ls143faC_VfobuyaH41v1rKG__MuR7g0CuqzBwm9ES811B_6Tp80HQFcKxsJpL27r7t_nLWpdPHGbi-l-EGB3y8z2WGaChiI6MXBCRWtbStp1ozoGWFabGJ0YUBbcksgivFXrhDquCXdt1bjLhzBqRzDVJgDCZgTxlqYit-_KWkK1AVjKN4GtAJ5W25dmHbkpFInUOWYcNDc2D2GLfjyKTukxGMXDM9Hw6ubsjrHg?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/p9meea4fldgk269nfnrdsqla78/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrgsGUEYspmdG8Sz0Lj1d_CI9g5mzSAYtcrgE85LPzwqk_Z6A2I5Ls143faC_VfobuyaH41v1rKG__MuR7g0CuqzBwm9ES811B_6Tp80HQFcKxsJpL27r7t_nLWpdPHGbi-l-EGB3y8z2WGaChiI6MXBCRWtbStp1ozoGWFabGJ0YUBbcksgivFXrhDquCXdt1bjLhzBqRzDVJgDCZgTxlqYit-_KWkK1AVjKN4GtAJ5W25dmHbkpFInUOWYcNDc2D2GLfjyKTukxGMXDM9Hw6ubsjrHg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.525465,57.1601597,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Случайные встречи</name>
+        <description><![CDATA[<img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/udvkmfoe3m76a9ichehkl276m4/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpRohALuRoyX_RloJVE_uYa-rH-IWTgQGiD9Bai2Eu23dc3p5hYW3YeQ8TqOErnmwOitLsJQvDUTi4H4xyrROm5FQZfJg0RoSKASLbLxqhLxnV-pUzrzBWNv0baloEI4Eec8wkigyKvCqj_5BdZPyfE-nmjeVLHE3-D6ykknm_7jB0G0Qfut8nuTFwwAxx4q2qfMWain-fzGXSX5qKnRo2vkCKpDOQabwtehv1DccOQdWAeB1L25sKTJ-Y2NVFS0dMaQsKhfK2qnW6ro_Nif01hv-tx-Q?session=0&fife" height="200" width="auto" /><br><br>Махаббат Серкбаева]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/udvkmfoe3m76a9ichehkl276m4/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpRohALuRoyX_RloJVE_uYa-rH-IWTgQGiD9Bai2Eu23dc3p5hYW3YeQ8TqOErnmwOitLsJQvDUTi4H4xyrROm5FQZfJg0RoSKASLbLxqhLxnV-pUzrzBWNv0baloEI4Eec8wkigyKvCqj_5BdZPyfE-nmjeVLHE3-D6ykknm_7jB0G0Qfut8nuTFwwAxx4q2qfMWain-fzGXSX5qKnRo2vkCKpDOQabwtehv1DccOQdWAeB1L25sKTJ-Y2NVFS0dMaQsKhfK2qnW6ro_Nif01hv-tx-Q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5518472,57.1734344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Прошлое и будущее
+</name>
+        <description><![CDATA[<img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/tnld962shcnn9qg0nosutvgn08/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoomnn69KVXNupZ44qDBsEFrvU4M55G2vg1_-EWLbLQFU6YpDNR9ySFLB7F1W8fDQAE8Ovn54xYPlKlNTi2HNK2pTSWlRV5i4fZMHtByEPNimzAqmKWWPtN_X_cWPgmiD6DqYFoSLRWuHOnx6mTf8r5x900XAFCWQ97ZEmm6OXptX6cA1Pfu9lx0t76Sn6h7SMBbLmacAqGLDwbRqSiRFKuMaHjr5Kt3ioEo0sdgQ9yp8YUlBet_Rd1QlVekid2ZPBwofLjzFJYcSIODJqw2UuDgbrl8g?session=0&fife" height="200" width="auto" /><br><br>Виталий Юкляевских (Морс)]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/tnld962shcnn9qg0nosutvgn08/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoomnn69KVXNupZ44qDBsEFrvU4M55G2vg1_-EWLbLQFU6YpDNR9ySFLB7F1W8fDQAE8Ovn54xYPlKlNTi2HNK2pTSWlRV5i4fZMHtByEPNimzAqmKWWPtN_X_cWPgmiD6DqYFoSLRWuHOnx6mTf8r5x900XAFCWQ97ZEmm6OXptX6cA1Pfu9lx0t76Sn6h7SMBbLmacAqGLDwbRqSiRFKuMaHjr5Kt3ioEo0sdgQ9yp8YUlBet_Rd1QlVekid2ZPBwofLjzFJYcSIODJqw2UuDgbrl8g?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5910289,57.1160026,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Серия работ "Новый Эдем"
+]]></name>
+        <description><![CDATA[<img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/64lp64fvcedho1g4iqulqbuqbk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoNEMTxqL18eB5lWmebOxZQU3sAkzX9qhh-IGhtoQ5C_lbepQjMUc1IvZ9yODbx5ZBBNVPGvAIBlHUZeDAtXxMt4VP17hL0mY81z20yLz6Axtnz_2aJzD2FFKqMo0rXOt7e_Etj2yHX4K2BpAXGkq8hk3BBB1yMaXTmhVoLatb-JoCkk_8h26ziqGuGoJJ5CKOC7rhN4VOYmuB98il56oEMooWQp5L0OVZxcA33gJuKKVc9RAS1_R3NXqEuSlLgggAI2vLmjLOSRH8fE7PFtY8RoAUH6A?session=0&fife" height="200" width="auto" /><br><br>Команда "Цаппята"<br><br><img src="https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/g59biugmcts3nsubjk6nja8r18/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALotKE0SExFELsVeoMCi18rc2iOzt5NJQRbhfTXD9MUI3G8PfcDSLQh6FI7gtC9KSEpQTsxeqA06yrMytuCJEgQUg2t6XoD5_dynKoamVtq8jk4DlBjcuIZTqqfPXW9jwM6af8Jmw7bFcCWZdFHnsicB9L2fFZOfvuICqMS9GW48EsU82a-rzwC225zLGd5q_a2zL3YsEJRs4Ymy61kVyf49vLmjt80430nanAWnIwQHtpPMZPRbNJFcTHWv7h49vZyUnTY1MJkY-yH0QXYQLZFKLmXpsA?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/64lp64fvcedho1g4iqulqbuqbk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoNEMTxqL18eB5lWmebOxZQU3sAkzX9qhh-IGhtoQ5C_lbepQjMUc1IvZ9yODbx5ZBBNVPGvAIBlHUZeDAtXxMt4VP17hL0mY81z20yLz6Axtnz_2aJzD2FFKqMo0rXOt7e_Etj2yHX4K2BpAXGkq8hk3BBB1yMaXTmhVoLatb-JoCkk_8h26ziqGuGoJJ5CKOC7rhN4VOYmuB98il56oEMooWQp5L0OVZxcA33gJuKKVc9RAS1_R3NXqEuSlLgggAI2vLmjLOSRH8fE7PFtY8RoAUH6A?session=0&fife https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/g59biugmcts3nsubjk6nja8r18/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALotKE0SExFELsVeoMCi18rc2iOzt5NJQRbhfTXD9MUI3G8PfcDSLQh6FI7gtC9KSEpQTsxeqA06yrMytuCJEgQUg2t6XoD5_dynKoamVtq8jk4DlBjcuIZTqqfPXW9jwM6af8Jmw7bFcCWZdFHnsicB9L2fFZOfvuICqMS9GW48EsU82a-rzwC225zLGd5q_a2zL3YsEJRs4Ymy61kVyf49vLmjt80430nanAWnIwQHtpPMZPRbNJFcTHWv7h49vZyUnTY1MJkY-yH0QXYQLZFKLmXpsA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5027574,57.16274,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Точка 1</name>
+        <description><![CDATA[<img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4gereij0qs1qgbli0h5rpb31ao/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqyYSq6TY7BBm_TZ43tbTiZv7AcrDGiR7WghVYm3HqqC4McfGIxVqg2Q_Pq8JNvecBvszRv2p5angFJSsSO_9MP-NBlYi4HM6WY9G8v3CXJarcbyUkNkl-z89krOnSXS4CzHBK-SyEVXlWiArpEzVv4gRU9vT3jujaTI8bGzenyEpEuMmgxMsYqXpICYE-2lw7F9YqcrOEfWIReqsiD3Bi7gLoczj0i8HLKM-RPLNDnKga8MoDHwC75VwL7-GBiPGFziAZ4p4TN8w_60XqR0Nl1Lfht_g?session=0&fife" height="200" width="auto" /><br><br>Саша Миткалова<br><br><img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/i7ss8pria9am42m424udmqvpfo/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpp2ZO86zmAbLe7swWSpTMnBcEhEhZi8he3avrvW2_-uWRnc9Nq05cNAbuSUyVgi-W2guKn2Nb7Hv7nAwDh0BzpyTIeuqZkwb3-EFOvy7EI65oJyuFjHj0IZ5lDNGEN-8TJyXiSswJ3ZWriCVr9HomEoP6l8q4kDisd4PGNSxajQgTSn0YXiBasA4vsPSe2sXKFS_SMOjnNEzqUL9dMZjwkvvizl0_tyXTCKW8soKW61_spbVnODhliabsb-MYf8Im8-hrzdsJvGebkGvt0-csOKouA7A?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4gereij0qs1qgbli0h5rpb31ao/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqyYSq6TY7BBm_TZ43tbTiZv7AcrDGiR7WghVYm3HqqC4McfGIxVqg2Q_Pq8JNvecBvszRv2p5angFJSsSO_9MP-NBlYi4HM6WY9G8v3CXJarcbyUkNkl-z89krOnSXS4CzHBK-SyEVXlWiArpEzVv4gRU9vT3jujaTI8bGzenyEpEuMmgxMsYqXpICYE-2lw7F9YqcrOEfWIReqsiD3Bi7gLoczj0i8HLKM-RPLNDnKga8MoDHwC75VwL7-GBiPGFziAZ4p4TN8w_60XqR0Nl1Lfht_g?session=0&fife https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/i7ss8pria9am42m424udmqvpfo/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpp2ZO86zmAbLe7swWSpTMnBcEhEhZi8he3avrvW2_-uWRnc9Nq05cNAbuSUyVgi-W2guKn2Nb7Hv7nAwDh0BzpyTIeuqZkwb3-EFOvy7EI65oJyuFjHj0IZ5lDNGEN-8TJyXiSswJ3ZWriCVr9HomEoP6l8q4kDisd4PGNSxajQgTSn0YXiBasA4vsPSe2sXKFS_SMOjnNEzqUL9dMZjwkvvizl0_tyXTCKW8soKW61_spbVnODhliabsb-MYf8Im8-hrzdsJvGebkGvt0-csOKouA7A?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5725485,57.1498223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Серия работ "Новый Эдем"]]></name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/6e7ds1rb92cf9fbg1kkj0k5v44/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpUbbUsCP_fzQI5Silqtc4n6xtEqmfMg6prvaq23IM6XLtvXMfwGyC-wMatrXdEAqFAgeJsYM9M4HCZ3ZrRX2a_MDcNNQg48_TyEs9P0EGJ8-tG1on-GgMk-4_vZ25cwJYGK306udjgt0bvw9d-4vebeeYpZsacg8QS3RdvVVfZluHP--k4zn-XG_sFNyjmoZmao4gmRODo9nqrkz2LjDPc4YauYomNaV32hdWyzo97EXT52exh64HidtERsQYnES95__h0MfOBRrPMxr-ZTfih8Qw3wQ?session=0&fife" height="200" width="auto" /><br><br>Гафарова Вика. Команда "Цаппята"<br><br><img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/uk99kf51ufphcttogihi6nq7e8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrzFov_0Zq5_lwdjrPRCDeKC4OlbphMXyKWIAYmRIIADkmq9g6qWlpQCixGIW_rtLMY0THlg2YPyvNyxZbhFyOwIYm3vK4B4jgFlCdPzRkd4KrecOm_RRxYkLpA2A8ZOlkemphwRtxFy9Yc4DDwNKqlcjv7LWlpuXny7ilMnLkKdKyR2OQwOoBdxKv7V2iUWzb2U-SASatiEDK1ech4bHs5d2NLPh3kLWleZiyctv2Vf9tylk6kAzxHLlSNKIKqbQNreerQYx7tM_Xom-apn-Tdo8TyXA?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/nk4cmscgpipdrenfkaiurcj7rk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrpPrRK_hXXg1gWuSH0zJ0TMrSOXw-WOA-dgLuMDI1RhuLkbf7yjBE4tAvW1KM6OUqatv0vBcJhgul_EBW01-9LdgZPSOBfFfQTHJXg7ObfRKoWoh_nlQaXMLyH7GBBhXHqQXcFR1wyYjULiOPlpf7Q-9hQo202Td9Bf-dhb6CDHax27LQhS8HgvEELR0peC1A42GR0Cbgx-Ae-mfsgYk6JOfB5UiWaDjwp782hM-b9pI7TNPT7KzypTqJT4LZ09Qa2SH_CbN1WdkiK6b7PmiDOkRV88g?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/6e7ds1rb92cf9fbg1kkj0k5v44/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpUbbUsCP_fzQI5Silqtc4n6xtEqmfMg6prvaq23IM6XLtvXMfwGyC-wMatrXdEAqFAgeJsYM9M4HCZ3ZrRX2a_MDcNNQg48_TyEs9P0EGJ8-tG1on-GgMk-4_vZ25cwJYGK306udjgt0bvw9d-4vebeeYpZsacg8QS3RdvVVfZluHP--k4zn-XG_sFNyjmoZmao4gmRODo9nqrkz2LjDPc4YauYomNaV32hdWyzo97EXT52exh64HidtERsQYnES95__h0MfOBRrPMxr-ZTfih8Qw3wQ?session=0&fife https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/uk99kf51ufphcttogihi6nq7e8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrzFov_0Zq5_lwdjrPRCDeKC4OlbphMXyKWIAYmRIIADkmq9g6qWlpQCixGIW_rtLMY0THlg2YPyvNyxZbhFyOwIYm3vK4B4jgFlCdPzRkd4KrecOm_RRxYkLpA2A8ZOlkemphwRtxFy9Yc4DDwNKqlcjv7LWlpuXny7ilMnLkKdKyR2OQwOoBdxKv7V2iUWzb2U-SASatiEDK1ech4bHs5d2NLPh3kLWleZiyctv2Vf9tylk6kAzxHLlSNKIKqbQNreerQYx7tM_Xom-apn-Tdo8TyXA?session=0&fife https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/nk4cmscgpipdrenfkaiurcj7rk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrpPrRK_hXXg1gWuSH0zJ0TMrSOXw-WOA-dgLuMDI1RhuLkbf7yjBE4tAvW1KM6OUqatv0vBcJhgul_EBW01-9LdgZPSOBfFfQTHJXg7ObfRKoWoh_nlQaXMLyH7GBBhXHqQXcFR1wyYjULiOPlpf7Q-9hQo202Td9Bf-dhb6CDHax27LQhS8HgvEELR0peC1A42GR0Cbgx-Ae-mfsgYk6JOfB5UiWaDjwp782hM-b9pI7TNPT7KzypTqJT4LZ09Qa2SH_CbN1WdkiK6b7PmiDOkRV88g?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.501107,57.162445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>На соседней планете
+</name>
+        <description><![CDATA[<img src="https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/1o6nm3b0r81f8n0e2bc2nuas3s/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrTKGHoUQ63nnXjCfn3gKW9pBcf1VPHAD-hHAchEP5F7yx8bGMjJbFFtIevKZ4HRUZEHtq8lxXm80Sjb50CD0wkbHcWPRrs21vEqmPLPc6pvUGGBbAt_1a3dWczwrzLXJHYoTG_llfgOQEeOq12kzykhmx9_c7RNWjaFUsm5Q50k3WTA9BvYjph5Db6V2mMV3Ajfgl1HBpSAw2VW3IhJr5mMgFuWneh49IMjPkUT4nkMs3z03P3N_dIFqpvGlojjwz-IFLJV470kbJio2lr7f5ATpwI2Q?session=0&fife" height="200" width="auto" /><br><br>Домостроителей, 2<br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/pe788ecdisgj3v2ap33q6pi5i8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp6Ol7DasFXcF3ztwUlvObXjj5SUWz984vqgZN6l7Y2wMT6hyN5y78xR8ssqODpHMPODdo5Mwn98LM4KcjCCF2_2WNXmtN_4NlcEakizi9HvGAkN3XWjv1o3ry2GdY8l3iX-XhQMpxscHHB7XSl8OiuWSL6TPjafL8JT5hqgUcK_4UaHQ95WV11ao6Bs5JgnnKYlp063Fe30X2wCZsM3QF7MEhdYe6ObVTMFzzrpKFWPVopp4PuXPyNsI3TwdLEwPqOwIqhJLUdh_oOb_-0l0ymtFvO4w?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/v2fhpqv16q9cp5vsu0suv49kbk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALroBHBw5HeifE6B-3sXq1D-rd0GXiEjtV8PZqkOqJcAhg0tnUSpTAuoNdFLFj4l7xnlsQnuglGSz5uE1sHzIyH8xnu5V6w1ZXsBg_1CXo3Yq0L_HYXV0D24JFgkdaxYwP07PgMZL_04-WeipeHt7QGff1KmiM0dNEZlUPL3FfNSRO1bu_wjo15I5JZg72TwevQXCP9bb83zJjPbJ66N__BEK_VlxjsFS1oiFYWC24lXR1x7i-hHZRFjUG9_sS8wMyL9tnT5569Nog7T0CSxQiyrhPIyow?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/h2b8o5j22pp9usmek62cka8mr0/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALovwovG3AGqV1kAPJV5Oa6QVTI1bp8sGshE6Segq4KNdIvAIwRFfSMTwRnGL0Ze-m6I9cv6m8QKRXHmVPJoGz3eBFhVhESXcAzheB5XRIfL3IjJ-1H_Z3IUkKsV2ul6U-1gp0nHjd8mRlHuIuefN88Pk82iIJdO7e6jVClW9Ke2Wtgh4h3M2huKAKiUTI6E7zA8AzoJLWdgnFB-4WtLLTEp4QxzxVVOxAtqy3OL1i8VdFAxnofhfkZYeZ_BztlhNGs_tJOlsf7DgAvFxghpkTCmWMJGag?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ad0kq7cfu2np5t9im6oqr6qmi8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqYLZYaDI-0W-kKkQrNHC_NEpjc50qoYv61O4m7_sRpDFWKNSLK3u3GAhUD6fc9Frp2-T6nxN7JTNaseRhNNOiB0Ld2fcD5DLywzCj88K99VTk4r0FSgqBFOgnn7XYNbo-YclFE7rgPHcTxVTjG1pxUh23F4I3Im6bTQL2D7zz7P6xR_r6WUmnUMxz0NtePb9ZGhj76ABoxESnl_8LhgtVxFH9XpGJJNTHyAXz_8aXhZ-mmWW9D5mc1k8eu_-9z33fOte9b2318Q6gcPtx3Ak2XWwoEbA?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/1o6nm3b0r81f8n0e2bc2nuas3s/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrTKGHoUQ63nnXjCfn3gKW9pBcf1VPHAD-hHAchEP5F7yx8bGMjJbFFtIevKZ4HRUZEHtq8lxXm80Sjb50CD0wkbHcWPRrs21vEqmPLPc6pvUGGBbAt_1a3dWczwrzLXJHYoTG_llfgOQEeOq12kzykhmx9_c7RNWjaFUsm5Q50k3WTA9BvYjph5Db6V2mMV3Ajfgl1HBpSAw2VW3IhJr5mMgFuWneh49IMjPkUT4nkMs3z03P3N_dIFqpvGlojjwz-IFLJV470kbJio2lr7f5ATpwI2Q?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/pe788ecdisgj3v2ap33q6pi5i8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp6Ol7DasFXcF3ztwUlvObXjj5SUWz984vqgZN6l7Y2wMT6hyN5y78xR8ssqODpHMPODdo5Mwn98LM4KcjCCF2_2WNXmtN_4NlcEakizi9HvGAkN3XWjv1o3ry2GdY8l3iX-XhQMpxscHHB7XSl8OiuWSL6TPjafL8JT5hqgUcK_4UaHQ95WV11ao6Bs5JgnnKYlp063Fe30X2wCZsM3QF7MEhdYe6ObVTMFzzrpKFWPVopp4PuXPyNsI3TwdLEwPqOwIqhJLUdh_oOb_-0l0ymtFvO4w?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/v2fhpqv16q9cp5vsu0suv49kbk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALroBHBw5HeifE6B-3sXq1D-rd0GXiEjtV8PZqkOqJcAhg0tnUSpTAuoNdFLFj4l7xnlsQnuglGSz5uE1sHzIyH8xnu5V6w1ZXsBg_1CXo3Yq0L_HYXV0D24JFgkdaxYwP07PgMZL_04-WeipeHt7QGff1KmiM0dNEZlUPL3FfNSRO1bu_wjo15I5JZg72TwevQXCP9bb83zJjPbJ66N__BEK_VlxjsFS1oiFYWC24lXR1x7i-hHZRFjUG9_sS8wMyL9tnT5569Nog7T0CSxQiyrhPIyow?session=0&fife https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/h2b8o5j22pp9usmek62cka8mr0/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALovwovG3AGqV1kAPJV5Oa6QVTI1bp8sGshE6Segq4KNdIvAIwRFfSMTwRnGL0Ze-m6I9cv6m8QKRXHmVPJoGz3eBFhVhESXcAzheB5XRIfL3IjJ-1H_Z3IUkKsV2ul6U-1gp0nHjd8mRlHuIuefN88Pk82iIJdO7e6jVClW9Ke2Wtgh4h3M2huKAKiUTI6E7zA8AzoJLWdgnFB-4WtLLTEp4QxzxVVOxAtqy3OL1i8VdFAxnofhfkZYeZ_BztlhNGs_tJOlsf7DgAvFxghpkTCmWMJGag?session=0&fife https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ad0kq7cfu2np5t9im6oqr6qmi8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqYLZYaDI-0W-kKkQrNHC_NEpjc50qoYv61O4m7_sRpDFWKNSLK3u3GAhUD6fc9Frp2-T6nxN7JTNaseRhNNOiB0Ld2fcD5DLywzCj88K99VTk4r0FSgqBFOgnn7XYNbo-YclFE7rgPHcTxVTjG1pxUh23F4I3Im6bTQL2D7zz7P6xR_r6WUmnUMxz0NtePb9ZGhj76ABoxESnl_8LhgtVxFH9XpGJJNTHyAXz_8aXhZ-mmWW9D5mc1k8eu_-9z33fOte9b2318Q6gcPtx3Ak2XWwoEbA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.6448662,57.1521181,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Новый день, Карл!
+</name>
+        <description><![CDATA[<img src="https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/g8juund8s98ufq44r2hjv22k9g/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq-r5ehIBSTNEolyR9ulzjS691q2Krj2kSgy6IaHhWrscug4Izr3u97URHshuz2jqulM5uHKnB6XFuT02ymH_zjnAaW6h7Wc1JpxX_9PSdmSvh8YxWAEGi72O0vdkOFJKsopDvjr1aIudRsSYM1P21HPfS68uUOH8CPOmatuDXGmiWFNJRViAZstFZm9mQMf1fb8MfStkkBdoCrKTGsGzgRG-JKM7MFrIfs09W-8HTqan97mFfKvcjyZnDDLJ7ohAGo8p7V10_IQahDKL_aN-uk2wv4Kg?session=0&fife" height="200" width="auto" /><br><br>Ольга Лукина]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/g8juund8s98ufq44r2hjv22k9g/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq-r5ehIBSTNEolyR9ulzjS691q2Krj2kSgy6IaHhWrscug4Izr3u97URHshuz2jqulM5uHKnB6XFuT02ymH_zjnAaW6h7Wc1JpxX_9PSdmSvh8YxWAEGi72O0vdkOFJKsopDvjr1aIudRsSYM1P21HPfS68uUOH8CPOmatuDXGmiWFNJRViAZstFZm9mQMf1fb8MfStkkBdoCrKTGsGzgRG-JKM7MFrIfs09W-8HTqan97mFfKvcjyZnDDLJ7ohAGo8p7V10_IQahDKL_aN-uk2wv4Kg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5247341,57.1599924,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Трансформаторные подстанции</name>
+      <Placemark>
+        <name>Технологии будущего
+</name>
+        <description><![CDATA[<img src="https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/cef4kj7t2s6h31krv11hbe6gm8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpwNpjKw9w-pZ_x-n14rzj04hk4B-RmAn4qCdw3FqpHcy0SO01SsdUdA3PZdPIpAgIp0CqnVDqR5280cHriw3VU80Pz3Nk67tBXKBcS2xxbfB9Mi6rtnkoLrBqypy9TkX2rM0JG7-RCN9iz-wwLJ2_xPu7fcTpCYfNKC5aAkOIntGdKBPIFqxRAAx4fyxjJb8YvmuK92N1aabf9CQYz3PZpi-cYAD6k6xJsxvRF56HpFABn47tB-6byqf3hqqm0k5b_8t9Fl_gXrC74se-JipiKicyLlQ?session=0&fife" height="200" width="auto" /><br><br>Ищик Олег,  Гребенщиков Данил<br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/lkvflf7c3q7q6j01ovm56m85oo/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrNlN0A1dCfBSWb7bQGPNja--DjpoF2Fmibz6mVLV3zC21Chycr16u3w2bQuivga_bpRVEwBFvXJHpYeWXd2GO_ryb7c_QzAHw6T-CW2jntCru33Ge2GYYcqyVC-UYL-xmpPv4zdHpDAQec5022Br23hzzTiHaoGXMthWVtvVfiSpJILp6Xt4Ehe5uUOhBGEdNFSfPIDhglkVNunvkC0Omn1Nz3LFSRew5mzaSt93iMpc8QBChd-WZhITx11vDY_NawqBg7HQHh134BZigt78mvJfQUAQ?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4fkm6obf6tbir4vgntq7jf7fhc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpTTnsDKDmvfuH2u4buHrp2PsgcglN76h0Xi4RutfQKBjIDfSL6Jzpr3q6Znlq9Kpqlnp1B256meUHCqBnu_B8TnErwcQ2BysJPsdOL_diiWLEMUBU8oBI36ESFwVp2HK2GC-ad71qTetp7k4N1ZfcNGjbXiojlxwXMV-OeG0DUWP1_117t2hKBl2dPmCp1-vFNC6V8A6z8FCZx3GY-N9kNzYa72EEezHCTsYzq4lo5RSG71gkg6z6GWAp-iIWCwqk26tUXbfAWTmO899ZJ--9ZNpnanw?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1603-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/cef4kj7t2s6h31krv11hbe6gm8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpwNpjKw9w-pZ_x-n14rzj04hk4B-RmAn4qCdw3FqpHcy0SO01SsdUdA3PZdPIpAgIp0CqnVDqR5280cHriw3VU80Pz3Nk67tBXKBcS2xxbfB9Mi6rtnkoLrBqypy9TkX2rM0JG7-RCN9iz-wwLJ2_xPu7fcTpCYfNKC5aAkOIntGdKBPIFqxRAAx4fyxjJb8YvmuK92N1aabf9CQYz3PZpi-cYAD6k6xJsxvRF56HpFABn47tB-6byqf3hqqm0k5b_8t9Fl_gXrC74se-JipiKicyLlQ?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/lkvflf7c3q7q6j01ovm56m85oo/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrNlN0A1dCfBSWb7bQGPNja--DjpoF2Fmibz6mVLV3zC21Chycr16u3w2bQuivga_bpRVEwBFvXJHpYeWXd2GO_ryb7c_QzAHw6T-CW2jntCru33Ge2GYYcqyVC-UYL-xmpPv4zdHpDAQec5022Br23hzzTiHaoGXMthWVtvVfiSpJILp6Xt4Ehe5uUOhBGEdNFSfPIDhglkVNunvkC0Omn1Nz3LFSRew5mzaSt93iMpc8QBChd-WZhITx11vDY_NawqBg7HQHh134BZigt78mvJfQUAQ?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4fkm6obf6tbir4vgntq7jf7fhc/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpTTnsDKDmvfuH2u4buHrp2PsgcglN76h0Xi4RutfQKBjIDfSL6Jzpr3q6Znlq9Kpqlnp1B256meUHCqBnu_B8TnErwcQ2BysJPsdOL_diiWLEMUBU8oBI36ESFwVp2HK2GC-ad71qTetp7k4N1ZfcNGjbXiojlxwXMV-OeG0DUWP1_117t2hKBl2dPmCp1-vFNC6V8A6z8FCZx3GY-N9kNzYa72EEezHCTsYzq4lo5RSG71gkg6z6GWAp-iIWCwqk26tUXbfAWTmO899ZJ--9ZNpnanw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5457425,57.130219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Рыба</name>
+        <description><![CDATA[<img src="https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/t1ka3a1nlaberhbk0h5tt1irio/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoigv46HfH68VpYKxQF_vKgbaZ8wnVbqjj5qFK4wimVv27bXQhL5GdeBas5OYUHOI72guOe_znBsbH5Q72P1dBTbRXJX_jdgGPAOsL2Z2p5CkaFOpERrDrIrjCB0bPSm_-qr8pUna6DcIC_Oz406hd1J-6BBy3pM9GAHqYtP2awL1jxHaL1oATx1OAX46ZhVZMyr7ZmMYgZUkXH9snvlPvJjngn3waFICu6iQWZiV1lpHMeI84jbPT9G9djoMtyXFjy1XpImYDEy-JFTmJ-kMDKo7MNsA?session=0&fife" height="200" width="auto" /><br><br>Салават Исмагилов]]></description>
+        <styleUrl>#icon-1603-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/t1ka3a1nlaberhbk0h5tt1irio/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoigv46HfH68VpYKxQF_vKgbaZ8wnVbqjj5qFK4wimVv27bXQhL5GdeBas5OYUHOI72guOe_znBsbH5Q72P1dBTbRXJX_jdgGPAOsL2Z2p5CkaFOpERrDrIrjCB0bPSm_-qr8pUna6DcIC_Oz406hd1J-6BBy3pM9GAHqYtP2awL1jxHaL1oATx1OAX46ZhVZMyr7ZmMYgZUkXH9snvlPvJjngn3waFICu6iQWZiV1lpHMeI84jbPT9G9djoMtyXFjy1XpImYDEy-JFTmJ-kMDKo7MNsA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5460107,57.1302073,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Противостояние</name>
+        <description><![CDATA[<img src="https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/iscobefqrgmbahororf3n2rj48/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoMAdIdGODkWOeAiDq_YmvWTUUuvN0nggcfcR72wDcmrQmyX9xOwIRNp74OhllapvVZIlLpaUWmHMe48nyQijlHvp4AWEHqoJ8b6WlZfMRMdtyjzYAwIDZH_8JtOs1qFKmys2bR9L6L6qK14KQEh7gCFv8DbrFALq3WJSCnqg59Kky4ZyNyfnJeSG1SOV6H74wrK-NNzgbzQ1T8uagRHwXqn4hpU4pY60Kb65ih1O2CM2-HHktkKxtl0dszCVN-9374rtlkQvLwvPuBfLRYoRCn9P-4xg?session=0&fife" height="200" width="auto" /><br><br>Владимир Васильев. Школа 43<br><br><img src="https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/acturvs88ohd1hdctmddk6k4mk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq6BwXgGcB7JMHjNhzDoPtM0UGWyMGWl5i7JrhPoEsnhytIXtPitbDwdB0kIk5_7RZx8Pyqd-3BIvegmxIcE_zf8RnDS4IWnXTQG86EaG1jTFMO9-Vh4IBhNiMK1y6vrJnSyWaLzoeWPHIIHSSaKv7YuI4x-Y7CJqT4BKpUqWB-V0CDFCtt0_dVB0mFomQ4Plqvu-FsmgEL2MeR6RLrwib8pW1ZdFrUFD4HcSiOqkHXq3QRDgyldjN_KJKhAiP3TAhOYjkaDgbux12ocivPTUYcrFvK_A?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/vj34rc4carjtk6u4p20tptq6ng/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrq5Gtz8dhXB1DKroPJAGNbZgnmmBHcL5H52MQiEZUpQ4AbbbnNUphC0hsseDrtP4KYD3zqbSXBg6XLPJ8NUHSKBtGVC7LZPRxaIShffkJRt2mk2dYUbWOaIltQ5pXwRbT_rjIvCMZT6GmeW05FlMv0mcUN7fIclKxfbV488e9FwAseqyIEDBf919tZP3TOPZ6UtbYwl_AhWiQ28t-l7nZhwwq8ATnXYNOgUDW56J_MWlub1BtreVHvwDRvIlDeJUhmcZ1SBzPoMJDhUZNpnLk-yevk8Q?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/7djtfh5a8avlbktqdvhpo4dhf8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALottFtwVp9uHA-ezCXztLtAZMK4U9bY7IWaP83u9_suPyn3RoXxXZD8LvcbcT8BpHJlNyiZifC3bHvtSdioOHKvYwFdTt8KbbRCZvqkxrHP27zc7JIREzIgsWme7pDuMV4n1_8YZoyBj4UxnPl_gKNN_J-z3oW-thyIpjvf4q1hvszXsWnb7WbinZvlmymHiKK95FrOdwxacm4qfmNgo-D2aa7DHLe3O5sJwpj_OZpLGjbHqJKnCsWjpGUr01gR8JQMWkFxoFm7x4NoOGoGdhcMB7z55Q?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1535-0F9D58</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/iscobefqrgmbahororf3n2rj48/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoMAdIdGODkWOeAiDq_YmvWTUUuvN0nggcfcR72wDcmrQmyX9xOwIRNp74OhllapvVZIlLpaUWmHMe48nyQijlHvp4AWEHqoJ8b6WlZfMRMdtyjzYAwIDZH_8JtOs1qFKmys2bR9L6L6qK14KQEh7gCFv8DbrFALq3WJSCnqg59Kky4ZyNyfnJeSG1SOV6H74wrK-NNzgbzQ1T8uagRHwXqn4hpU4pY60Kb65ih1O2CM2-HHktkKxtl0dszCVN-9374rtlkQvLwvPuBfLRYoRCn9P-4xg?session=0&fife https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/acturvs88ohd1hdctmddk6k4mk/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALq6BwXgGcB7JMHjNhzDoPtM0UGWyMGWl5i7JrhPoEsnhytIXtPitbDwdB0kIk5_7RZx8Pyqd-3BIvegmxIcE_zf8RnDS4IWnXTQG86EaG1jTFMO9-Vh4IBhNiMK1y6vrJnSyWaLzoeWPHIIHSSaKv7YuI4x-Y7CJqT4BKpUqWB-V0CDFCtt0_dVB0mFomQ4Plqvu-FsmgEL2MeR6RLrwib8pW1ZdFrUFD4HcSiOqkHXq3QRDgyldjN_KJKhAiP3TAhOYjkaDgbux12ocivPTUYcrFvK_A?session=0&fife https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/vj34rc4carjtk6u4p20tptq6ng/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrq5Gtz8dhXB1DKroPJAGNbZgnmmBHcL5H52MQiEZUpQ4AbbbnNUphC0hsseDrtP4KYD3zqbSXBg6XLPJ8NUHSKBtGVC7LZPRxaIShffkJRt2mk2dYUbWOaIltQ5pXwRbT_rjIvCMZT6GmeW05FlMv0mcUN7fIclKxfbV488e9FwAseqyIEDBf919tZP3TOPZ6UtbYwl_AhWiQ28t-l7nZhwwq8ATnXYNOgUDW56J_MWlub1BtreVHvwDRvIlDeJUhmcZ1SBzPoMJDhUZNpnLk-yevk8Q?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/7djtfh5a8avlbktqdvhpo4dhf8/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALottFtwVp9uHA-ezCXztLtAZMK4U9bY7IWaP83u9_suPyn3RoXxXZD8LvcbcT8BpHJlNyiZifC3bHvtSdioOHKvYwFdTt8KbbRCZvqkxrHP27zc7JIREzIgsWme7pDuMV4n1_8YZoyBj4UxnPl_gKNN_J-z3oW-thyIpjvf4q1hvszXsWnb7WbinZvlmymHiKK95FrOdwxacm4qfmNgo-D2aa7DHLe3O5sJwpj_OZpLGjbHqJKnCsWjpGUr01gR8JQMWkFxoFm7x4NoOGoGdhcMB7z55Q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5951595,57.1097648,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Литературный бульвар. Книга
+</name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/a2kbn687pjtlbdrtvu41bm5hjo/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrYWUE7OaLceDxogo9hr1TN72V0bU7GgsKsX3BPxJlpvgrEUW8BNvIT5INibJX8MUKy2Z9rDduso1YACnv6degdruMo6snmNfyt_OciKBXxH4u8K2hIKBqS_6qO5odOeOcuTtm2ZrqicxOEA5OQIgEYnFEHDBw51L9PN0-28QniEHHnCkbwmfQNSNGk7xcNoRTW6D-8DxxqZbtzvna0fv2iHQbsEaOFgjK8Yxt0KGcsZB9fGHi4bouXCjTVRFTYB3StXXi2UlPit6tIl9omuWH5_U8_-w?session=0&fife" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1526-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/a2kbn687pjtlbdrtvu41bm5hjo/1594133674250/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrYWUE7OaLceDxogo9hr1TN72V0bU7GgsKsX3BPxJlpvgrEUW8BNvIT5INibJX8MUKy2Z9rDduso1YACnv6degdruMo6snmNfyt_OciKBXxH4u8K2hIKBqS_6qO5odOeOcuTtm2ZrqicxOEA5OQIgEYnFEHDBw51L9PN0-28QniEHHnCkbwmfQNSNGk7xcNoRTW6D-8DxxqZbtzvna0fv2iHQbsEaOFgjK8Yxt0KGcsZB9fGHi4bouXCjTVRFTYB3StXXi2UlPit6tIl9omuWH5_U8_-w?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5462843,57.155147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

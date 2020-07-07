@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name><![CDATA[ "Объекты "Морфологии улиц""]]></name>
+    <description><![CDATA[Карта объектов городской инфраструктуры  фестиваля "Морфология улиц".]]></description>
+    <Style id="icon-1502-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1502-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1502-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1502-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1502-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1502-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-558B2F-normal">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-558B2F-highlight">
+      <IconStyle>
+        <color>ff2f8b55</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-558B2F">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-558B2F-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-558B2F-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-9C27B0-normal">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-9C27B0-highlight">
+      <IconStyle>
+        <color>ffb0279c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-9C27B0">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-9C27B0-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-9C27B0-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-FF5252-normal">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-FF5252-highlight">
+      <IconStyle>
+        <color>ff5252ff</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-FF5252">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-FF5252-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-FF5252-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name><![CDATA[Номинация "Большие формы"]]></name>
+      <Placemark>
+        <name>Инсомния</name>
+        <description><![CDATA[<img src="https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/8tgc3aq0kfeslv3iv3ocnkaqk0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrR0WYLZpm5_iuK_euUbh18jQiKc0RB7SfAZd12pcDiQ-BCwrza2ZeOm1aruTkW_01NzidZkG3qNS4rcXbqivKbap2OufToHkRpCw2i7QVcYKPTDjDvF62KnV9Q0yPCvO2Nu35WjnwCe7dlwn5mfWhER8o3vW5X1EHMnkCh7fwyb4yMjeWQnNbCOtnplxsN6zkhL9GhxIu3yPewV9FINJomAzwsOBmg4IGtDXl_7x95Q8_fvr23YYqL143ZW0fpSVnX_9L3MMhYLQpgg_cIyNnRQOvcMw?session=0&fife" height="200" width="auto" /><br><br>"Инсомния" Дениса Живило<br><br>Эта работа — коллаб со временем суток. Днем на картине изображены спящие девушка и парень с переплетенными волосами, имитирующими вселенную сна. Ночью рисунок подсвечивается и изображение меняется: герои пробуждаются, и между ними возникает абстрактный огонь.<br><br><img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/0jsf2d1il42jc453pfqlmdmhh0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoPZcu0NyU2gRdT_oesoMo3Jy3L5PNdlerc_dzP8aSHjeGgwNXTsnDKHRbj4jtFAp16_HZOXth2pW1a6iUmNzigzbgopkYVvgEdrvjUrI9491zpjwwHYEbMDqE3ttfgSVyMjyYib14bdvztX0zAo_-27GFOf_VrHD_uSvbqF1Dm0PhS8CwpMNM9khijimn5zZy_kaDmdaf30PfLf-yzNyy5IvZ1dA5quM4wWR2g8efmEhIg_Zv5iW7AlsAVmmP3O-Gtg-qXX_TsgDXvVhPVfl4lE0ANog?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/b744vagg4nmr4d8qej8c4cbhfc/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpeb2sKmn01E-DkA2jLcDVoSUxLy_3ecPU_7Nk1I1Czdd2-VJH9wynnuzvMHfIKGy1lknMrBePygiCaOluscYdF_KhoGJ5xY2iGPsyD_Y5077X9z-adP5RHRjxmURYHDxvUWRrOW0h1cC_w8woH4s9yKBKTSiAZk2arn61ZjWeOIQJp-JHnx2UFwG3rYgdDIHlUHqCSB-WQstzFVzK7SBhhDmLXg1GVw4gVIy_f26bgdRm3HX4rYm240q5rIWWNS-1B7t6zid81i8xceMYZ6qdGq_ZajA?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/og5icnpjuuedc7rt9nal7p93j0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpO8izmojti-muutPj1cLumZrPnP017xcMiyehFqbJ8VkbdJ3e_8xpiH5MwqPi0cjTv234I1DyvzrheGmriCsEc6YLqRV4PRiXqvjDDcG3N3gIOMiprRU-fP0T-fst3HWyiXVebxJC-Vx9IdUa_BgvskMHChhW3dKUs3sCN7hjVh1COyvxIMPjEjCxPmdLFJN3BymCdFOQqVNxyM1S4ILHQ00hxJvNCiYCOn8m-Q2Yx24bWt5brwlmoz7tqbuDBl3yPc4c0oToy-tM61diCTJUXZD_atg?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/8tgc3aq0kfeslv3iv3ocnkaqk0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrR0WYLZpm5_iuK_euUbh18jQiKc0RB7SfAZd12pcDiQ-BCwrza2ZeOm1aruTkW_01NzidZkG3qNS4rcXbqivKbap2OufToHkRpCw2i7QVcYKPTDjDvF62KnV9Q0yPCvO2Nu35WjnwCe7dlwn5mfWhER8o3vW5X1EHMnkCh7fwyb4yMjeWQnNbCOtnplxsN6zkhL9GhxIu3yPewV9FINJomAzwsOBmg4IGtDXl_7x95Q8_fvr23YYqL143ZW0fpSVnX_9L3MMhYLQpgg_cIyNnRQOvcMw?session=0&fife https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/0jsf2d1il42jc453pfqlmdmhh0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoPZcu0NyU2gRdT_oesoMo3Jy3L5PNdlerc_dzP8aSHjeGgwNXTsnDKHRbj4jtFAp16_HZOXth2pW1a6iUmNzigzbgopkYVvgEdrvjUrI9491zpjwwHYEbMDqE3ttfgSVyMjyYib14bdvztX0zAo_-27GFOf_VrHD_uSvbqF1Dm0PhS8CwpMNM9khijimn5zZy_kaDmdaf30PfLf-yzNyy5IvZ1dA5quM4wWR2g8efmEhIg_Zv5iW7AlsAVmmP3O-Gtg-qXX_TsgDXvVhPVfl4lE0ANog?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/b744vagg4nmr4d8qej8c4cbhfc/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpeb2sKmn01E-DkA2jLcDVoSUxLy_3ecPU_7Nk1I1Czdd2-VJH9wynnuzvMHfIKGy1lknMrBePygiCaOluscYdF_KhoGJ5xY2iGPsyD_Y5077X9z-adP5RHRjxmURYHDxvUWRrOW0h1cC_w8woH4s9yKBKTSiAZk2arn61ZjWeOIQJp-JHnx2UFwG3rYgdDIHlUHqCSB-WQstzFVzK7SBhhDmLXg1GVw4gVIy_f26bgdRm3HX4rYm240q5rIWWNS-1B7t6zid81i8xceMYZ6qdGq_ZajA?session=0&fife https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/og5icnpjuuedc7rt9nal7p93j0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpO8izmojti-muutPj1cLumZrPnP017xcMiyehFqbJ8VkbdJ3e_8xpiH5MwqPi0cjTv234I1DyvzrheGmriCsEc6YLqRV4PRiXqvjDDcG3N3gIOMiprRU-fP0T-fst3HWyiXVebxJC-Vx9IdUa_BgvskMHChhW3dKUs3sCN7hjVh1COyvxIMPjEjCxPmdLFJN3BymCdFOQqVNxyM1S4ILHQ00hxJvNCiYCOn8m-Q2Yx24bWt5brwlmoz7tqbuDBl3yPc4c0oToy-tM61diCTJUXZD_atg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5496625,57.1570491,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Розовые очки</name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ge1o2m4ubgcugocc7u41qtfsf0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrzrDacSCQP0FWyY2RzfauDdg-wThRGhEYOHr8mLBwM1RmBkGWEj1G2KUIAuwZ_vEUaqpt-0oZ855JS_WE_PtKsTt9R5YebHLJgDBV3LasHAn5nzwcumg2oF4Y16M50K2oCTIkCidzFwx50qP3y758MwnNmv39TCCna4jFPbsfTfE5KkZ6ehdwdxobETUs7Zb5dXzACcTwfWbUz38SAPW-rCHvWpa6bg11WSfr9Yya1uLTl-R_beSpzCH6MQro8EiLwCXH9leSkHD3L00r9qYVm3y6MWg?session=0&fife" height="200" width="auto" /><br><br>"Розовые очки Серкбаевой Махабат<br><br>Люди часто идеализируют все вокруг. Но иногда ожидания не оправдываются, и «розовые очки» разбиваются. Чтобы встреча с действительностью не была такой суровой, в жизнь нужно добавлять яркие краски, поэтому я решила сделать эскиз в стиле поп-арт. Мне нравится рисовать во дворах жилых домов, так как там уютно и немного секретно: ты можешь наткнуться на арт совершенно случайно или придется постараться, чтобы его найти.<br><br><img src="https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/lkc7mkk6brsl2ta0lol6ia8o2k/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqlRvGdQYcuJjDdETxZKPhBXf6qztenKtGohx98MO0asKpJTJHBHD_uzx_3ei4KN_NCZMVvE4YsJTBvDrwPIP99SCj95Ka4Nf4BYIYX_KHCJ25Or4N9MII7mC2p_eNick-QzGK0nM215LaGXct0GAH1MvxcDlh0Aiyv9fmzPwNaJiKxQBwGDz-oVnwvQA6uD3fBDYi63fYDv9X7udPINogdWqRmeGfuPNZz8m6tMZfYUlGa6W1-EmslB5PGVoQuf8_DcykYEfZY3M2yUZKWQALinOt8YA?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/pkr5dh428koe5fqom3j1t56rd8/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoZdkvpAxNo3_IC59WXJurw2LSUbYOY9M80jBjwMRPctFYUv97zoNxaNjlMz-Q3Q6BLwEoPVfO74Vw5l6_6hLF8m9vp-LuPNrInltIr6FxWtqZDGEKSUR0mZfNbq_ZRU6R265zqE4fK63H0AbXzfIydwxEu_JJ8kM1sODbIPOgZuIhAgqnHLkfaMM0Snmqt5J8duivQQud58pWvgVYUv63evzCek1zYiwKNhAyvPW_kcfWHLGjnJYplwE7SsAW_bRKDdQhwDtxkWgbeejTSqTXSJN2sKA?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/g34l32kn8o126b3qu3pdn7dhro/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoBlBeeLfv6lLWCbVeA8hD5FlHvsn2zwWdKZNbeDfDpU9nCyW5X5PDjBqND1yeZVKZGGM4wyzhiik8dx5ULYxc2u0wTFInHOs9ybIbKhcBotD6aVuWtazHw1l-QMGEMkmhGbI2CEySh6TLT8fkNhZNoXux_1Xw4Z_zFyYG47gRpqdUEqeD838cA87voR25B1IbXfh4Jnwn_XrxOHQsO2sMdDYYe57YgOmtfHf3lw_dM2Kyit362mtNhmwindut4X-w8pYSQEBtFv07na0k-qTKfIcTjuQ?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ge1o2m4ubgcugocc7u41qtfsf0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrzrDacSCQP0FWyY2RzfauDdg-wThRGhEYOHr8mLBwM1RmBkGWEj1G2KUIAuwZ_vEUaqpt-0oZ855JS_WE_PtKsTt9R5YebHLJgDBV3LasHAn5nzwcumg2oF4Y16M50K2oCTIkCidzFwx50qP3y758MwnNmv39TCCna4jFPbsfTfE5KkZ6ehdwdxobETUs7Zb5dXzACcTwfWbUz38SAPW-rCHvWpa6bg11WSfr9Yya1uLTl-R_beSpzCH6MQro8EiLwCXH9leSkHD3L00r9qYVm3y6MWg?session=0&fife https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/lkc7mkk6brsl2ta0lol6ia8o2k/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqlRvGdQYcuJjDdETxZKPhBXf6qztenKtGohx98MO0asKpJTJHBHD_uzx_3ei4KN_NCZMVvE4YsJTBvDrwPIP99SCj95Ka4Nf4BYIYX_KHCJ25Or4N9MII7mC2p_eNick-QzGK0nM215LaGXct0GAH1MvxcDlh0Aiyv9fmzPwNaJiKxQBwGDz-oVnwvQA6uD3fBDYi63fYDv9X7udPINogdWqRmeGfuPNZz8m6tMZfYUlGa6W1-EmslB5PGVoQuf8_DcykYEfZY3M2yUZKWQALinOt8YA?session=0&fife https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/pkr5dh428koe5fqom3j1t56rd8/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoZdkvpAxNo3_IC59WXJurw2LSUbYOY9M80jBjwMRPctFYUv97zoNxaNjlMz-Q3Q6BLwEoPVfO74Vw5l6_6hLF8m9vp-LuPNrInltIr6FxWtqZDGEKSUR0mZfNbq_ZRU6R265zqE4fK63H0AbXzfIydwxEu_JJ8kM1sODbIPOgZuIhAgqnHLkfaMM0Snmqt5J8duivQQud58pWvgVYUv63evzCek1zYiwKNhAyvPW_kcfWHLGjnJYplwE7SsAW_bRKDdQhwDtxkWgbeejTSqTXSJN2sKA?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/g34l32kn8o126b3qu3pdn7dhro/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoBlBeeLfv6lLWCbVeA8hD5FlHvsn2zwWdKZNbeDfDpU9nCyW5X5PDjBqND1yeZVKZGGM4wyzhiik8dx5ULYxc2u0wTFInHOs9ybIbKhcBotD6aVuWtazHw1l-QMGEMkmhGbI2CEySh6TLT8fkNhZNoXux_1Xw4Z_zFyYG47gRpqdUEqeD838cA87voR25B1IbXfh4Jnwn_XrxOHQsO2sMdDYYe57YgOmtfHf3lw_dM2Kyit362mtNhmwindut4X-w8pYSQEBtFv07na0k-qTKfIcTjuQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5565579,57.1757714,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Танец</name>
+        <description><![CDATA[<img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/dkpu0qo1dl6ae096pmq2ma8bfg/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrBZ25-1f9MRD0x2Bl52rV0LDjJyrKSDVTvhRLgOfJz9N-iJfIxlxqdwVGUL869GN5gp2jmME2ERb4h24DpypHMF4srBxXeE2jEgk4_qAR3ZJJjD9KwSAlm1wMyaq-G81biTGtBspLPDshAqcfYpKMbTMhWS3EcMahiROn8uvKz7bHUUUj5PnmZFs16Yph_Hp0GeDT2MzZ9qBI_CWi0O3CUIGUzUYoIAZqdjG-OHEBbBxqfnscyx4P9cxzFMa6ajDWr_p6ccffePnd6AS7hUGessONGMg?session=0&fife" height="200" width="auto" /><br><br>Скоро здесь появится арт:<br>"Танец" Изергина Александра]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/dkpu0qo1dl6ae096pmq2ma8bfg/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrBZ25-1f9MRD0x2Bl52rV0LDjJyrKSDVTvhRLgOfJz9N-iJfIxlxqdwVGUL869GN5gp2jmME2ERb4h24DpypHMF4srBxXeE2jEgk4_qAR3ZJJjD9KwSAlm1wMyaq-G81biTGtBspLPDshAqcfYpKMbTMhWS3EcMahiROn8uvKz7bHUUUj5PnmZFs16Yph_Hp0GeDT2MzZ9qBI_CWi0O3CUIGUzUYoIAZqdjG-OHEBbBxqfnscyx4P9cxzFMa6ajDWr_p6ccffePnd6AS7hUGessONGMg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.585863,57.1382653,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eye of nature</name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/kfo3njrbavh1i1hmflhmson9sc/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrvr5wL3FxCRyvgmijWN9G4GFiPgu8iJJ6F135VptHn67J_FiAV8B7AwHH7GSK9LRsMBHUPODVzXMlYTu8VuYVw_pYGDrY8SiD2ZPxRwMzM2MEPmFx9ITgelXqdYifR1WRqMXp2L_rJ_zQxWbDD9-IC9ySIcu8Oo1tpsZHgopCrmwZrcQ3-tnHNvu9dgyFCbg2sSr9_Nh7siPcpSpO20nKxzQ_1z59SWb3c95vX87RPWsu5aK3exw4jXUvcwSHltlq7eS9tkX7EK_ENy3wv0FNdmnwKQg?session=0&fife" height="200" width="auto" /><br><br>"Eye of nature" Гасановой Лейлы и Ловка Антона<br><br>Сегодня за пару кликов можно увидеть чудеса света, найти друзей, обучиться новой профессии, управлять роботами, узнать геопозицию родных или показать всему миру, как мило спит твой кот. Просто достаешь телефон и весь мир на ладони. Но не стоит забывать, что в этот момент ты и сам на виду у всего мира. <br><br><img src="https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/hevarp7i58b4knhk3g0bh5jen4/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrXwOyn7pI4ij0zM8nOkgAbOHJZ3Mfq904OuXRhNUHUwvWZAApXfs9hpd-jzQM7S6VQy_6rIyLi2pi_aOAB1qT-0UNG560xVazlU5-FpBjisjcG95r--opXJckk4dMEwBUrRLMIx6UKY7zNb-db2QjBzdymOKrKWtdp1OnUoPQzBVZTiZgPsVqgH8X21bFPFghCjesj-N1AiYC-Un3JrcC-xcQIZtL-TdXC8D0WUKLEDTaUyOraLloEppYZFV10uFlpWECeBjOrcumdgYeqgi3q0-sbxw?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/2fv8dlqp50c4om0anusmoaugbc/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpMuNTdDJziuGS87ShBiPPJLqP2oRrRFtQ0g3tQHpuleuTzu0w3bqc0FtDVJuinSlo05J5nmaJOpk-xUx38qEKjSJ9yss2xYv_75xhJ0Mhn8EbeMM3GaMIdIwyQlQfaes0o_sFC5zWwx5QhOekOlTts9dm5AlPUZPnPiyxSx9wvZQFWUkMLbuXXrkr-voDGOO3vGyGAvzLQlJA9SBurpGf891NTW97FaSiM7k2ijH6t9sEXHhmbMUhtYA0uBZ1I5egQIa8xOhdaag5ZdBc_evH9rrdVFg?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1502-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/kfo3njrbavh1i1hmflhmson9sc/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrvr5wL3FxCRyvgmijWN9G4GFiPgu8iJJ6F135VptHn67J_FiAV8B7AwHH7GSK9LRsMBHUPODVzXMlYTu8VuYVw_pYGDrY8SiD2ZPxRwMzM2MEPmFx9ITgelXqdYifR1WRqMXp2L_rJ_zQxWbDD9-IC9ySIcu8Oo1tpsZHgopCrmwZrcQ3-tnHNvu9dgyFCbg2sSr9_Nh7siPcpSpO20nKxzQ_1z59SWb3c95vX87RPWsu5aK3exw4jXUvcwSHltlq7eS9tkX7EK_ENy3wv0FNdmnwKQg?session=0&fife https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/hevarp7i58b4knhk3g0bh5jen4/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrXwOyn7pI4ij0zM8nOkgAbOHJZ3Mfq904OuXRhNUHUwvWZAApXfs9hpd-jzQM7S6VQy_6rIyLi2pi_aOAB1qT-0UNG560xVazlU5-FpBjisjcG95r--opXJckk4dMEwBUrRLMIx6UKY7zNb-db2QjBzdymOKrKWtdp1OnUoPQzBVZTiZgPsVqgH8X21bFPFghCjesj-N1AiYC-Un3JrcC-xcQIZtL-TdXC8D0WUKLEDTaUyOraLloEppYZFV10uFlpWECeBjOrcumdgYeqgi3q0-sbxw?session=0&fife https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/2fv8dlqp50c4om0anusmoaugbc/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpMuNTdDJziuGS87ShBiPPJLqP2oRrRFtQ0g3tQHpuleuTzu0w3bqc0FtDVJuinSlo05J5nmaJOpk-xUx38qEKjSJ9yss2xYv_75xhJ0Mhn8EbeMM3GaMIdIwyQlQfaes0o_sFC5zWwx5QhOekOlTts9dm5AlPUZPnPiyxSx9wvZQFWUkMLbuXXrkr-voDGOO3vGyGAvzLQlJA9SBurpGf891NTW97FaSiM7k2ijH6t9sEXHhmbMUhtYA0uBZ1I5egQIa8xOhdaag5ZdBc_evH9rrdVFg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5286402,57.1506312,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Конь</name>
+        <description><![CDATA[<img src="https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/u2je5cb7a9guhppju6dn59ab30/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrZZVKled0WE6r5OUyJJQ_Y_tXFtruFmRt_HUcdXvJtfIM70kAoKr8U5awDD0IBx44jih6SkdMDCTCO0WvTZoMmCl63GbTmNAbZ7UIXw7QilMPgOTbNq1l7UnhenDPM1OCQNB8M6j9DoFKdxrELQ0NdoMn9xi2o3NQQkYqir2GIY2kmRQ7S8Xapv9vhPWCMOvDNbDxLYvaF4KUIcw9fwqkfqH11AEfSC3frCRKUU3PLuHx4StyZLqzCSijLnbVzPHEkuhlSVp6rTpxd-jvqlOqchqsDmA?session=0&fife" height="200" width="auto" /><br><br>"Конь" Саши Степанова<br><br>В жизни «сделать ход конем» — значит использовать хитрый и эффективный приём для достижения цели. Но в уличном искусстве не все так однозначно. Кажется, шахматный конь просто смеется над твоими ходами.<br><br><img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/0ghsu15dm8e1g8nfl6jq5fh52c/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpgxYz_g7kZLf5CRRKhj10OhjlYbZhILs-obLrR7WwGykF-AeTNQMBkknyWkvWS3IDyDAl1DinpKEhUxpk0b_FMqbZ1fL2hqkE1ZlZPyWcnMkrbBUeFL2xwwgZKKKgIcKvt28YYeZITOa6MYjsU9_w07DmEJsp9nJFTMUa_FH2HgZYp7E_bp5MEI9jhXy7dIoqrKMppTozQ8n2b41hGmVfhbOwjz4AFQiJuMpb92gz5Qbmht3XIwv6O7LM-_piYRZ_zjo6MHyxV_8QSDaaGMKxn8G5PeA?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/u2je5cb7a9guhppju6dn59ab30/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrZZVKled0WE6r5OUyJJQ_Y_tXFtruFmRt_HUcdXvJtfIM70kAoKr8U5awDD0IBx44jih6SkdMDCTCO0WvTZoMmCl63GbTmNAbZ7UIXw7QilMPgOTbNq1l7UnhenDPM1OCQNB8M6j9DoFKdxrELQ0NdoMn9xi2o3NQQkYqir2GIY2kmRQ7S8Xapv9vhPWCMOvDNbDxLYvaF4KUIcw9fwqkfqH11AEfSC3frCRKUU3PLuHx4StyZLqzCSijLnbVzPHEkuhlSVp6rTpxd-jvqlOqchqsDmA?session=0&fife https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/0ghsu15dm8e1g8nfl6jq5fh52c/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpgxYz_g7kZLf5CRRKhj10OhjlYbZhILs-obLrR7WwGykF-AeTNQMBkknyWkvWS3IDyDAl1DinpKEhUxpk0b_FMqbZ1fL2hqkE1ZlZPyWcnMkrbBUeFL2xwwgZKKKgIcKvt28YYeZITOa6MYjsU9_w07DmEJsp9nJFTMUa_FH2HgZYp7E_bp5MEI9jhXy7dIoqrKMppTozQ8n2b41hGmVfhbOwjz4AFQiJuMpb92gz5Qbmht3XIwv6O7LM-_piYRZ_zjo6MHyxV_8QSDaaGMKxn8G5PeA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5500524,57.1575495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Эмоциональная раздробленность</name>
+        <description><![CDATA[<img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/boq00egkbtf6r9gpe818st6c20/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpDmF0tOUWSNw5INmoZHEDHN0jvQh9FbjrxxbnSY7HsX08yCmYVrM0Eb5KAPwgAlorFJH9xdepdEEUUwkfax5YNOIQ8vG2ONHDOvWX0C5THUAaWLXOEuPSioEuilv3J7RuarDn484QmIApafg34X5f4MySg27AFez1yhyDvamKuaty5GKdqw0Wm5JcxedjfggRNhhXZpOBYrTD4j_rH0cqd5Rfn27__2h8Uv5sLL6VxQ6vJ3a6pYRTcs_GdIbMOWwMOyHQXvNFFwAsibD98fL7GHet8tQ?session=0&fife" height="200" width="auto" /><br><br>"Эмоциональная раздробленность" Влада Лазарева которую каждый из нас держит в рамках социальной жизни, показывая только выгодное лицо.]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/boq00egkbtf6r9gpe818st6c20/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpDmF0tOUWSNw5INmoZHEDHN0jvQh9FbjrxxbnSY7HsX08yCmYVrM0Eb5KAPwgAlorFJH9xdepdEEUUwkfax5YNOIQ8vG2ONHDOvWX0C5THUAaWLXOEuPSioEuilv3J7RuarDn484QmIApafg34X5f4MySg27AFez1yhyDvamKuaty5GKdqw0Wm5JcxedjfggRNhhXZpOBYrTD4j_rH0cqd5Rfn27__2h8Uv5sLL6VxQ6vJ3a6pYRTcs_GdIbMOWwMOyHQXvNFFwAsibD98fL7GHet8tQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5735040456057,57.113987400017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Алиса</name>
+        <description><![CDATA[<img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/30cosq9eq2otgujbri36hpb1j0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp2FfgEt6_aZey8UXn9qIdarR6igd9O2UqXbdJQElqOcytRQGlmezZQr8hwJsVRe8Rr26oDUFNuXdP1Uozq49ocC5KspxHacAbPIuiHatHleivVz8L6mWMhSaG20xDpNGCOv0jsx-M5uMskcrzaWUFsx_QFAluhdmsUDCw-6VX83DUAf0mpU4bMtJqLZzohPS8MOR_xrDAb2Ux19d3sDnUfOrJ3KtMsi6pUzw5GHTcnyVnpd6HBagTwRZyO-345lacwGcU03_lXoYJjtIYvmrwQQvh-Uw?session=0&fife" height="200" width="auto" /><br><br>"Алиса" Павла Шепеля<br><br>Идея выросла из рисунков на тему «Алисы» трехлетней давности. Сквозная идея всех 4 эскизов — это визуализация того, как мир воображения проникает в нашу действительность.<br><br><img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/tk4u38urbf97v2vjo18qpii53g/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqRGgo_XjFy7i24hkWxFBug7mfvRa3ngwvKzHo-tM_Q3zKLBblqa4A0P71URLfXxNZyDOxKlsMVSqThIChn_X5nTQlx41g5i1QJxRL8MPVjRvdF2MduUPHtQLlp1w9DU6wda9ngVMfDoktNAzcC25dW5BrE9_Q1bjx8w6L8CxF12wJzbpiPBr7RzbZe8Q7OqG2nHYwd_GIGnbYselDA3A-5rQMC73Xie_3n4yll_XrwUlEkTO-6OhIdDHMNfDtv6S41n-edkljclbQNCF8GgvHe3mLgoQ?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/30cosq9eq2otgujbri36hpb1j0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALp2FfgEt6_aZey8UXn9qIdarR6igd9O2UqXbdJQElqOcytRQGlmezZQr8hwJsVRe8Rr26oDUFNuXdP1Uozq49ocC5KspxHacAbPIuiHatHleivVz8L6mWMhSaG20xDpNGCOv0jsx-M5uMskcrzaWUFsx_QFAluhdmsUDCw-6VX83DUAf0mpU4bMtJqLZzohPS8MOR_xrDAb2Ux19d3sDnUfOrJ3KtMsi6pUzw5GHTcnyVnpd6HBagTwRZyO-345lacwGcU03_lXoYJjtIYvmrwQQvh-Uw?session=0&fife https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/tk4u38urbf97v2vjo18qpii53g/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqRGgo_XjFy7i24hkWxFBug7mfvRa3ngwvKzHo-tM_Q3zKLBblqa4A0P71URLfXxNZyDOxKlsMVSqThIChn_X5nTQlx41g5i1QJxRL8MPVjRvdF2MduUPHtQLlp1w9DU6wda9ngVMfDoktNAzcC25dW5BrE9_Q1bjx8w6L8CxF12wJzbpiPBr7RzbZe8Q7OqG2nHYwd_GIGnbYselDA3A-5rQMC73Xie_3n4yll_XrwUlEkTO-6OhIdDHMNfDtv6S41n-edkljclbQNCF8GgvHe3mLgoQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5830789,57.1293484,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Пробуждение</name>
+        <description><![CDATA[<img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/asl02hvndiqvfne194fas6882c/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpzZAMKiCg6OgFMd9cE9FPA_GN-H7PoaOOJdZhEJwU7t3Y7hl3Um4wWreoJXYzdQD4QQJ4ipksCfzSB8YC-IC_yNGbWvmV2Cx6jYS5anrDKoqMMyXKou2PjauElCBf-nP7E87oOs7bxSxhPSh1sHY600F-fyGaN-5fFGL9bYcKhC2DyMERTlBuxbh2nxOXus8Eg2yOBp7kow1aRElOh31qKDOoztwKnaD8JJOcXfa2vAGDGjVtuUCmVBWrM99QElzUqlRrqJ43q6pWhniT1nRUkHFbo_g?session=0&fife" height="200" width="auto" /><br><br>"Пробуждение" Белик Яны<br><br>Эта работа о пробуждении каждого из нас. Чтобы ранним утром, когда мы еще толком не распрощались с мыслями о подушке, не чувствовали себя одинокими. Ведь «утренний тупняк» бывает со всеми.<br><br><img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/qsh8cqcbe4qlh5in28r3tki3d8/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqvWXdQ2uSj1FmTiv0bYECNp6v9HnzXrRjlDFFHQnpB5VUHHrZV-q7UDkDFZA8cAZNu6xT9djtGO9cbMb45AO82WAZcti71otueLSTHS6EgIsK5b2WPLUdKtadKWGbZZmYMTje0dAK8t_hYx0vA7N2exSybbtSL_UJ8AbLKONxmlCpYlcijIVzsLux-r9_jNrvoglme2jEs3xCtJfbJwKlEh6sN-s6jrdGdwQuXjV6OEh6pnZrAU4yDPgynxkyyPOoXZIvkUtTbOvdpnVMaMOHv0RWqgg?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-9C27B0</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/asl02hvndiqvfne194fas6882c/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpzZAMKiCg6OgFMd9cE9FPA_GN-H7PoaOOJdZhEJwU7t3Y7hl3Um4wWreoJXYzdQD4QQJ4ipksCfzSB8YC-IC_yNGbWvmV2Cx6jYS5anrDKoqMMyXKou2PjauElCBf-nP7E87oOs7bxSxhPSh1sHY600F-fyGaN-5fFGL9bYcKhC2DyMERTlBuxbh2nxOXus8Eg2yOBp7kow1aRElOh31qKDOoztwKnaD8JJOcXfa2vAGDGjVtuUCmVBWrM99QElzUqlRrqJ43q6pWhniT1nRUkHFbo_g?session=0&fife https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/qsh8cqcbe4qlh5in28r3tki3d8/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqvWXdQ2uSj1FmTiv0bYECNp6v9HnzXrRjlDFFHQnpB5VUHHrZV-q7UDkDFZA8cAZNu6xT9djtGO9cbMb45AO82WAZcti71otueLSTHS6EgIsK5b2WPLUdKtadKWGbZZmYMTje0dAK8t_hYx0vA7N2exSybbtSL_UJ8AbLKONxmlCpYlcijIVzsLux-r9_jNrvoglme2jEs3xCtJfbJwKlEh6sN-s6jrdGdwQuXjV6OEh6pnZrAU4yDPgynxkyyPOoXZIvkUtTbOvdpnVMaMOHv0RWqgg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.6048262,57.1081932,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Номинация "Малые формы" Шкафы Ростелеком 115х145]]></name>
+      <Placemark>
+        <name>Тропические сны</name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/kudbar5gp0pgqii5mi8orh7n1k/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpQ7cVcrmSmX2z3uhTeg52KJEuTwfaz94CWsgDDGrydyDACtmV67gvxh-uVlLFtG6zFfyGSF49apdEI3eg59y7oT1FEmqJe7Kku9h3uZl4gT_tHjXpZBJCRG4h6Nu0S5orqSowfVG6BT6-A7k_w1rCOm4WZLeMIwUlTNEzsrlTTYgkJo7oeP8UCZ_q8OeRI1Coep89ct-yjw3n5aI7RTF4KFu9d-xW53mCaN6nD_erDfzIZgYdbUKgoR-Kh7eHXEccAJ-nPYrWuUDsP-xJr_j8ZFZmioA?session=0&fife" height="200" width="auto" /><br><br>"Тропические сны" Бабичевой Светланы<br><br>Это мой первый проект и я захотела сделать его ярким и нетипичным. Когда еще увидишь в Сибири столько тропических оттенков, цветов? А теперь они здесь есть.<br><br><img src="https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4dqn80254c6s8sal62rn0p48ns/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALo0Plv6Zvw06Qyvp2o5hw168hXHigjdz2tzEZ6MwA753Wyzs1JHoVAIumQplRflfgzCDOLPPeoYItqeDtXKUtxjTiVTmsiR_-9OWm8IhybhEHDT7UsjPBiaI99eXYBdbgcgLzIStxjrD-xHeZmo1P2AGEpIv6HiH35l5_G2Jq9G94ccgXZ5PkBfuaXyFpfSSFYZbBTI3bW80WG_2RCh-bkvKm5sNrkKTIRMxiAD80--2wa3AfR93uEbGZH2V0qvv41dvbNpBnMrrPjNJUvr64xq79RXhA?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/kudbar5gp0pgqii5mi8orh7n1k/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpQ7cVcrmSmX2z3uhTeg52KJEuTwfaz94CWsgDDGrydyDACtmV67gvxh-uVlLFtG6zFfyGSF49apdEI3eg59y7oT1FEmqJe7Kku9h3uZl4gT_tHjXpZBJCRG4h6Nu0S5orqSowfVG6BT6-A7k_w1rCOm4WZLeMIwUlTNEzsrlTTYgkJo7oeP8UCZ_q8OeRI1Coep89ct-yjw3n5aI7RTF4KFu9d-xW53mCaN6nD_erDfzIZgYdbUKgoR-Kh7eHXEccAJ-nPYrWuUDsP-xJr_j8ZFZmioA?session=0&fife https://doc-08-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/4dqn80254c6s8sal62rn0p48ns/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALo0Plv6Zvw06Qyvp2o5hw168hXHigjdz2tzEZ6MwA753Wyzs1JHoVAIumQplRflfgzCDOLPPeoYItqeDtXKUtxjTiVTmsiR_-9OWm8IhybhEHDT7UsjPBiaI99eXYBdbgcgLzIStxjrD-xHeZmo1P2AGEpIv6HiH35l5_G2Jq9G94ccgXZ5PkBfuaXyFpfSSFYZbBTI3bW80WG_2RCh-bkvKm5sNrkKTIRMxiAD80--2wa3AfR93uEbGZH2V0qvv41dvbNpBnMrrPjNJUvr64xq79RXhA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.525219,57.161129,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Нежность</name>
+        <description><![CDATA[<img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/sfrc1e5602cegt70o0jo69c1ec/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALon37gjkdoDCP5l2xKgaal9toOP1_KidAPFUOyGbLX-2pklanPYmj_CvyQrw6PmKmSSuGEWHcMu1cQZ45vNWV1YvPIoDLAaRkw9B9l-eJgrJ0WTH6XbIPzhbuy5ZVBD2WH3tu6v77wCkjhkWakI_L7OTwNY6NSmJn8tXYshXZjo8hFR-83cXptj-7WaMCBD-QqWRg7YMJoHtDTL1Pf0kaHYDaNrABYcb2gGfyU2NXcNeSJtIBch1K-pKoPQRSuMHxFTrsUfESZF0ZFtKJYObV6DrWnPOQ?session=0&fife" height="200" width="auto" /><br><br>"Нежность" Главатских Алёны<br><br>Главный источник вдохновения — картина «The Daughter's Portrait» художницы Элизабет Виже-Лебрен. Это портрет ее дочери, меня зацепила нежность в его исполнении. Но главная причина, конечно, в том, что картина похожа на мем. Можно сказать, что это мем 18 века в графическом стиле.<br><br><img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/fftnsqi7eso91f5r7hvcebsrp4/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpRVfeTYPyXc5_CaG8RwCtg2maWFgUmyWD7-BZOZkNDCDzuBsU75jBnkYB-75tFUML5j5f_16z-3zZcRAnznXBHjN6_OdI49GyIQIvLPKL8IPzpJp5bo2V8rHNJhgl8hN01-SnZcuTLwLlzF8Kpo2aviBrnzVZDZdClYsHE8S9Yp4rCJxOfSGMT-Yd2Tla8fnnLvnIjX0kZCs0VsAKcyC4jdkoEBmiGoQpxWtGO0fJOcpvwnUyFtLBlT92VjOI81hPrZCRqaGl4rsZTYOwqNk9NvN8WNA?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/sfrc1e5602cegt70o0jo69c1ec/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALon37gjkdoDCP5l2xKgaal9toOP1_KidAPFUOyGbLX-2pklanPYmj_CvyQrw6PmKmSSuGEWHcMu1cQZ45vNWV1YvPIoDLAaRkw9B9l-eJgrJ0WTH6XbIPzhbuy5ZVBD2WH3tu6v77wCkjhkWakI_L7OTwNY6NSmJn8tXYshXZjo8hFR-83cXptj-7WaMCBD-QqWRg7YMJoHtDTL1Pf0kaHYDaNrABYcb2gGfyU2NXcNeSJtIBch1K-pKoPQRSuMHxFTrsUfESZF0ZFtKJYObV6DrWnPOQ?session=0&fife https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/fftnsqi7eso91f5r7hvcebsrp4/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpRVfeTYPyXc5_CaG8RwCtg2maWFgUmyWD7-BZOZkNDCDzuBsU75jBnkYB-75tFUML5j5f_16z-3zZcRAnznXBHjN6_OdI49GyIQIvLPKL8IPzpJp5bo2V8rHNJhgl8hN01-SnZcuTLwLlzF8Kpo2aviBrnzVZDZdClYsHE8S9Yp4rCJxOfSGMT-Yd2Tla8fnnLvnIjX0kZCs0VsAKcyC4jdkoEBmiGoQpxWtGO0fJOcpvwnUyFtLBlT92VjOI81hPrZCRqaGl4rsZTYOwqNk9NvN8WNA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5444658,57.1510881,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Градация
+</name>
+        <description><![CDATA[<img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/0f2b9bpcduta8dn9q6gt2ejqd0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqTQhFtTq3fHXHvZry8r5HZurVSYOosQhJ6ol1oceF46b6bIu4yiNfSnkA4m47OenP2xNSiKXe2NB31kNOf0H7SCIurky7K63B-2DfpQ_uJOGzl-QY7094fLKTGVV9JBrU_Jt7eH91IQrx7CkkMMQb9Qgc4_OSl7i4FLaeR7IxC8OpAeCcwQrsVLmS1HjXy1PnfxEblLKtgucRsSzcD3gJ_sbwG6zlri3Hqmqkpyatyvi0k97fjW08ghAoo5KUklMzkqwn2fvnziJKw9l5zxzChB_B5vA?session=0&fife" height="200" width="auto" /><br><br>"Градация" Анастасии Овечкиной<br><br>Здесь изображена иллюзия рельефной поверхности объекта. Я хотела добавить в городскую среду эффектов, гармонично вписанных в окружающее пространство.<br><br><img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/pbd7tav9kmcp6ci9i72bbn3jps/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrRl6X1X8Zk1FIzDUJYKQT-VU1FRqFzwS2cS4sZZbHkrQCd8IMNECRecYGbcRi5Mq5xJe32qNXd5mepktWi3rjB_orAIFADcqZsagpaidPkMwtJxhv-sewLrVIWw5ErAU9KB5M7A8ciB-oCux6d6fze-IMOYRRd9yWr5qoJAcVd3XaOcpa4AGXGWgjay18IhWRcoeb5nqiQ9ymx4mDafv3fStq-MSZ2U9bRjA47-wZ-VqtPhXxAA7Ior6dY2C3VdDXfAvJyb8fI3rp6gIUIRtDYqYO02w?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/0f2b9bpcduta8dn9q6gt2ejqd0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqTQhFtTq3fHXHvZry8r5HZurVSYOosQhJ6ol1oceF46b6bIu4yiNfSnkA4m47OenP2xNSiKXe2NB31kNOf0H7SCIurky7K63B-2DfpQ_uJOGzl-QY7094fLKTGVV9JBrU_Jt7eH91IQrx7CkkMMQb9Qgc4_OSl7i4FLaeR7IxC8OpAeCcwQrsVLmS1HjXy1PnfxEblLKtgucRsSzcD3gJ_sbwG6zlri3Hqmqkpyatyvi0k97fjW08ghAoo5KUklMzkqwn2fvnziJKw9l5zxzChB_B5vA?session=0&fife https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/pbd7tav9kmcp6ci9i72bbn3jps/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrRl6X1X8Zk1FIzDUJYKQT-VU1FRqFzwS2cS4sZZbHkrQCd8IMNECRecYGbcRi5Mq5xJe32qNXd5mepktWi3rjB_orAIFADcqZsagpaidPkMwtJxhv-sewLrVIWw5ErAU9KB5M7A8ciB-oCux6d6fze-IMOYRRd9yWr5qoJAcVd3XaOcpa4AGXGWgjay18IhWRcoeb5nqiQ9ymx4mDafv3fStq-MSZ2U9bRjA47-wZ-VqtPhXxAA7Ior6dY2C3VdDXfAvJyb8fI3rp6gIUIRtDYqYO02w?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.582639,57.1495808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Весеннее чувство
+</name>
+        <description><![CDATA[<img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/q4dkqi88cd250mlo0jt0krre8k/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALodYiNY59H437qLXNdc_k_zgOa9_2rrD75AezyJ6RPooaDGr6WkziD9S57bhwt3phAC-ZBp2pErBUuP_hPiMvMJaxQgA8i9R_Aa5_Eoo3IdYJtF8xPEdPsLnJlR1MKbVXCPnpIaAgrOfHiK9ELzA3ayXcRFOAjlLjFP5XrFdVir_WC2YLdd9v52wdvbmhERj4OnncTz_BwkScSiUv0fn4Nc9NlM6bcDzLmsVGm3OYmcYA2QvxCDGM39K0Bby40XhsP5SptFRQhEr9rurHGhPLMlhsILUA?session=0&fife" height="200" width="auto" /><br><br>"Весеннее чувство"  Постниковой Ольги<br><br>Эта работа для тюменцев, которым зима приносит ощутимые трудности — холод, мороз, хандру. Арт поможет вспомнить про теплые дни.<br><br><img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/3vml6pe25n63i014kkvrn3rqfk/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALouCkpOH24cRweHW8tJsUVDtcLmEbqSOb0i97HJQTu0kDbmqsNzQ2i3GKBgwnkRIg1iADWSwZd9TVW90fAKHwwv2YhREKNVorTvhV1201dRavXOgm4IcE_LM6kikoqnFptX2U4g2Um4dbDAe0ImdfgzQEDPq6-JM8fNIHAo_1AswuEkVxmMx4mgOiX0GdktP27vWyTpYFfxC1KCooNxde0DDTM_pgjLtLQyfSLXKhlp4JSsRl6vLHK-vo3JPCgW6UShrZsVNbWi813L_0PYw7LFz_3WTw?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1502-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/q4dkqi88cd250mlo0jt0krre8k/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALodYiNY59H437qLXNdc_k_zgOa9_2rrD75AezyJ6RPooaDGr6WkziD9S57bhwt3phAC-ZBp2pErBUuP_hPiMvMJaxQgA8i9R_Aa5_Eoo3IdYJtF8xPEdPsLnJlR1MKbVXCPnpIaAgrOfHiK9ELzA3ayXcRFOAjlLjFP5XrFdVir_WC2YLdd9v52wdvbmhERj4OnncTz_BwkScSiUv0fn4Nc9NlM6bcDzLmsVGm3OYmcYA2QvxCDGM39K0Bby40XhsP5SptFRQhEr9rurHGhPLMlhsILUA?session=0&fife https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/3vml6pe25n63i014kkvrn3rqfk/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALouCkpOH24cRweHW8tJsUVDtcLmEbqSOb0i97HJQTu0kDbmqsNzQ2i3GKBgwnkRIg1iADWSwZd9TVW90fAKHwwv2YhREKNVorTvhV1201dRavXOgm4IcE_LM6kikoqnFptX2U4g2Um4dbDAe0ImdfgzQEDPq6-JM8fNIHAo_1AswuEkVxmMx4mgOiX0GdktP27vWyTpYFfxC1KCooNxde0DDTM_pgjLtLQyfSLXKhlp4JSsRl6vLHK-vo3JPCgW6UShrZsVNbWi813L_0PYw7LFz_3WTw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5716956,57.1397934,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Неожиданный звонок
+</name>
+        <description><![CDATA[<img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/sp62vm2suokljr5tibl3kkikes/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoklXW57GHB35p-HDl28hBsImCsXVJmN6RSZKsEHtp_rgq5a3hA8--AZ6bFGVnUzckbi0G0dOWM4uR2FokRHhRTlbQVmgm8nCTQNeGw4O1RmyFGa68Zn9646pahwNh7fYJq_0dlRoSeyDi1zXePrNZ73bnCZeZX5ixZR0lwDzYV-7elXr4XJnp9az9nh8rRQtQ_2J0Xi4spyFdJ2Y64OhEhdNyHw1w1C-McT5T20nctC98QkI3CoMNN6SsNtYAd4uoA7pKoaT8YcULn5AEL-nnWr1KgwA?session=0&fife" height="200" width="auto" /><br><br>Неожиданный звонок Контовой Полины<br><br>Добрый рисунок о звонках, коммуникации и мышах, отчаянно противостоящих коту]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/sp62vm2suokljr5tibl3kkikes/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoklXW57GHB35p-HDl28hBsImCsXVJmN6RSZKsEHtp_rgq5a3hA8--AZ6bFGVnUzckbi0G0dOWM4uR2FokRHhRTlbQVmgm8nCTQNeGw4O1RmyFGa68Zn9646pahwNh7fYJq_0dlRoSeyDi1zXePrNZ73bnCZeZX5ixZR0lwDzYV-7elXr4XJnp9az9nh8rRQtQ_2J0Xi4spyFdJ2Y64OhEhdNyHw1w1C-McT5T20nctC98QkI3CoMNN6SsNtYAd4uoA7pKoaT8YcULn5AEL-nnWr1KgwA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5759227,57.1339745,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Звуковая карта</name>
+        <description><![CDATA[<img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/76ovk6f1b8qdevaoebres4pdgg/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoN-nU0vMoYQjBjRwR2mgcnpy_e9wPxZoGSxO3dM2ij2-4iXV7lNVKkHxPblOtzr5ZjgN6AZ1DZqEkYcrOaY8Ih1VEe5y1eL8cnex9djG4LSZ0z18oCz9l76B1DxxQXhgaGZvKVu0dEWvlcwdeFin-kphL_YqQ4K-6RXTTGEXsWRYNCOi9iow-fLHlBDFx-B0sm5cvQbD79PJG6bpiAfh5KL7vKywhe95M1tciq4gjyZ8Eou8alqXp8r9hKf7OJwy3A-tcRzdhmm4oe8hE3pSctnBSEdg?session=0&fife" height="200" width="auto" /><br><br>"Звуковая карта" Старовойтова Ивана<br><br>Изначально не было идеи, она появилась в процессе работы. Связь городских звуков натолкнула на мысль о создании именно звуковой карты. Своим рисунком пытаюсь привлечь внимание к проблеме шумового загрязнения. Место создания соответствует концепции. Оно достаточно оживленное и динамичное, наполненное городскими шумами. <br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/sp18cecpep2d11jnpo4p76olr4/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpM3ZLeZ4cJPJeuR2es9A4NiRjWbbORDd0c4SbKCMJED_St5IB4RjajNGJlwq_9S9i8qzZdJJYFVA5YIctXUtghgWY6rtjRvZ9NGnEPSvN9Yjt3c5F-2_b_xtakq_Ww1toCij7gKxQQgfN-GksKYSrPUR4mkAumPzohbXP6x8YZb9eYH1QVwahQQ-zjfP93NCkJpKuCBij5QITuZ9OZc1RrTuSpzjH1Vlli52i7xhSbpzYeSfiMneQdSf3qAHm6hVTr0HkqOTv_oIz-vwKiHhXVzvOl3Q?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/76ovk6f1b8qdevaoebres4pdgg/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoN-nU0vMoYQjBjRwR2mgcnpy_e9wPxZoGSxO3dM2ij2-4iXV7lNVKkHxPblOtzr5ZjgN6AZ1DZqEkYcrOaY8Ih1VEe5y1eL8cnex9djG4LSZ0z18oCz9l76B1DxxQXhgaGZvKVu0dEWvlcwdeFin-kphL_YqQ4K-6RXTTGEXsWRYNCOi9iow-fLHlBDFx-B0sm5cvQbD79PJG6bpiAfh5KL7vKywhe95M1tciq4gjyZ8Eou8alqXp8r9hKf7OJwy3A-tcRzdhmm4oe8hE3pSctnBSEdg?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/sp18cecpep2d11jnpo4p76olr4/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpM3ZLeZ4cJPJeuR2es9A4NiRjWbbORDd0c4SbKCMJED_St5IB4RjajNGJlwq_9S9i8qzZdJJYFVA5YIctXUtghgWY6rtjRvZ9NGnEPSvN9Yjt3c5F-2_b_xtakq_Ww1toCij7gKxQQgfN-GksKYSrPUR4mkAumPzohbXP6x8YZb9eYH1QVwahQQ-zjfP93NCkJpKuCBij5QITuZ9OZc1RrTuSpzjH1Vlli52i7xhSbpzYeSfiMneQdSf3qAHm6hVTr0HkqOTv_oIz-vwKiHhXVzvOl3Q?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5382525,57.1544741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Фрида</name>
+        <description><![CDATA[<img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/bp0rtp2a5d2lfa7cqtp1hc1360/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoxV-LCtrBP8LkRFc-9ydKVnlWOPQXZCFoLvI38-CkTVz0gnGsu9DubM19g6BvZ3tZ-h9hPOBvWoSeXkRW94VBkdHrkXn_lowrC1dbzpqeSMaWBAs_1IZ8qjlajxXDDYZEbd1UuJn_HfY9RIJ5bx9t1kPwxcpes7Ba5Ebof6WeJrQ2sIdEMSCKbE0hQ2Gipi4UdvEK5UDDcSiPx65N87bPm_w1kLSIf7vxEhWfjT18d2vfg9plEeIS0JJxNRxBwsCOIFkZJm_KarmtFYa75vG6Nop6fOA?session=0&fife" height="200" width="auto" /><br><br>Работа "Фрида" Алёны Козиол<br><br>Работа стала символом взаимодействия двух искусств-изобразительного и театрального, где связующее звено - персона Фриды Кало. Ее биография была переработана и легла в основу постановки в спектакля «Фрида: спектр независимости». Алена хорошо «знакома» с Фридой, она прожила в Мехико один год. «Эта яркая личность по праву заслуживает внимания. Её творчество искренне, а такому жизнелюбию вопреки всем горестям, выпавшим на её судьбу, нам стоит поучиться», - делится художница.]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/bp0rtp2a5d2lfa7cqtp1hc1360/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoxV-LCtrBP8LkRFc-9ydKVnlWOPQXZCFoLvI38-CkTVz0gnGsu9DubM19g6BvZ3tZ-h9hPOBvWoSeXkRW94VBkdHrkXn_lowrC1dbzpqeSMaWBAs_1IZ8qjlajxXDDYZEbd1UuJn_HfY9RIJ5bx9t1kPwxcpes7Ba5Ebof6WeJrQ2sIdEMSCKbE0hQ2Gipi4UdvEK5UDDcSiPx65N87bPm_w1kLSIf7vxEhWfjT18d2vfg9plEeIS0JJxNRxBwsCOIFkZJm_KarmtFYa75vG6Nop6fOA?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5582738,57.1442844,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Эхо войны</name>
+        <description><![CDATA[<img src="https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/dvvgqj5juh8ub93invuinpfo2s/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALo_lBbY-x2Ot9sfnmcSrtdbq3JY3cBiAdBOnz88KfQGPWwV5r-FyvROM00N4Em_eKXUX2LLLmODeaNY8j7-hN2HOAC_SraKjriFhvBE0wOaUJyp0BaPAjrJO9M6YU57NWzKIyA8EpT23i2C4RTOTYSeYWbxtN-KJSWGZP12VwbHKADm_QnW74cQH0ShXD2D0KMVuvgaz29nLRMv9gVUfAnDtIhcQ6BmCkoyEv7GSE1vTPNX_azDmQneqQtP1QCbnpM47ysSl3yxZ_kjMXGRP8yIzq_cyw?session=0&fife" height="200" width="auto" /><br><br>Работа Анищенко Антона "Эхо войны"<br><br>Дети символизируют будущее, как единственное возможное.Волны сделаны по разному, намекая на всемирную проблему. В центре работы Ржавая атомная бомба, которую прибило к берегу. Каменный пляж волны и космос создают атмосферу полного распада.<br><br>ул. Володарского, 49<br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/abvh3s4mlkd4e1b2qg0oaslep4/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALry1AHybm-Pa5ps_Sf7iyH0ekAq52j8nYEUuxb3Ik6qq9OxNWqOy9xZNsJc3AASoUZraRSj7OeFKAt2xRxNB_vARIHHCo3dMuuUN8yCq0AOWiPN3bvbkiLtEYxxnaeQKrskiC_B43uLUVb0QiHXBnTzslMiBJ0HDjZS9XiaV2NhZ67BJCvuTAW5D9YcT7QSI9tu7eN0PEWSV8L_QJTAxAY_2IjAVNOoCWDva9ymFNSK0hfOYp4rNKNHQJjp7B3ZpE8bMNqkK5lSI3wpl_GBkI6vZFnnjw?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-04-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/dvvgqj5juh8ub93invuinpfo2s/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALo_lBbY-x2Ot9sfnmcSrtdbq3JY3cBiAdBOnz88KfQGPWwV5r-FyvROM00N4Em_eKXUX2LLLmODeaNY8j7-hN2HOAC_SraKjriFhvBE0wOaUJyp0BaPAjrJO9M6YU57NWzKIyA8EpT23i2C4RTOTYSeYWbxtN-KJSWGZP12VwbHKADm_QnW74cQH0ShXD2D0KMVuvgaz29nLRMv9gVUfAnDtIhcQ6BmCkoyEv7GSE1vTPNX_azDmQneqQtP1QCbnpM47ysSl3yxZ_kjMXGRP8yIzq_cyw?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/abvh3s4mlkd4e1b2qg0oaslep4/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALry1AHybm-Pa5ps_Sf7iyH0ekAq52j8nYEUuxb3Ik6qq9OxNWqOy9xZNsJc3AASoUZraRSj7OeFKAt2xRxNB_vARIHHCo3dMuuUN8yCq0AOWiPN3bvbkiLtEYxxnaeQKrskiC_B43uLUVb0QiHXBnTzslMiBJ0HDjZS9XiaV2NhZ67BJCvuTAW5D9YcT7QSI9tu7eN0PEWSV8L_QJTAxAY_2IjAVNOoCWDva9ymFNSK0hfOYp4rNKNHQJjp7B3ZpE8bMNqkK5lSI3wpl_GBkI6vZFnnjw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.545178,57.15289,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Принять?Отклонить? (1)</name>
+        <description><![CDATA[<img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/pql571h6ctel914cpedlchv6rs/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpQznOHor771pFi2IM3i4iumJeEGaZodTNGsSgMSG1t6nqZbFQEaVW11yC14-CSSqW4WAcTjxaveSZGkdL8PVdb5WcI-BzDgfWxEcKGVwPqYrpqqAg67C4-LbXWq12ZucmlZgKUSa4XJ7rLBnFPLvmJfu67T37av8jVn3wgP_Kydu7OAs2Tw0WuuhzT8cuZKocMlrKB4gD0RwoJU0ckbdd29JUrXQ6Nf1DSFOdyHOH0ZME2yZy8S2ZCBDXXGIlLe2wVs2ilz2CHzZtzecJVS8LKa0-F1w?session=0&fife" height="200" width="auto" /><br><br>Серия Работ Генераловой Камиллы и Горевой Натальи "Принять? Отклонить?"<br><br>Шкафы связи по форме похожи на телефоны. Решили, что изобразим философский звонок, «входящий вызов» самому себе. И отвечать нужно срочно, зарядка скоро сядет.]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/pql571h6ctel914cpedlchv6rs/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpQznOHor771pFi2IM3i4iumJeEGaZodTNGsSgMSG1t6nqZbFQEaVW11yC14-CSSqW4WAcTjxaveSZGkdL8PVdb5WcI-BzDgfWxEcKGVwPqYrpqqAg67C4-LbXWq12ZucmlZgKUSa4XJ7rLBnFPLvmJfu67T37av8jVn3wgP_Kydu7OAs2Tw0WuuhzT8cuZKocMlrKB4gD0RwoJU0ckbdd29JUrXQ6Nf1DSFOdyHOH0ZME2yZy8S2ZCBDXXGIlLe2wVs2ilz2CHzZtzecJVS8LKa0-F1w?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.578326,57.1430573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Принять? Отклонить? (2)</name>
+        <description><![CDATA[<img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/jh1712i37d7ttvdat4d0tb99h0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqRvmgf7WbqEX_O91AubIgKfKDvyLbiMeUgUFj8bgy252ETg6k4SnUodLfC4FhwAcITWIeSY-le2p3x9kDFQ7Ww0c6Z8mo-mcST6FoBX6CvKNDU49lcDZRTTUGeB6ZxVTz5oFFsUGytQ22y1rTp3IvTPfK2eCDuJPywmYoImIg1vfmv8rzf9KvSqc50UgcTNux-X6l05XWf4-NSs9DbPaqJfc_GoPzAlw333ixbTVik1q017RPVd42SqMZFxvFe5Wu_wDHAHf4EKohmzRmfRM5AM-y1og?session=0&fife" height="200" width="auto" /><br><br>Серия Работ Генераловой Камиллы и Горевой Натальи "Принять? Отклонить?"<br><br>Шкафы связи по форме похожи на телефоны. Решили, что изобразим философский звонок, «входящий вызов» самому себе. И отвечать нужно срочно, зарядка скоро сядет.]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/jh1712i37d7ttvdat4d0tb99h0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqRvmgf7WbqEX_O91AubIgKfKDvyLbiMeUgUFj8bgy252ETg6k4SnUodLfC4FhwAcITWIeSY-le2p3x9kDFQ7Ww0c6Z8mo-mcST6FoBX6CvKNDU49lcDZRTTUGeB6ZxVTz5oFFsUGytQ22y1rTp3IvTPfK2eCDuJPywmYoImIg1vfmv8rzf9KvSqc50UgcTNux-X6l05XWf4-NSs9DbPaqJfc_GoPzAlw333ixbTVik1q017RPVd42SqMZFxvFe5Wu_wDHAHf4EKohmzRmfRM5AM-y1og?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5405125,57.1515395,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Принять? Отклонить? (3)</name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/di0hn57hd8be8qnqmm58d9721s/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrVfmvu8UOdTnxg3ixLNHdct6mkGbYX1JLZhxLuZEA3QqLtCf7u--jSVqyR_iBIAACMTbusmKQf8uilVJ92O-bh2Fzon6shoOFWozBExK_ls-RtYgZ1JVXQDELWBwjfOi0S5_1-sQ0fJWv1-cHv6oMWI1qUHOphdw4dLNxls6xT-ceGo6oB9UG-Rk7JIU0kHghF7qgDkc6SelPo3no3gR9-99vX_5lTBD2kdwO1SU995fW_iNJ4ufs6_0tuls_SWT9X72LIq45ZREgSP8IcinuLxETPGg?session=0&fife" height="200" width="auto" /><br><br>Серия Работ Генераловой Камиллы и Горевой Натальи "Принять? Отклонить?"<br><br>Шкафы связи по форме похожи на телефоны. Решили, что изобразим философский звонок, «входящий вызов» самому себе. И отвечать нужно срочно, зарядка скоро сядет.]]></description>
+        <styleUrl>#icon-1899-FF5252</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/di0hn57hd8be8qnqmm58d9721s/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALrVfmvu8UOdTnxg3ixLNHdct6mkGbYX1JLZhxLuZEA3QqLtCf7u--jSVqyR_iBIAACMTbusmKQf8uilVJ92O-bh2Fzon6shoOFWozBExK_ls-RtYgZ1JVXQDELWBwjfOi0S5_1-sQ0fJWv1-cHv6oMWI1qUHOphdw4dLNxls6xT-ceGo6oB9UG-Rk7JIU0kHghF7qgDkc6SelPo3no3gR9-99vX_5lTBD2kdwO1SU995fW_iNJ4ufs6_0tuls_SWT9X72LIq45ZREgSP8IcinuLxETPGg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5772974,57.1417351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Эксперты/работы вне конкурса</name>
+      <Placemark>
+        <name>Взгляд в будущее</name>
+        <description><![CDATA[<img src="https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/tttucs0bhe6u3knvdtnvt8e7b8/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoEUsDKQl4wOBOdm43cPPXIXKEC6Mr-BxK368YRBdobL9gAeLi6r_hyh12GniOX2QxKtR9vTU3grOH5HBhPGlhXmVWM3zkF-Ivhm6NEmZJKeSGQhK2G11GWiODRw1Oi-u1pTXnwJVyXGntLqMnvJJNQ1cCiYQhAG8LoBFqlCgm5nW-DmeytRHASOnP0VB9a7ggbv9gaY99D8sXQP19XKnURyGpPW4pKWJJgvaOWOnV8t5_Rq5pTHs66-SHehockpBhqTwPvsBLhEw7DFONukF8ljgBV6A?session=0&fife" height="200" width="auto" /><br><br>Работа  эксперта Славы Moff под названием "Взгляд в будущее"<br><br>Киберпанк и футуризм - в таких жанрах уличный художник из Перми решил нарисовать работу в Тюмени. Теперь каждый, кто проходит мимо арта, может решить сам, что из его прошлого достойно внимания, а что нет.]]></description>
+        <styleUrl>#icon-1899-558B2F</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0k-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/tttucs0bhe6u3knvdtnvt8e7b8/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoEUsDKQl4wOBOdm43cPPXIXKEC6Mr-BxK368YRBdobL9gAeLi6r_hyh12GniOX2QxKtR9vTU3grOH5HBhPGlhXmVWM3zkF-Ivhm6NEmZJKeSGQhK2G11GWiODRw1Oi-u1pTXnwJVyXGntLqMnvJJNQ1cCiYQhAG8LoBFqlCgm5nW-DmeytRHASOnP0VB9a7ggbv9gaY99D8sXQP19XKnURyGpPW4pKWJJgvaOWOnV8t5_Rq5pTHs66-SHehockpBhqTwPvsBLhEw7DFONukF8ljgBV6A?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5619077,57.1536428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Наш новый мир</name>
+        <description><![CDATA[<img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/g3jgfaipf85u078usdvp586bek/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoTa8oyFvlibar-K6Mvtf4_p4bg2Zwf42Dkx4xksNWGBIZ5mJ2GcUxV_feC1FE9A2Ux0YH6ASuj3HGDC4mgM8WUbAY85kYG8tJNZAkdAtYxcT7eTEV6QHWLMX5bd3V2OWZAuGhvwMpY6AemAXI1uW3baKqUb6VvDQoytytb0OLXnhhuWzuCAG5xI9cLryS2tdbqds4zOvYbgLAD2ddF2RMNO-0HLPVM7plQ-ClzPF5kOO2pesL49XBxsOnVU29BApcUwy3jYS-EGdl6tsusAzLnIuyN9A?session=0&fife" height="200" width="auto" /><br><br>Работа тюменского художника Влада Тахтау "Наш новый мир". Влад уже начал работу, а окончательную её версию вы сможете увидеть в октябре.<br><br>Адрес: Северная 9]]></description>
+        <styleUrl>#icon-1899-558B2F</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/g3jgfaipf85u078usdvp586bek/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALoTa8oyFvlibar-K6Mvtf4_p4bg2Zwf42Dkx4xksNWGBIZ5mJ2GcUxV_feC1FE9A2Ux0YH6ASuj3HGDC4mgM8WUbAY85kYG8tJNZAkdAtYxcT7eTEV6QHWLMX5bd3V2OWZAuGhvwMpY6AemAXI1uW3baKqUb6VvDQoytytb0OLXnhhuWzuCAG5xI9cLryS2tdbqds4zOvYbgLAD2ddF2RMNO-0HLPVM7plQ-ClzPF5kOO2pesL49XBxsOnVU29BApcUwy3jYS-EGdl6tsusAzLnIuyN9A?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5611781,57.1533227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Главное не повторяться</name>
+        <description><![CDATA[<img src="https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/nhnb10la4b1ppc32vmh2f361qc/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALou6-I1xTOpgg6xq45BjwBb4bqcU4_mpKdCpeb_Y3eoXT0d0-IXZQLEjNGmbG-siHj9mfddVU7PKQk4uLRACVFl3osOLR8FBNAF_v-PT6YlF6ZoY0V1t8CWERSmTV7E-zWDJS85_sYxRvTDVqKIhulzJQNGCwcmSIljZFP5P8AukBq-_wXOZG2e8tpMIK2TB_OJcEIylAhtrvel2tTjd4TerIZyegpyLabF6AAZtjW8T2432cLW69F6-634wj9Fyg9B18esDNVErSQnj7Z9ApkPr8SvGA?session=0&fife" height="200" width="auto" /><br><br>Работа эксперта Вовы Абиха под названием "Главное не повторяться" на стене МТЦ Космос<br><br>Фраза «главное не повторяться» дублируется 13,5 раз, но каждая из них не похожа на другую. Работа не случайно сделана на стене театрального центра. Художник передаёт мысль, характерную для театралов, ведь каждое выступление — особенно и неповторимо.<br><br><img src="https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/inr1esluegt208d79f7iausqgs/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpZYv1gGmjNfjvXsGHpLlIAnmMTyd5DDmPS4dmYu3Fj7QtrqIJYWYixi7vw1BQ1gYRVAbqRd_kg9GJQJee2EOY_Ny1-fP0aikKYuOv_sK8y2P0c6zA0Nn_q3MDjGPyzeHd4WxrOMaA5vIBY7WOlllCnOlDxuOD9KSOw1OQr9c7-jWkRyq_r6UafxlD8ojY_FXHGI5fNegO1SHkbQcPn_xP_u_hZflKNA9yJ5IGPDpBswGVUbWpmZvaCHilM2CTSLXt9AVfMCzTJxk_P8zyU1DvgZTkd2Q?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/vtr230chkue2lc5c1k4ilpvrh0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqEEAdjAMdsQCar-Yvm8DCdo-1xtk5a2AWtsFBtpV1Yoa0zYyIoYB7dkmrrW_7mKOZwBR4Vl2G9D6kGvtUp4pPcb6Mg4_oCpBXbc4V7FsBD5TVEw6NPcXvqS_tC_edmpuyMjWgk9yperzSPbGRU2iC1046DSI9jJgcbtuJX-_0lqGvwJmQjm5O4HwF0C6_e4WiS0MZ-xYJc4I3orRAMUGksZ54Lei6D47eiV7TAVG0iJXKnDeU3HrNZZMx-Y8zcDLotr514Id-9Z6QXiz-Wkgkar_2gkQ?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-558B2F</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0c-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/nhnb10la4b1ppc32vmh2f361qc/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALou6-I1xTOpgg6xq45BjwBb4bqcU4_mpKdCpeb_Y3eoXT0d0-IXZQLEjNGmbG-siHj9mfddVU7PKQk4uLRACVFl3osOLR8FBNAF_v-PT6YlF6ZoY0V1t8CWERSmTV7E-zWDJS85_sYxRvTDVqKIhulzJQNGCwcmSIljZFP5P8AukBq-_wXOZG2e8tpMIK2TB_OJcEIylAhtrvel2tTjd4TerIZyegpyLabF6AAZtjW8T2432cLW69F6-634wj9Fyg9B18esDNVErSQnj7Z9ApkPr8SvGA?session=0&fife https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/inr1esluegt208d79f7iausqgs/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpZYv1gGmjNfjvXsGHpLlIAnmMTyd5DDmPS4dmYu3Fj7QtrqIJYWYixi7vw1BQ1gYRVAbqRd_kg9GJQJee2EOY_Ny1-fP0aikKYuOv_sK8y2P0c6zA0Nn_q3MDjGPyzeHd4WxrOMaA5vIBY7WOlllCnOlDxuOD9KSOw1OQr9c7-jWkRyq_r6UafxlD8ojY_FXHGI5fNegO1SHkbQcPn_xP_u_hZflKNA9yJ5IGPDpBswGVUbWpmZvaCHilM2CTSLXt9AVfMCzTJxk_P8zyU1DvgZTkd2Q?session=0&fife https://doc-0g-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/vtr230chkue2lc5c1k4ilpvrh0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqEEAdjAMdsQCar-Yvm8DCdo-1xtk5a2AWtsFBtpV1Yoa0zYyIoYB7dkmrrW_7mKOZwBR4Vl2G9D6kGvtUp4pPcb6Mg4_oCpBXbc4V7FsBD5TVEw6NPcXvqS_tC_edmpuyMjWgk9yperzSPbGRU2iC1046DSI9jJgcbtuJX-_0lqGvwJmQjm5O4HwF0C6_e4WiS0MZ-xYJc4I3orRAMUGksZ54Lei6D47eiV7TAVG0iJXKnDeU3HrNZZMx-Y8zcDLotr514Id-9Z6QXiz-Wkgkar_2gkQ?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.577823,57.1342768,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Сандро Боттичелли </name>
+        <description><![CDATA[<img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/hsnd5nqm45fo74li7fq14t5058/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALr46UotXEtf2rGYOCLT2J75BDNnFXUYBBuly4LyiGd628s3rAXerQxeKi-QJM1_3TlkSQusea3JbGCZ155RzMA-PFQru1B6IE8qjSuYDKqJV9cEkZTUarRIZ_UmZHukfPRBkvq_J3iBsQWy4VSRLnqfNNS2hoNydX4COenWksgEyK9oZmkzasNLrE4MBFPMYJJBjFBTGxvZDVDtYStBaEvyUTPhRd0QxqrOrnYaPsTgDQBivrehNiB7ht2r7e830janHgjfk-5hzv2KS6yRmAYy9lla4A?session=0&fife" height="200" width="auto" /><br><br>Работа Александры Жерновой<br><br>Я начала именно с «Весны» Боттичелли, потому что это одно из самых прекрасных наследий человечества. И хочется рассказать о ней массовой аудитории, а именно это место, как мне кажется, одно из самых проходных в городе.<br><br><img src="https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/lo0jr5hjs6ir4k17e5ujd0ocb8/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALryBu93FLTZ0LOQDAazOHMM7bMgdpRHt993nlKvFrjSXREehti-oC3d7KDxpMXOIl_Y4A1oFHcCKVFS3QgTJ0j5hAnGC_xTu5n5F0SD8C7sFRc3KHXIrZY46-ZOUtAoBw_WWSkigJee9v-ehbmdeEN5va92EoRxO5UqEwsN1-zYdDzr3-AnnLvStx7EOuTyO6zXOFmz6SdI9oB5ZEZXdx6l_lGt6zBpiaeAWfpUnt-hAbRPsOPVN9DWSFBUt5JGmNhKY-H1WULPTUCyh6cVfcaEtelFWw?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-558B2F</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/hsnd5nqm45fo74li7fq14t5058/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALr46UotXEtf2rGYOCLT2J75BDNnFXUYBBuly4LyiGd628s3rAXerQxeKi-QJM1_3TlkSQusea3JbGCZ155RzMA-PFQru1B6IE8qjSuYDKqJV9cEkZTUarRIZ_UmZHukfPRBkvq_J3iBsQWy4VSRLnqfNNS2hoNydX4COenWksgEyK9oZmkzasNLrE4MBFPMYJJBjFBTGxvZDVDtYStBaEvyUTPhRd0QxqrOrnYaPsTgDQBivrehNiB7ht2r7e830janHgjfk-5hzv2KS6yRmAYy9lla4A?session=0&fife https://doc-00-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/lo0jr5hjs6ir4k17e5ujd0ocb8/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALryBu93FLTZ0LOQDAazOHMM7bMgdpRHt993nlKvFrjSXREehti-oC3d7KDxpMXOIl_Y4A1oFHcCKVFS3QgTJ0j5hAnGC_xTu5n5F0SD8C7sFRc3KHXIrZY46-ZOUtAoBw_WWSkigJee9v-ehbmdeEN5va92EoRxO5UqEwsN1-zYdDzr3-AnnLvStx7EOuTyO6zXOFmz6SdI9oB5ZEZXdx6l_lGt6zBpiaeAWfpUnt-hAbRPsOPVN9DWSFBUt5JGmNhKY-H1WULPTUCyh6cVfcaEtelFWw?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.5295856,57.1508692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fobos Grunt</name>
+        <description><![CDATA[<img src="https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/r618dsng6qad4f153g3acunpn0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqiEoDpGYCpei3pV4EtKD0knl92jNZqXvw3mSfdr3PbITb01ZMVuJgJIxi4WY-ibsIX2yOgSq82S5C0-q5ldeZvQFoAjCXMl5kLavlDyvBGItCJv8Y3HNjz_1Xg09-3PgvlZckJxZ4pYTEb1uae4verZTeh1x5CRGTa3xxW3qCt6XtIA2P-oi5tW5-_633L9ahjQ5llzqb5PK9AV1ZCLaZnDDF9Urd8NlWE3zyJw7Kryiw4LACs2ReEtxQrJzJoLxmPZIH_UIhtDQD9E1yak-ZdpAVSFA?session=0&fife" height="200" width="auto" /><br><br>Работа Димы Чернова "Fobos Grunt"<br><br>Художник из Новосибирска рисует в технике каллиграфия. В Тюмени он затегал своим псевдонимом Fobos Grunt шкаф связи, мимо которого просто так вы точно не пройдете.<br><br><img src="https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/8u13e24aksuveqidgna13a3rc8/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpBsBBZjgP2SMe894c-8hmdw1rWFWNYbwDDvK7uqwvSrNzpfbsauPf416btuQQY2b5qBvYyI_vRUDExvNYGywu9XDdSzH7L-KLMGgGlRx8muj5EhHYwWmqGOynq4Ac6qLe0f7k9LUFTVs0iMLrIX4714rAEoUXdAmdvUZkQ1rJkC7DauEG0RieSmw23mdzxpgbtCyt9Fm6pKGu-BdxT0o-loPlH3TVYyVb9GTp3WRP3a5Y07gDpTsXMy9vuIUWheFXSwwxvb11cbEgXYG7OdkAtpowEmA?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ajdbfrdssgt8rhmk7eqga3kvvc/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALryVO9VNoSfDD74aJ3b-4zFRojlI0G-TUNMZ1rJYTZB7qZBi6PKCv6Ew5V3oZ9WkAAhGMRPb2kBPAEcsDSgYGfLmBPZ_8PJ9z-qKeKb9qs14Yd7LGokmV7UPbRyo0gATjo1p7DxCJRoyHZuFzhN2G1Do3sNVcByDWVVOJdgOTgCXWxLoT8CD5dyLnivYYLDxfj5QrFDNwgNIiIySKQkvvI-5eTUsFPPBpxBknnuMvnqAEV5HvmQ5smfNzTgF0wd_nGoK80YFKs_6q0rSX4RGcRg1qr7bA?session=0&fife" height="200" width="auto" /><br><br><img src="https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/16h059fo1van9u5ftad6a854q0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALomCqOGUZAYlvkAZQ3SO9GgzCbfmpjP4p_IzHJLmRf43mb5QNop_dEPzDPe649w9BlARY0gR6p4MBJTHdmXXEFafRv5fT8dT-sKQGc6Qc_fVMlMgX1Ph_Fq2H9Fey2yk1hUhwSxYQkGc6ws8cAISCZfQL7mYEqVOPUGj4teHqUvCo6Kt11JU3t0hWlRwZUZ3ov1vhrb06Yzaz--ecYLfvkUQCppm7EhUgTgDnuxnnAsbwEpPkiNyRZVOkz1H4ol4_mvz9VxxtNgvjvQ4rTg2DidV8d3yg?session=0&fife" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1899-558B2F</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value><![CDATA[https://doc-0s-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/r618dsng6qad4f153g3acunpn0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALqiEoDpGYCpei3pV4EtKD0knl92jNZqXvw3mSfdr3PbITb01ZMVuJgJIxi4WY-ibsIX2yOgSq82S5C0-q5ldeZvQFoAjCXMl5kLavlDyvBGItCJv8Y3HNjz_1Xg09-3PgvlZckJxZ4pYTEb1uae4verZTeh1x5CRGTa3xxW3qCt6XtIA2P-oi5tW5-_633L9ahjQ5llzqb5PK9AV1ZCLaZnDDF9Urd8NlWE3zyJw7Kryiw4LACs2ReEtxQrJzJoLxmPZIH_UIhtDQD9E1yak-ZdpAVSFA?session=0&fife https://doc-0o-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/8u13e24aksuveqidgna13a3rc8/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALpBsBBZjgP2SMe894c-8hmdw1rWFWNYbwDDvK7uqwvSrNzpfbsauPf416btuQQY2b5qBvYyI_vRUDExvNYGywu9XDdSzH7L-KLMGgGlRx8muj5EhHYwWmqGOynq4Ac6qLe0f7k9LUFTVs0iMLrIX4714rAEoUXdAmdvUZkQ1rJkC7DauEG0RieSmw23mdzxpgbtCyt9Fm6pKGu-BdxT0o-loPlH3TVYyVb9GTp3WRP3a5Y07gDpTsXMy9vuIUWheFXSwwxvb11cbEgXYG7OdkAtpowEmA?session=0&fife https://doc-10-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/ajdbfrdssgt8rhmk7eqga3kvvc/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALryVO9VNoSfDD74aJ3b-4zFRojlI0G-TUNMZ1rJYTZB7qZBi6PKCv6Ew5V3oZ9WkAAhGMRPb2kBPAEcsDSgYGfLmBPZ_8PJ9z-qKeKb9qs14Yd7LGokmV7UPbRyo0gATjo1p7DxCJRoyHZuFzhN2G1Do3sNVcByDWVVOJdgOTgCXWxLoT8CD5dyLnivYYLDxfj5QrFDNwgNIiIySKQkvvI-5eTUsFPPBpxBknnuMvnqAEV5HvmQ5smfNzTgF0wd_nGoK80YFKs_6q0rSX4RGcRg1qr7bA?session=0&fife https://doc-14-5o-mymaps.googleusercontent.com/untrusted/hostedimage/ap635crnb4a6nunplti6ra3nq4/16h059fo1van9u5ftad6a854q0/1594131955000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/09270552460570794559/5AF2TALomCqOGUZAYlvkAZQ3SO9GgzCbfmpjP4p_IzHJLmRf43mb5QNop_dEPzDPe649w9BlARY0gR6p4MBJTHdmXXEFafRv5fT8dT-sKQGc6Qc_fVMlMgX1Ph_Fq2H9Fey2yk1hUhwSxYQkGc6ws8cAISCZfQL7mYEqVOPUGj4teHqUvCo6Kt11JU3t0hWlRwZUZ3ov1vhrb06Yzaz--ecYLfvkUQCppm7EhUgTgDnuxnnAsbwEpPkiNyRZVOkz1H4ol4_mvz9VxxtNgvjvQ4rTg2DidV8d3yg?session=0&fife]]></value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            65.527813,57.1570498,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
