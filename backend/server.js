@@ -18,9 +18,10 @@ const models = require('./models');
 
 models.sequelize.sync().then(() => console.log('Database is fine')).catch((err) => console.log(err, 'Database is NOT fine'));
 
-const appRouter = require('./routes/index');
+const userRouter = require('./routes/user');
+const artPlaceRouter = require('./routes/artPlace');
 
-
-app.use('/api', appRouter);
+app.use('/users', userRouter);
+app.use('/artPlaces', artPlaceRouter);
 
 module.exports = app;
