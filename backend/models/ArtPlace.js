@@ -1,5 +1,3 @@
-const { json } = require('sequelize/types');
-
 module.exports = (sequelize, DataTypes) => {
   const ArtPlace = sequelize.define(
     'ArtPlace',
