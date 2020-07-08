@@ -15,26 +15,25 @@ const useStyles = makeStyles({
   },
 });
 
-export default function ArtObjectCard(props) {
-  const { title, description, image } = props.artObject;
+export default function ArtObjectCard({ artObject }) {
   const classes = useStyles();
-
+  const { name, description } = artObject;
   return (
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
           component="img"
-          alt={title}
+          alt={'изображение'}
           height="140"
-          image={image}
-          title={title}
+          // image={image}
+          // title={title}
         />
         <CardContent>
           <Typography color="textSecondary">
             название
           </Typography>
           <Typography gutterBottom variant="h5" component="h2">
-            {title}
+            {name}
           </Typography>
           <Typography color="textSecondary">
             описание

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -94,8 +94,17 @@ const useStyles = makeStyles((theme) => ({
 export default function MainPage() {
   const classes = useStyles();
   const theme = useTheme();
-  const [open, setOpen] = React.useState(false);
-  const [artObjects, setArtObjects] = React.useState([]);
+  const [open, setOpen] = useState(false);
+  const [artObjects, setArtObjects] = useState([]);
+  const [selectedArtObject, setSelectedArtObject] = useState({});
+
+  useEffect(() => {
+    async function getArtObjects() {
+      const res = await axios.get('http://localhost:3000/artPlaces');
+      setArtObjects(res.data);
+    }
+    getArtObjects();
+  }, []);
 
   const handleDrawerOpen = () => {
     setOpen(true);
@@ -105,13 +114,9 @@ export default function MainPage() {
     setOpen(false);
   };
 
-  useEffect(() => {
-    async function getArtObjects() {
-      const res = await axios.get('http://localhost:3000/artPlaces');
-      setArtObjects(res.data);
-    }
-    getArtObjects();
-  }, []);
+  const markerOnClick = (artObject) => {
+    setSelectedArtObject(artObject);
+  };
 
   return (
     <div className={classes.root}>
@@ -152,7 +157,7 @@ export default function MainPage() {
           </IconButton>
         </div>
         <Divider />
-        <ArtObjectCard artObject={artObjectExample} />
+        <ArtObjectCard artObject={selectedArtObject} />
       </Drawer>
       <main
         className={clsx(classes.content, {
@@ -160,7 +165,7 @@ export default function MainPage() {
         })}
       >
         <div className={classes.drawerHeader} />
-        <ArtMap artObjects={artObjects} mapOptions={mapOptions} />
+        <ArtMap artObjects={artObjects} mapOptions={mapOptions} markerOnClick={markerOnClick} />
       </main>
     </div>
   );
