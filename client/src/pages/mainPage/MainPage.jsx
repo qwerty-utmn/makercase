@@ -150,7 +150,7 @@ export default function PersistentDrawerLeft() {
                 })}
             >
                 <div className={classes.drawerHeader} />
-                <ArtMap mapOptions={mapOptions} />
+                <ArtMap artObjects={[]} mapOptions={mapOptions} />
             </main>
         </div>
     );
