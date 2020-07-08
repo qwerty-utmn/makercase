@@ -12,7 +12,7 @@ const useStyles = makeStyles({
   },
   description: {
     whiteSpace: 'pre-wrap',
-  }
+  },
 });
 
 export default function ArtObjectCard(props) {
@@ -32,13 +32,13 @@ export default function ArtObjectCard(props) {
         <CardContent>
           <Typography color="textSecondary">
             название
-        </Typography>
+          </Typography>
           <Typography gutterBottom variant="h5" component="h2">
             {title}
           </Typography>
           <Typography color="textSecondary">
             описание
-        </Typography>
+          </Typography>
           <Typography className={classes.description} variant="body2" color="textPrimary" component="p">
             {description}
           </Typography>
