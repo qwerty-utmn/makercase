@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { GoogleMap, withScriptjs, withGoogleMap, Marker } from 'react-google-maps';
-import axios from 'axios';
 
 function Map(props) {
   const { artObjects } = props;
@@ -16,13 +15,7 @@ const WrappedMap = withScriptjs(withGoogleMap(Map))
 
 export default function ArtMap(props) {
   const [artObjects, setArtObjects] = useState([]);
-  useEffect(() => {
-    async function getArtObjects() {
-      const res = await axios.get('http://localhost:3000/artPlaces');
-      setArtObjects(res.data);
-    }
-    getArtObjects();
-  }, []);
+
   return (
     <div>
       <WrappedMap
