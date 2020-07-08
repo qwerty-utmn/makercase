@@ -10,9 +10,9 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "fontsource-roboto": "^2.1.4",
-    "google-map-react": "^1.1.7",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-google-maps": "^9.4.5",
     "react-scripts": "3.4.1"
   },
   "scripts": {

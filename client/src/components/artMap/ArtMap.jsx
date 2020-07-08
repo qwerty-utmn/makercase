@@ -1,35 +1,37 @@
-import React from 'react';
-import GoogleMapReact from 'google-map-react';
+import React, { useEffect, useState } from 'react';
+import { GoogleMap, withScriptjs, withGoogleMap, Marker } from 'react-google-maps';
 import axios from 'axios';
-import Marker from '../Marker/Marker';
 
-export default class ArtMap extends React.Component {
-  constructor(props) {
-    super(props);
-    const { mapOptions, artObjects } = props;
-    this.state = { mapOptions, artObjects };
-    this.getArtObjects().then(result => {
-      this.setState({ artObjects: result });
-    });
-  }
+function Map(props) {
+  const { artObjects } = props;
+  return <GoogleMap
+    defaultZoom={12}
+    defaultCenter={{ lat: 57.142424, lng: 65.555071 }}
+  >
+    {artObjects && artObjects.map((artObject, key) => <Marker key={key} position={{ lat: artObject.coordinates[1], lng: artObject.coordinates[0] }} />)}
+  </GoogleMap>
+}
 
-  async getArtObjects() {
-    const res = await axios.get('http://localhost:3000/artPlaces');
-    return res.data;
-  }
+const WrappedMap = withScriptjs(withGoogleMap(Map))
 
-  render() {
-    const { center, zoom } = this.state.mapOptions;
-    const { artObjects } = this.state;
-    return (
-      <div style={{ width: '100%', height: 'calc(100vh - 64px)' }}>
-        <GoogleMapReact
-          bootstrapURLKeys={{ key: 'AIzaSyCJTm8QajP4RjJCtFmYeReQDfuKJXIPiO0' }}
-          defaultCenter={center}
-          defaultZoom={zoom}>
-          {console.log('aaa')}
-          {artObjects && this.state.artObjects.map((artObject, markerKey) => <Marker key={markerKey} lat={artObject.coordinates[1]} lng={artObject.coordinates[0]} />)}
-        </GoogleMapReact>
-      </div>);
-  }
+export default function ArtMap(props) {
+  const [artObjects, setArtObjects] = useState([]);
+  useEffect(() => {
+    async function getArtObjects() {
+      const res = await axios.get('http://localhost:3000/artPlaces');
+      setArtObjects(res.data);
+    }
+    getArtObjects();
+  }, []);
+  return (
+    <div>
+      <WrappedMap
+        artObjects={artObjects}
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJTm8QajP4RjJCtFmYeReQDfuKJXIPiO0&v=3.exp&libraries=geometry,drawing,places"
+        loadingElement={<div style={{ height: `100%` }} />}
+        containerElement={<div style={{ height: `840px` }} />}
+        mapElement={<div style={{ height: `100%` }} />}
+      />
+    </div>
+  );
 }
