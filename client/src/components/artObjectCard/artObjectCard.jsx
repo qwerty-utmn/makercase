@@ -17,7 +17,7 @@ const useStyles = makeStyles({
 
 export default function ArtObjectCard({ artObject }) {
   const classes = useStyles();
-  const { name, description } = artObject;
+  const { name, description, images } = artObject;
   return (
     <Card className={classes.root}>
       <CardActionArea>
@@ -25,7 +25,7 @@ export default function ArtObjectCard({ artObject }) {
           component="img"
           alt={'изображение'}
           height="140"
-          // image={image}
+          image={images}
           // title={title}
         />
         <CardContent>
