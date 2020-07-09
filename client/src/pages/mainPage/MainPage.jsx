@@ -1,14 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
-import { makeStyles, useTheme } from '@material-ui/core/styles';
-import Drawer from '@material-ui/core/Drawer';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Divider from '@material-ui/core/Divider';
-import IconButton from '@material-ui/core/IconButton';
+import { fade, makeStyles, useTheme } from '@material-ui/core/styles';
+import {
+  InputBase,
+  AppBar,
+  Toolbar,
+  Typography,
+  CssBaseline,
+  Divider,
+  IconButton,
+  Drawer,
+  Menu,
+  MenuItem,
+} from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
+import AccountCircle from '@material-ui/icons/AccountCircle';
+import CloseIcon from '@material-ui/icons/Close';
+import SearchIcon from '@material-ui/icons/Search';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import axios from 'axios';
@@ -66,7 +74,7 @@ const useStyles = makeStyles((theme) => ({
     padding: theme.spacing(0, 1),
     // necessary for content to be below app bar
     ...theme.mixins.toolbar,
-    justifyContent: 'flex-end',
+    justifyContent: 'space-between',
   },
   content: {
     flexGrow: 1,
@@ -83,6 +91,52 @@ const useStyles = makeStyles((theme) => ({
     }),
     marginLeft: 0,
   },
+  grow: {
+    flexGrow: 1,
+  },
+  search: {
+    position: 'relative',
+    borderRadius: theme.shape.borderRadius,
+    backgroundColor: fade(theme.palette.common.white, 0.15),
+    '&:hover': {
+      backgroundColor: fade(theme.palette.common.white, 0.25),
+    },
+    marginRight: theme.spacing(2),
+    marginLeft: 0,
+    width: '100%',
+    [theme.breakpoints.up('sm')]: {
+      marginLeft: theme.spacing(3),
+      width: 'auto',
+    },
+  },
+  searchIcon: {
+    padding: theme.spacing(0, 2),
+    height: '100%',
+    position: 'absolute',
+    pointerEvents: 'none',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  inputRoot: {
+    color: 'inherit',
+  },
+  inputInput: {
+    padding: theme.spacing(1, 1, 1, 0),
+    // vertical padding + font size from searchIcon
+    paddingLeft: `calc(1em + ${theme.spacing(4)}px)`,
+    transition: theme.transitions.create('width'),
+    width: '100%',
+    [theme.breakpoints.up('md')]: {
+      width: '20ch',
+    },
+  },
+  sectionDesktop: {
+    display: 'none',
+    [theme.breakpoints.up('md')]: {
+      display: 'flex',
+    },
+  },
 }));
 
 export default function MainPage() {
@@ -91,7 +145,18 @@ export default function MainPage() {
   const [open, setOpen] = useState(false);
   const [openNewArtDialog, setOpenNewArtDialog] = useState(false);
   const [artObjects, setArtObjects] = useState([]);
-  const [selectedArtObject, setSelectedArtObject] = useState();
+  const [selectedArtObject, setSelectedArtObject] = useState(null);
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const isMenuOpen = Boolean(anchorEl);
+
+  const handleMenuOpen = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleMenuClose = () => {
+    setAnchorEl(null);
+  };
 
   useEffect(() => {
     async function getArtObjects() {
@@ -101,14 +166,13 @@ export default function MainPage() {
     getArtObjects();
   }, []);
 
-  useEffect(() => { console.log(selectedArtObject); }, [selectedArtObject]);
-
   const handleDrawerOpen = () => {
     setOpen(true);
   };
 
   const handleDrawerClose = () => {
     setOpen(false);
+    setSelectedArtObject(null);
   };
 
   const handleNewArtObjectClick = () => {
@@ -142,6 +206,31 @@ export default function MainPage() {
           <Typography variant="h6" noWrap>
             Карта арт-объектов Тюмени
           </Typography>
+          <div className={classes.search}>
+            <div className={classes.searchIcon}>
+              <SearchIcon />
+            </div>
+            <InputBase
+              placeholder="Поиск..."
+              classes={{
+                root: classes.inputRoot,
+                input: classes.inputInput,
+              }}
+              inputProps={{ 'aria-label': 'search' }}
+            />
+          </div>
+          <div className={classes.grow} />
+          <div className={classes.sectionDesktop}>
+            <IconButton
+              edge="end"
+              aria-label="account of current user"
+              aria-haspopup="true"
+              onClick={handleMenuOpen}
+              color="inherit"
+            >
+              <AccountCircle />
+            </IconButton>
+          </div>
         </Toolbar>
       </AppBar>
       <Drawer
@@ -154,12 +243,28 @@ export default function MainPage() {
         }}
       >
         <div className={classes.drawerHeader}>
-          <IconButton onClick={handleNewArtObjectClick}>
-            <AddIcon />
+          {selectedArtObject
+          && (
+          <IconButton onClick={() => {
+            setSelectedArtObject(null);
+          }}
+          >
+            <ChevronLeftIcon />
           </IconButton>
-          <IconButton onClick={handleDrawerClose}>
-            {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
-          </IconButton>
+          )}
+          <div style={{
+            display: 'flex',
+            width: '100%',
+            justifyContent: 'flex-end',
+          }}
+          >
+            <IconButton onClick={handleNewArtObjectClick}>
+              <AddIcon />
+            </IconButton>
+            <IconButton onClick={handleDrawerClose}>
+              <CloseIcon />
+            </IconButton>
+          </div>
         </div>
         <Divider />
         <div style={{
@@ -172,7 +277,6 @@ export default function MainPage() {
                 key={index}
                 artObject={obj}
                 onClick={() => {
-                  console.log('click');
                   setSelectedArtObject(obj);
                 }}
               />
@@ -180,6 +284,17 @@ export default function MainPage() {
           )}
         </div>
       </Drawer>
+      <Menu
+        anchorEl={anchorEl}
+        anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
+        keepMounted
+        transformOrigin={{ vertical: 'top', horizontal: 'right' }}
+        open={isMenuOpen}
+        onClose={handleMenuClose}
+      >
+        <MenuItem onClick={handleMenuClose}>Профиль</MenuItem>
+        <MenuItem onClick={handleMenuClose}>Выйти</MenuItem>
+      </Menu>
       <main
         className={clsx(classes.content, {
           [classes.contentShift]: open,
