@@ -12,24 +12,13 @@ import MenuIcon from '@material-ui/icons/Menu';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
 import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import axios from 'axios';
-import ArtMap from '../../components/artMap/ArtMap';
-import ArtObjectCard from '../../components/artObjectCard/artObjectCard';
 import AddIcon from '@material-ui/icons/Add';
+import ArtMap from '../../components/artMap/ArtMap';
+import ArtObjectCard from '../../components/ArtObjectCard/ArtObjectCard';
+import ArtObjectCardSmall from '../../components/ArtObjectCardSmall/ArtObjectCardSmall';
 import NewArtObjectDialog from '../../components/newArtObjectDialog/NewArtObjectDialog';
 
-// TODO потом убрать
-const artObjectExample = {
-  title: 'Инсомния',
-  description: `"Инсомния" Дениса Живило
-
-Эта работа — коллаб со временем суток. Днем на картине изображены спящие девушка и парень с переплетенными волосами, имитирующими вселенную сна. Ночью рисунок подсвечивается и изображение меняется: герои пробуждаются, и между ними возникает абстрактный огонь.`,
-  image: 'https://doc-0k-a4-mymaps.googleusercontent.com/untrusted/hostedimage/gte5aua4ondjcemd37oocci88k/lao9vdicbjqfd03cs6qkstfu0o/1594116706000/JIhtsKx9eL3sPo-NNpmIg0IxLJSb746x/15525303149103609024/5AF2TALrdD9lbhpXt6cY4B9Jq-uYpjtTJauw3gO0UIDvM1Zqb4zaYD5u-DJdo6L_DZjCjZ6Ber0am4K93p-qoTdOCFNyQ0OstDx4-uw2kCFWJ5FTI3KO8-FhcYSUI2HI0y-suAqPfEbZQkHo4Ju4aLs-GItY9BS8C9by3TRTXXRWhIm7ExncPPbSS2-gV1qV-SxHfsO5_3MUToK6vDpxPa2nDFELqEzoHip6V2NZWMwqLFX5eFqPwGme575cTgE27BirMlf7v9NsbfZAyUzmaATgRrxYzCmWu7A?session=0&fife=s16383',
-};
-
-const convertImageSrc = (arrayBufferView) => {
-  const imageUrl = arrayBufferView ? `data:image/png;base64,${arrayBufferView}` : '';
-  return imageUrl;
-};
+const drawerWidth = 360;
 
 const mapOptions = {
   center: {
@@ -38,8 +27,6 @@ const mapOptions = {
   },
   zoom: 12,
 };
-
-const drawerWidth = 360;
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -108,7 +95,7 @@ export default function MainPage() {
 
   useEffect(() => {
     async function getArtObjects() {
-      const res = await axios.get('http://164.90.187.182:3000/artPlaces');
+      const res = await axios.get('http://localhost:3000/artPlaces');
       setArtObjects(res.data);
     }
     getArtObjects();
@@ -131,8 +118,6 @@ export default function MainPage() {
   const markerOnClick = async (artObject) => {
     setOpen(true);
     setSelectedArtObject(artObject);
-    const res = await axios.get(`http://164.90.187.182:3000/artPlaces/images/${artObject.id}`);
-    setSelectedArtObject({ ...artObject, images: '' });
   };
 
   return (
@@ -169,15 +154,31 @@ export default function MainPage() {
         }}
       >
         <div className={classes.drawerHeader}>
-        <IconButton onClick={handleNewArtObjectClick}>
-          <AddIcon/>
+          <IconButton onClick={handleNewArtObjectClick}>
+            <AddIcon />
           </IconButton>
-        <IconButton onClick={handleDrawerClose}>
-        {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
-        </IconButton>
+          <IconButton onClick={handleDrawerClose}>
+            {theme.direction === 'ltr' ? <ChevronLeftIcon /> : <ChevronRightIcon />}
+          </IconButton>
         </div>
         <Divider />
-        {selectedArtObject && <ArtObjectCard artObject={selectedArtObject} />}
+        <div style={{
+          overflowX: 'scroll',
+        }}
+        >
+          {selectedArtObject ? (<ArtObjectCard artObject={selectedArtObject} />) : (
+            artObjects.map((obj, index) => (
+              <ArtObjectCardSmall
+                key={index}
+                artObject={obj}
+                onClick={() => {
+                  console.log('click');
+                  setSelectedArtObject(obj);
+                }}
+              />
+            ))
+          )}
+        </div>
       </Drawer>
       <main
         className={clsx(classes.content, {
@@ -187,7 +188,7 @@ export default function MainPage() {
         <div className={classes.drawerHeader} />
         <ArtMap artObjects={artObjects} mapOptions={mapOptions} markerOnClick={markerOnClick} />
       </main>
-      {openNewArtDialog && <NewArtObjectDialog/>}
+      {openNewArtDialog && <NewArtObjectDialog />}
     </div>
   );
 }
