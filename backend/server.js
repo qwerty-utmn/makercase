@@ -21,6 +21,7 @@ models.sequelize.sync().then(() => console.log('Database is fine')).catch((err) 
 const userRouter = require('./routes/user');
 const artPlaceRouter = require('./routes/artPlace');
 
+app.use(express.static('public'));
 app.use('/users', userRouter);
 app.use('/artPlaces', artPlaceRouter);
 
