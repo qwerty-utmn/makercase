@@ -11,13 +11,7 @@ const { Op } = db.Sequelize;
 
 router.get('/', async (req, res) => {
   try {
-    const place = await db.ArtPlace.findAll({
-      include: [{
-        model: db.Image,
-        limit: 1
-      }]
-
-    });
+    const places = await db.ArtPlace.findAll();
     res.status(200).json(place);
   } catch (err) {
     console.error(err);
