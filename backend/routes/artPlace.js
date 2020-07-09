@@ -4,10 +4,9 @@ const router = express.Router();
 
 const { check, validationResult } = require('express-validator');
 const db = require('../models');
-const { route } = require('./user');
-const { sequelize } = require('../models');
 
 const { Op } = db.Sequelize;
+const { verifyToken } = require('../services/auth');
 
 router.get('/', async (req, res) => {
   try {
@@ -57,22 +56,18 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-router.get('/images/:id', async (req, res) => {
+router.post('/', verifyToken, async (req, res) => {
   try {
-    const images = await db.Image.findAll({
-      where: {
-        artPlace_id: req.params.id
-      }
+    const {
+      coordinates, name, description, author_name
+    } = req.body;
+    await db.ArtPlace.create({
+      coordinates,
+      name,
+      description,
+      author_name
     });
-    res.status(200).json(images);
-  } catch (err) {
-    console.error(err);
-  }
-});
-
-router.post('/', async (req, res) => {
-  try {
-
+    res.sendStatus(200);
   } catch (err) {
     console.error(err);
   }
@@ -81,6 +76,40 @@ router.post('/', async (req, res) => {
 function customIsFloat(n) {
   return Number(n) === n && n % 1 !== 0;
 }
+
+router.post('/:id/comment', verifyToken, async (req, res) => {
+  const { text } = req.body;
+  const artPlace = await db.ArtPlace.findOne({
+    where: {
+      id: {
+        [Op.eq]: req.params.id
+      }
+    }
+  });
+  await db.Comment.create({
+    artPlace_id: artPlace.id,
+    user_id: req.user.id,
+    text
+  });
+  res.sendStatus(200);
+});
+
+router.post('/:id/mark', verifyToken, async (req, res) => {
+  const { mark } = req.body;
+  const artPlace = await db.ArtPlace.findOne({
+    where: {
+      id: {
+        [Op.eq]: req.params.id
+      }
+    }
+  });
+  await db.Mark.create({
+    artPlace_id: artPlace.id,
+    user_id: req.user.id,
+    mark
+  });
+  res.sendStatus(200);
+});
 
 router.put('/:id', [
   check('coordinates', 'error in lon')

@@ -21,18 +21,16 @@ module.exports = (sequelize, DataTypes) => {
     },
   );
 
-
   ArtPlace.associate = function (models) {
-  this.hasMany(models.Image, { foreignKey: 'artPlace_id' });
-  this.belongsToMany(models.User, {
-    through: 'Comment',
-    foreignKey: 'artPlace_id',
-  });
-  this.belongsToMany(models.User, {
-    through: 'Mark',
-    foreignKey: 'artPlace_id',
-  });
+    this.hasMany(models.Image, { foreignKey: 'artPlace_id' });
+    this.belongsToMany(models.User, {
+      through: 'Comment',
+      foreignKey: 'artPlace_id',
+    });
+    this.belongsToMany(models.User, {
+      through: 'Mark',
+      foreignKey: 'artPlace_id',
+    });
   };
   return ArtPlace;
 };
-

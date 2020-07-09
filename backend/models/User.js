@@ -25,7 +25,7 @@ module.exports = (sequelize, DataTypes) => {
     });
     this.hasMany(models.Place, {
       foreignKey: 'creator_id'
-    })
+    });
   };
   return User;
 };

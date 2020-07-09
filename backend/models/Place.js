@@ -23,7 +23,6 @@ module.exports = (sequelize, DataTypes) => {
     },
   );
 
-
   Place.associate = function (models) {
     this.belongsTo(models.User, {
       foreignKey: 'creator_id'
@@ -31,4 +30,3 @@ module.exports = (sequelize, DataTypes) => {
   };
   return Place;
 };
-

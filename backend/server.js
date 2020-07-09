@@ -3,8 +3,6 @@ const logger = require('morgan');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 
-const http = require('http');
-
 const app = express();
 
 app.use(cors());
@@ -20,9 +18,13 @@ models.sequelize.sync().then(() => console.log('Database is fine')).catch((err) 
 
 const userRouter = require('./routes/user');
 const artPlaceRouter = require('./routes/artPlace');
+const imageRouter = require('./routes/image');
+const placeRouter = require('./routes/place');
 
 app.use(express.static('public'));
 app.use('/users', userRouter);
 app.use('/artPlaces', artPlaceRouter);
+app.use('/images', imageRouter);
+app.use('/places', placeRouter);
 
 module.exports = app;
