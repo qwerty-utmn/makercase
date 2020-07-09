@@ -12,7 +12,7 @@ const { Op } = db.Sequelize;
 router.get('/', async (req, res) => {
   try {
     const places = await db.ArtPlace.findAll();
-    res.status(200).json(place);
+    res.status(200).json(places);
   } catch (err) {
     console.error(err);
   }
