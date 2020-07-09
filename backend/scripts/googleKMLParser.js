@@ -8,7 +8,7 @@ const {
 } = db;
 
 async function downloadImage(url, name) {
-  const path = `../public/images/${name}`;
+  const path = `../public/static-images/${name}`;
 
   const response = await axios({
     method: 'GET',
