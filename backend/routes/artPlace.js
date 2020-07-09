@@ -53,6 +53,20 @@ router.get('/:id', async (req, res) => {
   }
 });
 
+router.get('/images/:id', async (req, res) => {
+  try {
+    const images = await db.Image.findAll({
+      where: {
+        artPlace_id: req.params.id
+      }
+    });
+    res.status(200).json(images);
+  }
+  catch (err) {
+    console.error(err);
+  }
+});
+
 router.post('/', async (req, res) => {
   try {
 

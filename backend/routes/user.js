@@ -10,7 +10,7 @@ router.get('/:id', async (req, res) => {
   try {
     const { id } = req.params;
     const user = await db.User.findOne({
-      wher: {
+      where: {
         id: {
           [Op.eq]: id
         }
