@@ -5,7 +5,7 @@ module.exports = (sequelize, DataTypes) => {
       email: DataTypes.TEXT,
       password: DataTypes.TEXT,
       name: DataTypes.TEXT,
-      photo: DataTypes.BLOB,
+      photo: DataTypes.TEXT,
     },
     {
       freezeTableName: true,

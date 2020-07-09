@@ -17,7 +17,7 @@ module.exports = {
         type: Sequelize.TEXT,
       },
       photo: {
-        type: Sequelize.BLOB,
+        type: Sequelize.TEXT,
       },
       createdAt: {
         allowNull: false,
