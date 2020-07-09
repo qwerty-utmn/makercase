@@ -11,7 +11,11 @@ const { Op } = db.Sequelize;
 
 router.get('/', async (req, res) => {
   try {
-    const places = await db.ArtPlace.findAll();
+    const places = await db.ArtPlace.findAll({
+      include: [{
+        model: db.Image
+      }]
+    });
     res.status(200).json(places);
   } catch (err) {
     console.error(err);
@@ -61,8 +65,7 @@ router.get('/images/:id', async (req, res) => {
       }
     });
     res.status(200).json(images);
-  }
-  catch (err) {
+  } catch (err) {
     console.error(err);
   }
 });

@@ -111,7 +111,7 @@ function translite(str) {
         const nameWithExt = `${name}${index}.jpg`;
         await downloadImage(image, nameWithExt);
         await Image.create({
-          data: nameWithExt,
+          path: nameWithExt,
           artPlace_id: artPlace.id,
         });
       }

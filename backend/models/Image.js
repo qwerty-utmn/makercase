@@ -2,7 +2,7 @@ module.exports = (sequelize, DataTypes) => {
   const Image = sequelize.define(
     'Image',
     {
-      data: DataTypes.BLOB,
+      path: DataTypes.TEXT,
       artPlace_id: DataTypes.INTEGER,
     },
     {
@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
   );
 
   Image.associate = function (models) {
-  this.belongsTo(models.ArtPlace, { foreignKey: 'artPlace_id' });
+    this.belongsTo(models.ArtPlace, { foreignKey: 'artPlace_id' });
   };
 
   return Image;

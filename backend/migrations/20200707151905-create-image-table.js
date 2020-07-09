@@ -10,8 +10,8 @@ module.exports = {
       artPlace_id: {
         type: Sequelize.INTEGER,
       },
-      data: {
-        type: Sequelize.BLOB,
+      path: {
+        type: Sequelize.TEXT,
       },
       createdAt: {
         allowNull: false,
