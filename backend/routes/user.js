@@ -105,4 +105,4 @@ router.post('/register', async (req, res) => {
   }
 });
 
-module.exports = express();
+module.exports = router;
