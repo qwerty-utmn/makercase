@@ -19,14 +19,15 @@ import AccountCircle from '@material-ui/icons/AccountCircle';
 import CloseIcon from '@material-ui/icons/Close';
 import SearchIcon from '@material-ui/icons/Search';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
 import axios from 'axios';
 import AddIcon from '@material-ui/icons/Add';
+import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import ArtMap from '../../components/artMap/ArtMap';
 import ArtObjectCard from '../../components/ArtObjectCard/ArtObjectCard';
 import ArtObjectCardSmall from '../../components/ArtObjectCardSmall/ArtObjectCardSmall';
 import NewArtObjectDialog from '../../components/NewArtObjectDialog/NewArtObjectDialog';
 import SignInDialog from '../../components/SignInDialog/SignInDialog';
+import SignUpDialog from '../../components/SignUpDialog/SignUpDialog';
 
 const drawerWidth = 360;
 
@@ -143,13 +144,15 @@ const useStyles = makeStyles((theme) => ({
 
 export default function MainPage() {
   const classes = useStyles();
-  const theme = useTheme();
   const [open, setOpen] = useState(false);
   const [openNewArtDialog, setOpenNewArtDialog] = useState(false);
   const [artObjects, setArtObjects] = useState([]);
   const [selectedArtObject, setSelectedArtObject] = useState(null);
   const [anchorEl, setAnchorEl] = useState(null);
   const [openLogInDialog, setOpenLogInDialog] = useState(false);
+  const [openSignUpDialog, setOpenSignUpDialog] = useState(false);
+  const [user, setUser] = useState();
+  const [loginEmail, setLoginEmail] = useState();
 
   const isMenuOpen = Boolean(anchorEl);
 
@@ -166,12 +169,22 @@ export default function MainPage() {
     setOpenLogInDialog(true);
   };
 
+  const SignUpClick = () => {
+    handleMenuClose();
+    setOpenSignUpDialog(true);
+  };
+
   useEffect(() => {
     async function getArtObjects() {
       const res = await axios.get('http://localhost:3000/artPlaces');
       setArtObjects(res.data);
     }
     getArtObjects();
+    const user = localStorage.getItem('user');
+    const jwt = localStorage.getItem('jwt');
+    if (user && jwt) {
+      setUser(user);
+    }
   }, []);
 
   const handleDrawerOpen = () => {
@@ -192,9 +205,28 @@ export default function MainPage() {
     setSelectedArtObject(artObject);
   };
 
-  const handleSignInDialogCloseClick = ()=>{
+  const handleSignInDialogCloseClick = () => {
     setOpenLogInDialog(false);
-  }
+  };
+
+  const handleSignUpDialogCloseClick = () => {
+    setOpenSignUpDialog(false);
+  };
+
+  const onUserSignIn = () => {
+    const user = localStorage.getItem('user');
+    setUser(user);
+  };
+
+  const onUserSignUp = () => {
+    setOpenLogInDialog(true);
+  };
+
+  const onLogoutClick = () => {
+    localStorage.removeItem('user');
+    localStorage.removeItem('jwt');
+    setUser();
+  };
 
   return (
     <div className={classes.root}>
@@ -231,13 +263,15 @@ export default function MainPage() {
               inputProps={{ 'aria-label': 'search' }}
             />
           </div>
-          {/* <IconButton
-            color="inherit"
-            edge="end">
-            <MenuIcon />
-          </IconButton> */}
           <div className={classes.grow} />
+          {user
+          && (
+          <Typography variant="h6" noWrap>
+            {user}
+          </Typography>
+          )}
           <div className={classes.sectionDesktop}>
+            {!user && (
             <IconButton
               edge="end"
               aria-label="account of current user"
@@ -247,6 +281,17 @@ export default function MainPage() {
             >
               <AccountCircle />
             </IconButton>
+            )}
+            {user && (
+            <IconButton
+              edge="end"
+              aria-label="logout"
+              color="inherit"
+              onClick={onLogoutClick}
+            >
+              <ExitToAppIcon />
+            </IconButton>
+            )}
           </div>
         </Toolbar>
       </AppBar>
@@ -310,7 +355,7 @@ export default function MainPage() {
         onClose={handleMenuClose}
       >
         <MenuItem onClick={SignInClick}>Авторизация</MenuItem>
-        <MenuItem onClick={handleMenuClose}>Регистрация</MenuItem>
+        <MenuItem onClick={SignUpClick}>Регистрация</MenuItem>
       </Menu>
       <main
         className={clsx(classes.content, {
@@ -321,8 +366,26 @@ export default function MainPage() {
         <ArtMap artObjects={artObjects} mapOptions={mapOptions} markerOnClick={markerOnClick} />
       </main>
       {openNewArtDialog && <NewArtObjectDialog />}
-      {openLogInDialog && 
-      <Dialog open={true}><SignInDialog buttonCloseClick = {handleSignInDialogCloseClick}/></Dialog>}
+      {openLogInDialog
+      && (
+      <Dialog open>
+        <SignInDialog
+          onButtonCloseClick={handleSignInDialogCloseClick}
+          onUserSignIn={onUserSignIn}
+          loginEmail={loginEmail}
+        />
+      </Dialog>
+      )}
+      {openSignUpDialog
+      && (
+      <Dialog open>
+        <SignUpDialog
+          onButtonCloseClick={handleSignUpDialogCloseClick}
+          onUserSignUp={onUserSignUp}
+          setLoginEmail={setLoginEmail}
+        />
+      </Dialog>
+      )}
     </div>
   );
 }
