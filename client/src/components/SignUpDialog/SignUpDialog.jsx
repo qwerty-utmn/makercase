@@ -3,8 +3,6 @@ import Avatar from '@material-ui/core/Avatar';
 import Button from '@material-ui/core/Button';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import TextField from '@material-ui/core/TextField';
-import FormControlLabel from '@material-ui/core/FormControlLabel';
-import Checkbox from '@material-ui/core/Checkbox';
 import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
@@ -29,37 +27,46 @@ const useStyles = makeStyles((theme) => ({
   },
   form: {
     width: '100%', // Fix IE 11 issue.
-    marginTop: theme.spacing(1),
+    marginTop: theme.spacing(3),
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
   },
 }));
 
-export default function SignInDialog(props) {
+export default function SignUpDialog(props) {
   const classes = useStyles();
-  const { onButtonCloseClick, onUserSignIn, loginEmail } = props;
-  const [email, setEmail] = useState(loginEmail);
+  const { onButtonCloseClick, onUserSignUp, setLoginEmail } = props;
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const textFieldOnChange = (e) => {
-    const { value } = e.target;
-    if (e.target.name === 'email') {
-      setEmail(value);
-    } else if (e.target.name === 'password') {
-      setPassword(value);
+    const { name, value } = e.target;
+    switch (name) {
+      case 'firstName':
+        setName(value);
+        break;
+      case 'email':
+        setEmail(value);
+        break;
+      case 'password':
+        setPassword(value);
+        break;
+      default:
+        break;
     }
   };
 
   const formOnSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post('http://localhost:3000/users/login', { email, password });
-      console.log(data);
-      localStorage.setItem('user', data.user.name);
-      localStorage.setItem('jwt', data.token);
-      onUserSignIn();
+      const { data } = await axios.post('http://localhost:3000/users/register', { name, email, password });
+      document.cookie = `user = ${data.user.name}`;
+      document.cookie = `jwt = ${data.token}`;
+      setLoginEmail(data.user.email);
       onButtonCloseClick();
+      onUserSignUp();
     } catch (error) {
       console.log(error);
     }
@@ -76,39 +83,49 @@ export default function SignInDialog(props) {
           <LockOutlinedIcon />
         </Avatar>
         <Typography component="h1" variant="h5">
-          Авторизация
+          Регистрация
         </Typography>
         <form className={classes.form} noValidate onSubmit={formOnSubmit}>
-          <TextField
-            value={email}
-            onChange={textFieldOnChange}
-            variant="outlined"
-            margin="normal"
-            required
-            fullWidth
-            id="email"
-            label="Почта"
-            name="email"
-            autoComplete="email"
-            autoFocus
-          />
-          <TextField
-            value={password}
-            onChange={textFieldOnChange}
-            variant="outlined"
-            margin="normal"
-            required
-            fullWidth
-            name="password"
-            label="Пароль"
-            type="password"
-            id="password"
-            autoComplete="current-password"
-          />
-          <FormControlLabel
-            control={<Checkbox value="remember" color="primary" />}
-            label="Запомнить"
-          />
+          <Grid container spacing={2}>
+            <Grid item xs={12}>
+              <TextField
+                onChange={textFieldOnChange}
+                autoComplete="fname"
+                name="firstName"
+                variant="outlined"
+                required
+                fullWidth
+                id="firstName"
+                label="Имя пользователя"
+                autoFocus
+              />
+            </Grid>
+            <Grid item xs={12}>
+              <TextField
+                onChange={textFieldOnChange}
+                variant="outlined"
+                required
+                fullWidth
+                id="email"
+                label="Почта"
+                name="email"
+                autoComplete="email"
+              />
+            </Grid>
+            <Grid item xs={12}>
+              <TextField
+                onChange={textFieldOnChange}
+                variant="outlined"
+                required
+                fullWidth
+                name="password"
+                label="Пароль"
+                type="password"
+                id="password"
+                autoComplete="current-password"
+              />
+            </Grid>
+          </Grid>
           <Button
             type="submit"
             fullWidth
@@ -116,23 +133,18 @@ export default function SignInDialog(props) {
             color="primary"
             className={classes.submit}
           >
-            Авторизация
+            Регистрация
           </Button>
-          <Grid container>
-            <Grid item xs>
-              <Link href="#" variant="body2">
-                Забыли пароль?
-              </Link>
-            </Grid>
+          <Grid container justify="flex-end">
             <Grid item>
               <Link href="#" variant="body2">
-                {'Нет Аккаунта? Зарегистрируйтесь'}
+                Уже есть аккаунт? Авторизироваться
               </Link>
             </Grid>
           </Grid>
         </form>
       </div>
-      <Box mt={8} />
+      <Box mt={5} />
     </Container>
   );
 }
