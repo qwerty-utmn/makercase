@@ -12,6 +12,7 @@ import {
   Drawer,
   Menu,
   MenuItem,
+  Dialog,
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircle from '@material-ui/icons/AccountCircle';
@@ -24,7 +25,8 @@ import AddIcon from '@material-ui/icons/Add';
 import ArtMap from '../../components/artMap/ArtMap';
 import ArtObjectCard from '../../components/ArtObjectCard/ArtObjectCard';
 import ArtObjectCardSmall from '../../components/ArtObjectCardSmall/ArtObjectCardSmall';
-import NewArtObjectDialog from '../../components/newArtObjectDialog/NewArtObjectDialog';
+import NewArtObjectDialog from '../../components/NewArtObjectDialog/NewArtObjectDialog';
+import SignInDialog from '../../components/SignInDialog/SignInDialog';
 
 const drawerWidth = 360;
 
@@ -146,7 +148,8 @@ export default function MainPage() {
   const [openNewArtDialog, setOpenNewArtDialog] = useState(false);
   const [artObjects, setArtObjects] = useState([]);
   const [selectedArtObject, setSelectedArtObject] = useState(null);
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [openLogInDialog, setOpenLogInDialog] = useState(false);
 
   const isMenuOpen = Boolean(anchorEl);
 
@@ -156,6 +159,11 @@ export default function MainPage() {
 
   const handleMenuClose = () => {
     setAnchorEl(null);
+  };
+
+  const SignInClick = () => {
+    handleMenuClose();
+    setOpenLogInDialog(true);
   };
 
   useEffect(() => {
@@ -183,6 +191,10 @@ export default function MainPage() {
     setOpen(true);
     setSelectedArtObject(artObject);
   };
+
+  const handleSignInDialogCloseClick = ()=>{
+    setOpenLogInDialog(false);
+  }
 
   return (
     <div className={classes.root}>
@@ -219,6 +231,11 @@ export default function MainPage() {
               inputProps={{ 'aria-label': 'search' }}
             />
           </div>
+          {/* <IconButton
+            color="inherit"
+            edge="end">
+            <MenuIcon />
+          </IconButton> */}
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <IconButton
@@ -268,7 +285,7 @@ export default function MainPage() {
         </div>
         <Divider />
         <div style={{
-          overflowX: 'scroll',
+          overflowY: 'scroll',
         }}
         >
           {selectedArtObject ? (<ArtObjectCard artObject={selectedArtObject} />) : (
@@ -292,8 +309,8 @@ export default function MainPage() {
         open={isMenuOpen}
         onClose={handleMenuClose}
       >
-        <MenuItem onClick={handleMenuClose}>Профиль</MenuItem>
-        <MenuItem onClick={handleMenuClose}>Выйти</MenuItem>
+        <MenuItem onClick={SignInClick}>Авторизация</MenuItem>
+        <MenuItem onClick={handleMenuClose}>Регистрация</MenuItem>
       </Menu>
       <main
         className={clsx(classes.content, {
@@ -304,6 +321,8 @@ export default function MainPage() {
         <ArtMap artObjects={artObjects} mapOptions={mapOptions} markerOnClick={markerOnClick} />
       </main>
       {openNewArtDialog && <NewArtObjectDialog />}
+      {openLogInDialog && 
+      <Dialog open={true}><SignInDialog buttonCloseClick = {handleSignInDialogCloseClick}/></Dialog>}
     </div>
   );
 }
