@@ -8,6 +8,8 @@ const db = require('../models');
 const { Op } = db.Sequelize;
 const { verifyToken } = require('../services/auth');
 
+const upload = require('../scripts/fileUpload');
+
 router.get('/', async (req, res) => {
   try {
     const places = await db.ArtPlace.findAll({
@@ -131,7 +133,6 @@ router.put('/:id', [
       const {
         coordinates, name, description, author_name
       } = req.body;
-      console.log(req.body);
       db.ArtPlace.findOrCreate({
         where: {
           id: req.params.id
@@ -148,4 +149,20 @@ router.put('/:id', [
     console.error(err);
   }
 });
+
+router.put('/:id/image', upload.array('images', 3), async (req, res) => {
+  if (req.files && req.files.length) {
+    try {
+      const imagesArray = req.files.map(file => ({ path: file.filename, artPlace_id: +req.params.id }));
+      await db.Image.bulkCreate(imagesArray);
+      res.sendStatus(200);
+    } catch (err) {
+      res.status(400).json(err);
+      console.log(err);
+    }
+  } else {
+    console.log('no files to add in artPlace');
+  }
+});
+
 module.exports = router;
