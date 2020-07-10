@@ -24,7 +24,7 @@ export default function ArtObjectCardSmall({ artObject }) {
         <CardMedia
           component="img"
           alt={'изображение'}
-          height="140"
+          height="200"
           image={`${imagesPath}${Images[0].path}`}
           // title={title}
         />
