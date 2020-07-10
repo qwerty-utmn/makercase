@@ -15,7 +15,7 @@ const verifyToken = async (req, res, next) => {
   try {
     const token = req.get('Authorization');
     await jwt.verify(token, JWT_SECRET, (err, res) => {
-      if (res?.id) {
+      if (res.id) {
         req.user = res;
         next();
       } else {
