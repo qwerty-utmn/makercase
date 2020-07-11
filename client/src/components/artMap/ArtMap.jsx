@@ -100,10 +100,39 @@ function Map({
     }
   };
 
+  const createArt = async (data) => {
+    try {
+      const formData = new FormData();
+      console.log('data', data);
+      for (const image of data.images) {
+        formData.append('images', image);
+      }
+      for (const coord of data.coordinates) {
+        formData.append('coordinates', +coord);
+      }
+      formData.append('name', data.name);
+      formData.append('description', data.description);
+      formData.append('address', data.address);
+      const res = await axios.post('http://localhost:3000/artPlaces', formData, {
+        headers: {
+          'Content-type': 'multipart/form-data; charset=UTF-8',
+          Authorization: localStorage.getItem('jwt'),
+        },
+      });
+      alert('Стрит-арт успешно добавлен');
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
   const handleAddPlaceSaveClick = async () => {
     validateAllFieds();
     if (Object.values(addPlaceFormErrors).join('')) return;
-    createPlace(addPlaceForm);
+    if (selectedMapLayer === 'art') {
+      createArt(addPlaceForm);
+    } else {
+      createPlace(addPlaceForm);
+    }
   };
 
   const onPlacesChanged = () => {
