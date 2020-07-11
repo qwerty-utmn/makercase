@@ -14,10 +14,12 @@ import {
   CardContent,
   CardActions,
   Button,
+  Typography,
 } from '@material-ui/core';
+import Autocomplete from '@material-ui/lab/Autocomplete';
 
 const { MarkerClusterer } = require('react-google-maps/lib/components/addons/MarkerClusterer');
-const { MarkerWithLabel } = require('react-google-maps/lib/components/addons/MarkerWithLabel');
+// const { MarkerWithLabel } = require('react-google-maps/lib/components/addons/MarkerWithLabel');
 const { SearchBox } = require('react-google-maps/lib/components/places/SearchBox');
 const placeIcon = require('../../images/wall.svg');
 const artIcon = require('../../images/art.svg');
@@ -29,10 +31,13 @@ const m5 = require('../../images/m5.png');
 
 const API_KEY = 'AIzaSyCJTm8QajP4RjJCtFmYeReQDfuKJXIPiO0';
 
-function Map({ artObjects, markerOnClick, ...props }) {
-  const [createdObject, setCreatedObject] = useState();
-  const [isCreatePopUpOpen, toggleCreatePopUpOpen] = useState(false);
-  const [addPlaceForm, setAddPlaceForm] = useState({ address: '', description: '', images: [] });
+function Map({
+  artObjects, freePlaces, markerOnClick, ...props
+}) {
+  const [isCreatePopUpOpen, setCreatePopUpOpen] = useState(false);
+  const [addPlaceForm, setAddPlaceForm] = useState({ address: null, description: '', images: [] });
+  const [addPlaceFormSuggestedPlaces, setAddPlaceFormSuggestedPlaces] = useState([]);
+  const [addPlaceFormSearchQuery, setAddPlaceFormSearchQuery] = useState('');
   const [addPlaceFormErrors, setAddPlaceFormErrors] = useState({ address: '', description: '' });
   const [bounds, setBounds] = useState(null);
   const [center, setCenter] = useState({ lat: 57.142424, lng: 65.555071 });
@@ -41,6 +46,19 @@ function Map({ artObjects, markerOnClick, ...props }) {
   const refSearchBox = useRef(null);
   const refSearchInput = useRef(null);
   const refMap = useRef(null);
+
+  const getAddressByText = async (text) => {
+    const displaySuggestions = function (predictions, status) {
+      if (status !== window.google.maps.places.PlacesServiceStatus.OK) {
+        alert(status);
+      }
+      console.log('predictions', predictions);
+      setAddPlaceFormSuggestedPlaces(predictions);
+    };
+
+    const service = new window.google.maps.places.AutocompleteService();
+    service.getQueryPredictions({ input: text, types: ['geocode'] }, displaySuggestions);
+  };
 
   const handleAddPlaceForm = (e) => {
     setAddPlaceForm({ ...addPlaceForm, [e.target.name]: e.target.value });
@@ -74,16 +92,8 @@ function Map({ artObjects, markerOnClick, ...props }) {
     createPlace(addPlaceForm);
   };
 
-  const onMarkerClustererClick = (markerClusterer) => {
-    const clickedMarkers = markerClusterer.getMarkers();
-    console.log(`Current clicked markers length: ${clickedMarkers.length}`);
-    console.log(clickedMarkers);
-  };
-
   const onPlacesChanged = () => {
     const places = refSearchBox.current.getPlaces();
-    console.log('onPlacesChanged', places);
-    // setSearchText(e.target.value);
     const bounds = new window.google.maps.LatLngBounds();
 
     places.forEach(place => {
@@ -93,12 +103,17 @@ function Map({ artObjects, markerOnClick, ...props }) {
         bounds.extend(place.geometry.location);
       }
     });
+    console.log('places[0]', places[0]);
     const nextMarker = places[0]
       && places[0].geometry.location;
     const nextCenter = nextMarker && nextMarker.position ? nextMarker.position : center;
     setCenter(nextCenter);
     setSearchMarker(nextMarker);
-    // refs.map.fitBounds(bounds);
+    setCreatePopUpOpen(true);
+    const newAddress = places[0]
+    && places[0].formatted_address;
+    setAddPlaceForm({ ...addPlaceForm, address: newAddress, coordinates: [nextMarker.lat(), nextMarker.lng()] });
+    setAddPlaceFormSearchQuery(newAddress);
   };
 
   const onBoundsChanged = () => {
@@ -113,11 +128,40 @@ function Map({ artObjects, markerOnClick, ...props }) {
       });
       const newAddress = res.data.results[0].formatted_address;
       refSearchInput.current.value = newAddress;
+      setAddPlaceForm({ ...addPlaceForm, address: newAddress, coordinates: [lat, lng] });
+      setAddPlaceFormSearchQuery(newAddress);
     } catch (err) {
       console.error(err);
     }
   };
 
+  const getPlaceDetails = async (placeId) => {
+    // try {
+    //   const res = await axios.get(`https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&fields=geometry&key=${API_KEY}`, {
+    //   });
+    //   console.log(res);
+    // } catch (err) {
+    //   console.error(err);
+    // }
+    const geocoder = new window.google.maps.Geocoder();
+    geocoder.geocode({ placeId }, (results, status) => {
+      if (status === 'OK') {
+        const newAddress = results[0].formatted_address;
+        const lat = results[0].geometry.location.lat();
+        const lng = results[0].geometry.location.lng();
+        setAddPlaceForm({ ...addPlaceForm, address: newAddress, coordinates: [lat, lng] });
+      }
+    });
+  };
+
+  const handleSelectedAddPlaceFormAddress = (e, value) => {
+    e.persist();
+    console.log('handleSelectedAddPlaceFormAddress', e.target, value);
+    setAddPlaceFormSearchQuery(value.description);
+    getPlaceDetails(value.place_id);
+  };
+
+  console.log('freePlaces', freePlaces);
   const isAddPlaceFormValid = !Object.values(addPlaceFormErrors).join('');
   return (
     <GoogleMap
@@ -128,7 +172,7 @@ function Map({ artObjects, markerOnClick, ...props }) {
           lng: e.latLng.lng(),
         });
         getAddressByCoordinates(e.latLng.lat(), e.latLng.lng());
-        toggleCreatePopUpOpen(true);
+        setCreatePopUpOpen(true);
       }}
       defaultZoom={12}
       options={{
@@ -193,7 +237,7 @@ function Map({ artObjects, markerOnClick, ...props }) {
         <>
           <Marker
             position={searchMarker}
-            onClick={() => { toggleCreatePopUpOpen(!isCreatePopUpOpen); }}
+            onClick={() => { setCreatePopUpOpen(!isCreatePopUpOpen); }}
             draggable
             icon={{
               url: placeIcon,
@@ -207,14 +251,46 @@ function Map({ artObjects, markerOnClick, ...props }) {
             }}
           >
             {isCreatePopUpOpen && (
-            <InfoWindow onCloseClick={() => { toggleCreatePopUpOpen(!isCreatePopUpOpen); }}>
+            <InfoWindow onCloseClick={() => { setCreatePopUpOpen(!isCreatePopUpOpen); }}>
               <Card>
                 <CardHeader title="Добавление места" />
                 <CardContent>
                   <form noValidate autoComplete="off">
                     <Grid container spacing={2} direction="column">
                       <Grid item>
-                        <TextField
+                        <Autocomplete
+                          freeSolo
+                          disableClearable
+                          options={addPlaceFormSuggestedPlaces}
+                          getOptionLabel={(a) => a.description || ''}
+                          getOptionSelected={(option, value) => value.id === option.id}
+                          renderOption={(option) => <Typography noWrap>{option.description}</Typography>}
+                          onChange={(e, value) => {
+                            handleSelectedAddPlaceFormAddress(e, value);
+                          }}
+                          filterOptions={(options) => options}
+                          renderInput={(params) => (
+                            <TextField
+                              {...params}
+                              label="Адрес"
+                              InputLabelProps={{
+                                shrink: true,
+                              }}
+                              variant="outlined"
+                              margin="dense"
+                              InputProps={{ ...params.InputProps, type: 'search' }}
+                              value={addPlaceFormSearchQuery}
+                              onChange={(e) => {
+                                e.persist();
+                                setAddPlaceFormSearchQuery(e.target.value);
+                                getAddressByText(e.target.value);
+                              }}
+                            />
+                          )}
+                          value={addPlaceForm.address}
+                          inputValue={addPlaceFormSearchQuery}
+                        />
+                        {/* <TextField
                           label="Адрес"
                           name="address"
                           value={addPlaceForm.address}
@@ -228,7 +304,7 @@ function Map({ artObjects, markerOnClick, ...props }) {
                           helperText={addPlaceFormErrors.address}
                           fullWidth
                           required
-                        />
+                        /> */}
                       </Grid>
                       <Grid item>
                         <TextField
@@ -280,7 +356,6 @@ function Map({ artObjects, markerOnClick, ...props }) {
         </>
       )}
       <MarkerClusterer
-        onClick={onMarkerClustererClick}
         averageCenter
         enableRetinaIcons
         gridSize={60}
@@ -301,7 +376,7 @@ function Map({ artObjects, markerOnClick, ...props }) {
           (artObject, key) => (
             <Marker
               key={key}
-              position={{ lat: artObject.coordinates[1], lng: artObject.coordinates[0] }}
+              position={{ lat: artObject.coordinates[0], lng: artObject.coordinates[1] }}
               onClick={() => {
                 markerOnClick(artObject);
               }}
@@ -312,17 +387,53 @@ function Map({ artObjects, markerOnClick, ...props }) {
             />
           ))}
       </MarkerClusterer>
+      <MarkerClusterer
+        averageCenter
+        enableRetinaIcons
+        gridSize={60}
+        styles={[{
+          textColor: 'white', height: 53, url: m1, width: 53,
+        }, {
+          textColor: 'white', height: 56, url: m2, width: 56,
+        }, {
+          textColor: 'white', height: 66, url: m3, width: 66,
+        }, {
+          textColor: 'white', height: 78, url: m4, width: 78,
+        }, {
+          textColor: 'white', height: 90, url: m5, width: 90,
+        }]}
+        minimumClusterSize={2}
+      >
+        {freePlaces && freePlaces.map(
+          (freePlace, key) => {
+            console.log('freePlacefreePlace', freePlace);
+            return (
+              <Marker
+                key={key}
+                position={{ lat: freePlace.coordinates[0], lng: freePlace.coordinates[1] }}
+              // onClick={() => {
+              //   markerOnClick(freePlace);
+              // }}
+                icon={{
+                  url: placeIcon,
+                }}
+                noRedraw
+              />
+            );
+          })}
+      </MarkerClusterer>
     </GoogleMap>
   );
 }
 
 const WrappedMap = withScriptjs(withGoogleMap(Map));
 
-export default function ArtMap({ artObjects, markerOnClick }) {
+export default function ArtMap({ artObjects, freePlaces, markerOnClick }) {
   return (
     <div style={{ height: '93%' }}>
       <WrappedMap
         artObjects={artObjects}
+        freePlaces={freePlaces}
         markerOnClick={markerOnClick}
         googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${API_KEY}&v=3.exp&libraries=geometry,drawing,places`}
         loadingElement={<div style={{ height: '100%' }} />}

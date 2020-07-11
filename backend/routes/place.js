@@ -23,4 +23,13 @@ router.post('/', verifyToken, async (req, res) => {
   }
 });
 
+router.get('/', async (req, res) => {
+  try {
+    const places = await db.Place.findAll();
+    res.status(200).json(places);
+  } catch (err) {
+    console.error(err);
+  }
+});
+
 module.exports = router;

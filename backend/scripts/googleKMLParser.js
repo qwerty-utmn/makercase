@@ -98,7 +98,7 @@ function translite(str) {
           name: clearPlacemarkName,
         },
         defaults: {
-          coordinates: [parseFloat(lng), parseFloat(lat)],
+          coordinates: [parseFloat(lat), parseFloat(lng)],
           name: clearPlacemarkName,
           description: clearPlacemarkDescription,
           // author_name: ,

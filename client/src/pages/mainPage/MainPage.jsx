@@ -146,6 +146,7 @@ export default function MainPage() {
   const [open, setOpen] = useState(false);
   const [openNewArtDialog, setOpenNewArtDialog] = useState(false);
   const [artObjects, setArtObjects] = useState([]);
+  const [freePlaces, setFreePlaces] = useState([]);
   const [selectedArtObject, setSelectedArtObject] = useState(null);
   const [anchorEl, setAnchorEl] = useState(null);
   const [openLogInDialog, setOpenLogInDialog] = useState(false);
@@ -174,12 +175,19 @@ export default function MainPage() {
     setOpenSignUpDialog(true);
   };
 
+  const getArtObjects = async () => {
+    const res = await axios.get('http://localhost:3000/artPlaces');
+    setArtObjects(res.data);
+  };
+
+  const getPlaces = async () => {
+    const res = await axios.get('http://localhost:3000/places');
+    setFreePlaces(res.data);
+  };
+
   useEffect(() => {
-    async function getArtObjects() {
-      const res = await axios.get('http://localhost:3000/artPlaces');
-      setArtObjects(res.data);
-    }
     getArtObjects();
+    getPlaces();
     const user = localStorage.getItem('user');
     const jwt = localStorage.getItem('jwt');
     if (user && jwt) {
@@ -369,7 +377,7 @@ export default function MainPage() {
         })}
       >
         <div className={classes.drawerHeader} />
-        <ArtMap artObjects={artObjects} mapOptions={mapOptions} markerOnClick={markerOnClick} />
+        <ArtMap artObjects={artObjects} freePlaces={freePlaces} mapOptions={mapOptions} markerOnClick={markerOnClick} />
       </main>
       {openNewArtDialog && <NewArtObjectDialog />}
       {openLogInDialog
