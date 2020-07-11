@@ -13,6 +13,7 @@ import {
   Menu,
   MenuItem,
   Dialog,
+  Button,
 } from '@material-ui/core';
 import MenuIcon from '@material-ui/icons/Menu';
 import AccountCircle from '@material-ui/icons/AccountCircle';
@@ -99,15 +100,19 @@ const useStyles = makeStyles((theme) => ({
   grow: {
     flexGrow: 1,
   },
-  search: {
+  filters: {
     position: 'relative',
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: fade(theme.palette.common.white, 0.15),
-    '&:hover': {
-      backgroundColor: fade(theme.palette.common.white, 0.25),
+    '& > button': {
+      margin: theme.spacing(1),
+      color: 'white',
+      backgroundColor: 'transparent',
+      '&.active': {
+        backgroundColor: fade(theme.palette.common.white, 0.15),
+      },
+      '&:hover': {
+        backgroundColor: fade(theme.palette.common.white, 0.25),
+      },
     },
-    marginRight: theme.spacing(2),
-    marginLeft: 0,
     width: '100%',
     [theme.breakpoints.up('sm')]: {
       marginLeft: theme.spacing(3),
@@ -155,6 +160,7 @@ export default function MainPage() {
   const [loginEmail, setLoginEmail] = useState();
   const [openImagesCarousel, setOpenImagesCarousel] = useState(false);
   const [images, setImages] = useState([]);
+  const [selectedMapLayer, setSelectedMapLayer] = useState('art');
   const isMenuOpen = Boolean(anchorEl);
 
   const handleMenuOpen = (event) => {
@@ -264,18 +270,9 @@ export default function MainPage() {
           <Typography variant="h6" noWrap>
             Карта арт-объектов Тюмени
           </Typography>
-          <div className={classes.search}>
-            <div className={classes.searchIcon}>
-              <SearchIcon />
-            </div>
-            <InputBase
-              placeholder="Поиск..."
-              classes={{
-                root: classes.inputRoot,
-                input: classes.inputInput,
-              }}
-              inputProps={{ 'aria-label': 'search' }}
-            />
+          <div className={classes.filters}>
+            <Button className={selectedMapLayer === 'art' ? 'active' : ''} onClick={() => setSelectedMapLayer('art')}>Арт объекты</Button>
+            <Button className={selectedMapLayer === 'place' ? 'active' : ''} onClick={() => setSelectedMapLayer('place')}>Места</Button>
           </div>
           <div className={classes.grow} />
           {user
@@ -377,7 +374,13 @@ export default function MainPage() {
         })}
       >
         <div className={classes.drawerHeader} />
-        <ArtMap artObjects={artObjects} freePlaces={freePlaces} mapOptions={mapOptions} markerOnClick={markerOnClick} />
+        <ArtMap
+          artObjects={artObjects}
+          freePlaces={freePlaces}
+          mapOptions={mapOptions}
+          markerOnClick={markerOnClick}
+          selectedMapLayer={selectedMapLayer}
+        />
       </main>
       {openNewArtDialog && <NewArtObjectDialog />}
       {openLogInDialog

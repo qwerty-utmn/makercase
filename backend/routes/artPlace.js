@@ -58,17 +58,20 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-router.post('/', verifyToken, async (req, res) => {
+router.post('/', verifyToken, upload.array('images', 3), async (req, res) => {
   try {
     const {
       coordinates, name, description, author_name
     } = req.body;
-    await db.ArtPlace.create({
-      coordinates,
+    const formattedCoortdinates = coordinates.map((coord) => +coord);
+    const newArtPlace = await db.ArtPlace.create({
+      coordinates: formattedCoortdinates,
       name,
       description,
       author_name
     });
+    const imagesArray = req.files.map(file => ({ path: file.filename, artPlace_id: +newArtPlace.id }));
+    await db.Image.bulkCreate(imagesArray);
     res.sendStatus(200);
   } catch (err) {
     console.error(err);

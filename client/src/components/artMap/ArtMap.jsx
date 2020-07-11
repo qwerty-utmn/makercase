@@ -32,10 +32,12 @@ const m5 = require('../../images/m5.png');
 const API_KEY = 'AIzaSyCJTm8QajP4RjJCtFmYeReQDfuKJXIPiO0';
 
 function Map({
-  artObjects, freePlaces, markerOnClick, ...props
+  artObjects, freePlaces, markerOnClick, selectedMapLayer, ...props
 }) {
   const [isCreatePopUpOpen, setCreatePopUpOpen] = useState(false);
-  const [addPlaceForm, setAddPlaceForm] = useState({ address: null, description: '', images: [] });
+  const [addPlaceForm, setAddPlaceForm] = useState({
+    address: null, description: '', name: '', images: [],
+  });
   const [addPlaceFormSuggestedPlaces, setAddPlaceFormSuggestedPlaces] = useState([]);
   const [addPlaceFormSearchQuery, setAddPlaceFormSearchQuery] = useState('');
   const [addPlaceFormErrors, setAddPlaceFormErrors] = useState({ address: '', description: '' });
@@ -75,8 +77,20 @@ function Map({
 
   const createPlace = async (data) => {
     try {
-      const res = await axios.post('http://localhost:3000/places', data, {
+      const formData = new FormData();
+      console.log('data', data);
+      for (const image of data.images) {
+        formData.append('images', image);
+      }
+      for (const coord of data.coordinates) {
+        formData.append('coordinates', +coord);
+      }
+      formData.append('name', data.name);
+      formData.append('description', data.description);
+      formData.append('address', data.address);
+      const res = await axios.post('http://localhost:3000/places', formData, {
         headers: {
+          'Content-type': 'multipart/form-data; charset=UTF-8',
           Authorization: localStorage.getItem('jwt'),
         },
       });
@@ -161,6 +175,10 @@ function Map({
     getPlaceDetails(value.place_id);
   };
 
+  const handleImagesChange = (e) => {
+    setAddPlaceForm({ ...addPlaceForm, images: e.target.files });
+  };
+
   console.log('freePlaces', freePlaces);
   const isAddPlaceFormValid = !Object.values(addPlaceFormErrors).join('');
   return (
@@ -240,7 +258,7 @@ function Map({
             onClick={() => { setCreatePopUpOpen(!isCreatePopUpOpen); }}
             draggable
             icon={{
-              url: placeIcon,
+              url: selectedMapLayer === 'art' ? artIcon : placeIcon,
             }}
             onDragEnd={(e) => {
               setSearchMarker({
@@ -306,6 +324,26 @@ function Map({
                           required
                         /> */}
                       </Grid>
+                      {selectedMapLayer === 'art'
+                      && (
+                      <Grid item>
+                        <TextField
+                          label="Название"
+                          name="name"
+                          value={addPlaceForm.name}
+                          onChange={handleAddPlaceForm}
+                          InputLabelProps={{
+                            shrink: true,
+                          }}
+                          variant="outlined"
+                          size="small"
+                          error={!!addPlaceFormErrors.name}
+                          helperText={addPlaceFormErrors.name}
+                          fullWidth
+                          required
+                        />
+                      </Grid>
+                      )}
                       <Grid item>
                         <TextField
                           label="Описание"
@@ -332,7 +370,9 @@ function Map({
                             labelWidth={50}
                             inputProps={{
                               accept: 'image/*',
+                              multiple: true,
                             }}
+                            onChange={handleImagesChange}
                           />
                         </FormControl>
                       </Grid>
@@ -355,86 +395,94 @@ function Map({
           </Marker>
         </>
       )}
-      <MarkerClusterer
-        averageCenter
-        enableRetinaIcons
-        gridSize={60}
-        styles={[{
-          textColor: 'white', height: 53, url: m1, width: 53,
-        }, {
-          textColor: 'white', height: 56, url: m2, width: 56,
-        }, {
-          textColor: 'white', height: 66, url: m3, width: 66,
-        }, {
-          textColor: 'white', height: 78, url: m4, width: 78,
-        }, {
-          textColor: 'white', height: 90, url: m5, width: 90,
-        }]}
-        minimumClusterSize={2}
-      >
-        {artObjects && artObjects.map(
-          (artObject, key) => (
-            <Marker
-              key={key}
-              position={{ lat: artObject.coordinates[0], lng: artObject.coordinates[1] }}
-              onClick={() => {
-                markerOnClick(artObject);
-              }}
-              icon={{
-                url: artIcon,
-              }}
-              noRedraw
-            />
-          ))}
-      </MarkerClusterer>
-      <MarkerClusterer
-        averageCenter
-        enableRetinaIcons
-        gridSize={60}
-        styles={[{
-          textColor: 'white', height: 53, url: m1, width: 53,
-        }, {
-          textColor: 'white', height: 56, url: m2, width: 56,
-        }, {
-          textColor: 'white', height: 66, url: m3, width: 66,
-        }, {
-          textColor: 'white', height: 78, url: m4, width: 78,
-        }, {
-          textColor: 'white', height: 90, url: m5, width: 90,
-        }]}
-        minimumClusterSize={2}
-      >
-        {freePlaces && freePlaces.map(
-          (freePlace, key) => {
-            console.log('freePlacefreePlace', freePlace);
-            return (
-              <Marker
-                key={key}
-                position={{ lat: freePlace.coordinates[0], lng: freePlace.coordinates[1] }}
+      {selectedMapLayer === 'art'
+        ? (
+          <MarkerClusterer
+            averageCenter
+            enableRetinaIcons
+            gridSize={60}
+            styles={[{
+              textColor: 'white', height: 53, url: m1, width: 53,
+            }, {
+              textColor: 'white', height: 56, url: m2, width: 56,
+            }, {
+              textColor: 'white', height: 66, url: m3, width: 66,
+            }, {
+              textColor: 'white', height: 78, url: m4, width: 78,
+            }, {
+              textColor: 'white', height: 90, url: m5, width: 90,
+            }]}
+            minimumClusterSize={2}
+          >
+            {artObjects && artObjects.map(
+              (artObject, key) => (
+                <Marker
+                  key={key}
+                  position={{ lat: artObject.coordinates[0], lng: artObject.coordinates[1] }}
+                  onClick={() => {
+                    markerOnClick(artObject);
+                  }}
+                  icon={{
+                    url: artIcon,
+                  }}
+                  noRedraw
+                />
+              ))}
+          </MarkerClusterer>
+        )
+        : (
+          <MarkerClusterer
+            averageCenter
+            enableRetinaIcons
+            gridSize={60}
+            styles={[{
+              textColor: 'white', height: 53, url: m1, width: 53,
+            }, {
+              textColor: 'white', height: 56, url: m2, width: 56,
+            }, {
+              textColor: 'white', height: 66, url: m3, width: 66,
+            }, {
+              textColor: 'white', height: 78, url: m4, width: 78,
+            }, {
+              textColor: 'white', height: 90, url: m5, width: 90,
+            }]}
+            minimumClusterSize={2}
+          >
+            {freePlaces && freePlaces.map(
+              (freePlace, key) => {
+                console.log('freePlacefreePlace', freePlace);
+                return (
+                  <Marker
+                    key={key}
+                    position={{ lat: freePlace.coordinates[0], lng: freePlace.coordinates[1] }}
               // onClick={() => {
               //   markerOnClick(freePlace);
               // }}
-                icon={{
-                  url: placeIcon,
-                }}
-                noRedraw
-              />
-            );
-          })}
-      </MarkerClusterer>
+                    icon={{
+                      url: placeIcon,
+                    }}
+                    noRedraw
+                  />
+                );
+              })}
+          </MarkerClusterer>
+        )}
     </GoogleMap>
   );
 }
 
 const WrappedMap = withScriptjs(withGoogleMap(Map));
 
-export default function ArtMap({ artObjects, freePlaces, markerOnClick }) {
+export default function ArtMap({
+  artObjects, freePlaces, markerOnClick, selectedMapLayer,
+}) {
   return (
     <div style={{ height: '93%' }}>
       <WrappedMap
         artObjects={artObjects}
         freePlaces={freePlaces}
         markerOnClick={markerOnClick}
+        selectedMapLayer={selectedMapLayer}
         googleMapURL={`https://maps.googleapis.com/maps/api/js?key=${API_KEY}&v=3.exp&libraries=geometry,drawing,places`}
         loadingElement={<div style={{ height: '100%' }} />}
         containerElement={<div style={{ height: '100%' }} />}

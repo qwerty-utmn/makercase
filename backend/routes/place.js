@@ -1,22 +1,26 @@
 const express = require('express');
+const upload = require('../scripts/fileUpload');
 
 const router = express.Router();
 
 const db = require('../models');
 const { verifyToken } = require('../services/auth');
 
-router.post('/', verifyToken, async (req, res) => {
+router.post('/', verifyToken, upload.array('images', 3), async (req, res) => {
   try {
     const {
-      coordinates, address, name, description
+      coordinates, name, description, address
     } = req.body;
-    await db.Place.create({
-      coordinates,
-      address,
+    const formattedCoortdinates = coordinates.map((coord) => +coord);
+    const newPlace = await db.Place.create({
+      coordinates: formattedCoortdinates,
       name,
       description,
+      address,
       creator_id: req.user.id
     });
+    const imagesArray = req.files.map(file => ({ path: file.filename, place_id: +newPlace.id }));
+    await db.Image.bulkCreate(imagesArray);
     res.sendStatus(200);
   } catch (err) {
     console.error(err);
