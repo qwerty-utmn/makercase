@@ -3,3 +3,5 @@ body,
 #root {
     height: 100%;
 }
+
+@import "~react-image-gallery/styles/css/image-gallery.css";

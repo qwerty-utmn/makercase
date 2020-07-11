@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
@@ -15,18 +15,20 @@ const useStyles = makeStyles({
   },
 });
 const imagesPath = 'http://localhost:3000/static-images/';
-export default function ArtObjectCardSmall({ artObject }) {
+export default function ArtObjectCardSmall(props) {
   const classes = useStyles();
-  const { name, description, Images } = artObject;
+  const { name, description, Images } = props.artObject;
+  const { onCardImageClick } = props;
+
   return (
     <Card className={classes.root}>
       <CardActionArea>
         <CardMedia
+          onClick={onCardImageClick}
           component="img"
           alt={'изображение'}
           height="200"
           image={`${imagesPath}${Images[0].path}`}
-          // title={title}
         />
         <CardContent>
           <Typography color="textSecondary">
@@ -42,5 +44,6 @@ export default function ArtObjectCardSmall({ artObject }) {
         </CardContent>
       </CardActionArea>
     </Card>
+
   );
 }

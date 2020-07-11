@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import clsx from 'clsx';
-import { fade, makeStyles, useTheme } from '@material-ui/core/styles';
+import { fade, makeStyles } from '@material-ui/core/styles';
 import {
   InputBase,
   AppBar,
@@ -28,8 +28,10 @@ import ArtObjectCardSmall from '../../components/ArtObjectCardSmall/ArtObjectCar
 import NewArtObjectDialog from '../../components/NewArtObjectDialog/NewArtObjectDialog';
 import SignInDialog from '../../components/SignInDialog/SignInDialog';
 import SignUpDialog from '../../components/SignUpDialog/SignUpDialog';
+import ImageSlider from '../../components/ImageSlider/ImageSlider';
 
 const drawerWidth = 360;
+const imagesPath = 'http://localhost:3000/static-images/';
 
 const mapOptions = {
   center: {
@@ -150,7 +152,8 @@ export default function MainPage() {
   const [openSignUpDialog, setOpenSignUpDialog] = useState(false);
   const [user, setUser] = useState();
   const [loginEmail, setLoginEmail] = useState();
-
+  const [openImagesCarousel, setOpenImagesCarousel] = useState(false);
+  const [images, setImages] = useState([]);
   const isMenuOpen = Boolean(anchorEl);
 
   const handleMenuOpen = (event) => {
@@ -223,6 +226,12 @@ export default function MainPage() {
     localStorage.removeItem('user');
     localStorage.removeItem('jwt');
     setUser();
+  };
+
+  const onCardImageClick = () => {
+    setOpenImagesCarousel(true);
+    setImages(selectedArtObject.Images.map(img => ({ original: `${imagesPath}${img.path}` })));
+    console.log(images);
   };
 
   return (
@@ -330,7 +339,7 @@ export default function MainPage() {
           overflowY: 'scroll',
         }}
         >
-          {selectedArtObject ? (<ArtObjectCard artObject={selectedArtObject} />) : (
+          {selectedArtObject ? (<ArtObjectCard artObject={selectedArtObject} onCardImageClick={onCardImageClick} />) : (
             artObjects.map((obj, index) => (
               <ArtObjectCardSmall
                 key={index}
@@ -381,6 +390,17 @@ export default function MainPage() {
           onUserSignUp={onUserSignUp}
           setLoginEmail={setLoginEmail}
         />
+      </Dialog>
+      )}
+      {openImagesCarousel
+      && (
+      <Dialog
+        open
+        onClose={() => {
+          setOpenImagesCarousel(false);
+        }}
+      >
+        <ImageSlider images={images} />
       </Dialog>
       )}
     </div>
