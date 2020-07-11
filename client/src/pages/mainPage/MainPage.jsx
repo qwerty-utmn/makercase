@@ -23,7 +23,7 @@ import axios from 'axios';
 import AddIcon from '@material-ui/icons/Add';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import ArtMap from '../../components/artMap/ArtMap';
-import ArtObjectCard from '../../components/ArtObjectCard/ArtObjectCard';
+import ArtObjectCard from '../../components/ArtObjectCard/artObjectCard';
 import ArtObjectCardSmall from '../../components/ArtObjectCardSmall/ArtObjectCardSmall';
 import NewArtObjectDialog from '../../components/NewArtObjectDialog/NewArtObjectDialog';
 import SignInDialog from '../../components/SignInDialog/SignInDialog';
