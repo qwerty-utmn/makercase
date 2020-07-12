@@ -11,7 +11,7 @@ const useStyles = makeStyles({
     whiteSpace: 'pre-wrap',
   },
 });
-const imagesPath = 'http://localhost:3000/static-images/';
+const imagesPath = 'http://164.90.187.182:3000/static-images/';
 export default function ArtObjectCardSmall(props) {
   const classes = useStyles();
   const { name, description, Images } = props.artObject;

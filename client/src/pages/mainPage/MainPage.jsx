@@ -32,7 +32,7 @@ import ImageSlider from '../../components/ImageSlider/ImageSlider';
 import CommentsBox from '../../components/Comments/CommentsBox';
 
 const drawerWidth = 360;
-const imagesPath = 'http://localhost:3000/static-images/';
+const imagesPath = 'http://164.90.187.182:3000/static-images/';
 
 const mapOptions = {
   center: {
@@ -181,12 +181,12 @@ export default function MainPage() {
   };
 
   const getArtObjects = async () => {
-    const res = await axios.get('http://localhost:3000/artPlaces');
+    const res = await axios.get('http://164.90.187.182:3000/artPlaces');
     setArtObjects(res.data);
   };
 
   const getPlaces = async () => {
-    const res = await axios.get('http://localhost:3000/places');
+    const res = await axios.get('http://164.90.187.182:3000/places');
     setFreePlaces(res.data);
   };
 
@@ -211,7 +211,7 @@ export default function MainPage() {
 
   const handleSelectArtObject = async (artObject) => {
     try {
-      // const res = await axios.get(`http://localhost:3000/places/${artObject.id}`, {
+      // const res = await axios.get(`http://164.90.187.182:3000/places/${artObject.id}`, {
       //   headers: {
       //     Authorization: localStorage.getItem('jwt'),
       //   },
@@ -258,7 +258,7 @@ export default function MainPage() {
 
   const handleMessageSend = async (text) => {
     try {
-      const res = await axios.post(`http://localhost:3000/${selectedArtObject.id}/comment`, { text }, {
+      const res = await axios.post(`http://164.90.187.182:3000/${selectedArtObject.id}/comment`, { text }, {
         headers: {
           Authorization: localStorage.getItem('jwt'),
         },

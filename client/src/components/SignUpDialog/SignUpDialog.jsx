@@ -61,7 +61,7 @@ export default function SignUpDialog(props) {
   const formOnSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post('http://localhost:3000/users/register', { name, email, password });
+      const { data } = await axios.post('http://164.90.187.182:3000/users/register', { name, email, password });
       document.cookie = `user = ${data.user.name}`;
       document.cookie = `jwt = ${data.token}`;
       setLoginEmail(data.user.email);

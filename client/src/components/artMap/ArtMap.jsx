@@ -88,7 +88,7 @@ function Map({
       formData.append('name', data.name);
       formData.append('description', data.description);
       formData.append('address', data.address);
-      const res = await axios.post('http://localhost:3000/places', formData, {
+      const res = await axios.post('http://164.90.187.182:3000/places', formData, {
         headers: {
           'Content-type': 'multipart/form-data; charset=UTF-8',
           Authorization: localStorage.getItem('jwt'),
@@ -114,7 +114,7 @@ function Map({
       formData.append('name', data.name);
       formData.append('description', data.description);
       formData.append('address', data.address);
-      const res = await axios.post('http://localhost:3000/artPlaces', formData, {
+      const res = await axios.post('http://164.90.187.182:3000/artPlaces', formData, {
         headers: {
           'Content-type': 'multipart/form-data; charset=UTF-8',
           Authorization: localStorage.getItem('jwt'),
