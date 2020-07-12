@@ -358,14 +358,16 @@ export default function MainPage() {
           </div>
         </div>
         <Divider />
-        {selectedArtObject && user ? (
+        {selectedArtObject ? (
           <div>
             <ArtObjectCard artObject={selectedArtObject} onCardImageClick={onCardImageClick} />
+            { user && user.name && (
             <CommentsBox
               comments={selectedArtObject.comments}
               currentUser={user}
               handleMessageSend={handleMessageSend}
             />
+            )}
           </div>
         ) : (
           <div style={{
