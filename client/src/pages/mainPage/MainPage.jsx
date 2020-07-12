@@ -211,10 +211,6 @@ export default function MainPage() {
     setSelectedArtObject(null);
   };
 
-  const handleNewArtObjectClick = () => {
-    setOpenNewArtDialog(true);
-  };
-
   const handleSelectArtObject = async (artObject) => {
     try {
       // const res = await axios.get(`http://localhost:3000/places/${artObject.id}`, {
@@ -358,9 +354,6 @@ export default function MainPage() {
             justifyContent: 'flex-end',
           }}
           >
-            <IconButton onClick={handleNewArtObjectClick}>
-              <AddIcon />
-            </IconButton>
             <IconButton onClick={handleDrawerClose}>
               <CloseIcon />
             </IconButton>
