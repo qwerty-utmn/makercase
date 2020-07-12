@@ -33,9 +33,9 @@ class CommentForm extends Component {
       <Grid container alignItems="center" style={{ marginTop: '16px', paddingRight: '8px' }}>
         <Grid item>
           <Avatar
-            alt={`${currentUser.name}`}
+            alt={`${currentUser.name || ''}`}
           >
-            {currentUser.name}
+            {currentUser.name || ''}
           </Avatar>
         </Grid>
         <Grid item style={{ flexGrow: 1, marginLeft: '8px' }}>

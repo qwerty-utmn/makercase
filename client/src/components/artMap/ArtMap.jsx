@@ -130,6 +130,10 @@ function Map({
   const handleAddPlaceSaveClick = async () => {
     validateAllFieds();
     if (Object.values(addPlaceFormErrors).join('')) return;
+    if (!localStorage.getItem('jwt')) {
+      alert('Вам необходимо зарегистрировать');
+      return;
+    }
     if (selectedMapLayer === 'art') {
       createArt(addPlaceForm);
     } else {

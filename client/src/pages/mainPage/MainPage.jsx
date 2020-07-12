@@ -358,7 +358,7 @@ export default function MainPage() {
           </div>
         </div>
         <Divider />
-        {selectedArtObject ? (
+        {selectedArtObject && user ? (
           <div>
             <ArtObjectCard artObject={selectedArtObject} onCardImageClick={onCardImageClick} />
             <CommentsBox
