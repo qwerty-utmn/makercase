@@ -26,7 +26,6 @@ import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 import ArtMap from '../../components/artMap/ArtMap';
 import ArtObjectCard from '../../components/artObjectCard/artObjectCard';
 import ArtObjectCardSmall from '../../components/ArtObjectCardSmall/ArtObjectCardSmall';
-import NewArtObjectDialog from '../../components/NewArtObjectDialog/NewArtObjectDialog';
 import SignInDialog from '../../components/SignInDialog/SignInDialog';
 import SignUpDialog from '../../components/SignUpDialog/SignUpDialog';
 import ImageSlider from '../../components/ImageSlider/ImageSlider';
@@ -150,7 +149,6 @@ const useStyles = makeStyles((theme) => ({
 export default function MainPage() {
   const classes = useStyles();
   const [open, setOpen] = useState(false);
-  const [openNewArtDialog, setOpenNewArtDialog] = useState(false);
   const [artObjects, setArtObjects] = useState([]);
   const [freePlaces, setFreePlaces] = useState([]);
   const [selectedArtObject, setSelectedArtObject] = useState(null);
@@ -411,7 +409,6 @@ export default function MainPage() {
           selectedMapLayer={selectedMapLayer}
         />
       </main>
-      {openNewArtDialog && <NewArtObjectDialog />}
       {openLogInDialog
       && (
       <Dialog open>
