@@ -9,6 +9,8 @@ const { Op } = db.Sequelize;
 const { verifyToken } = require('../services/auth');
 
 const upload = require('../scripts/fileUpload');
+const { sequelize } = require('../models');
+const moment = require('moment');
 
 router.get('/', async (req, res) => {
   try {
@@ -87,15 +89,12 @@ router.post('/:id/comment', verifyToken, async (req, res) => {
   const artPlace = await db.ArtPlace.findOne({
     where: {
       id: {
-        [Op.eq]: req.params.id
+        [Op.eq]: +req.params.id
       }
     }
   });
-  await db.Comment.create({
-    artPlace_id: artPlace.id,
-    user_id: req.user.id,
-    text
-  });
+  console.log('ArtPlace', artPlace);
+  await sequelize.query(`INSERT INTO "Comment" ("user_id","artPlace_id","text", "createdAt", "updatedAt") VALUES (${req.user.id},${artPlace.id},'${text}','${moment().format('YYYY/MM/DD HH:mm:ss')}','${moment().format('YYYY/MM/DD HH:mm:ss')}')`);
   res.sendStatus(200);
 });
 

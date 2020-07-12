@@ -12,6 +12,8 @@ module.exports = (sequelize, DataTypes) => {
   );
 
   Comment.associate = function (models) {
+    this.belongsTo(models.ArtPlace, { foreignKey: 'artPlace_id', foreignKeyConstraint: true });
+    this.belongsTo(models.User, { foreignKey: 'user_id', foreignKeyConstraint: true });
 
   };
   return Comment;
