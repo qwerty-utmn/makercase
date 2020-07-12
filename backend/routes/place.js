@@ -19,7 +19,7 @@ router.post('/', verifyToken, upload.array('images', 3), async (req, res) => {
       address,
       creator_id: req.user.id
     });
-    const imagesArray = req.files.map(file => ({ path: file.filename, place_id: +newPlace.id }));
+    const imagesArray = req.files.map(file => ({ path: file.filename, artPlace_id: +newPlace.id }));
     await db.Image.bulkCreate(imagesArray);
     res.sendStatus(200);
   } catch (err) {

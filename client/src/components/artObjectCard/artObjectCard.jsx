@@ -7,9 +7,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
   description: {
     whiteSpace: 'pre-wrap',
   },
@@ -21,10 +18,9 @@ export default function ArtObjectCardSmall(props) {
   const { onCardImageClick } = props;
 
   return (
-    <Card className={classes.root}>
+    <Card elevation={0} onClick={onCardImageClick}>
       <CardActionArea>
         <CardMedia
-          onClick={onCardImageClick}
           component="img"
           alt={'изображение'}
           height="200"

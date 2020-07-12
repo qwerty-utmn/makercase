@@ -30,6 +30,7 @@ import NewArtObjectDialog from '../../components/NewArtObjectDialog/NewArtObject
 import SignInDialog from '../../components/SignInDialog/SignInDialog';
 import SignUpDialog from '../../components/SignUpDialog/SignUpDialog';
 import ImageSlider from '../../components/ImageSlider/ImageSlider';
+import CommentsBox from '../../components/Comments/CommentsBox';
 
 const drawerWidth = 360;
 const imagesPath = 'http://localhost:3000/static-images/';
@@ -214,9 +215,22 @@ export default function MainPage() {
     setOpenNewArtDialog(true);
   };
 
-  const markerOnClick = async (artObject) => {
+  const handleSelectArtObject = async (artObject) => {
+    try {
+      // const res = await axios.get(`http://localhost:3000/places/${artObject.id}`, {
+      //   headers: {
+      //     Authorization: localStorage.getItem('jwt'),
+      //   },
+      // });
+      setSelectedArtObject({ ...artObject, comments: [] });
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const markerOnClick = (artObject) => {
     setOpen(true);
-    setSelectedArtObject(artObject);
+    handleSelectArtObject(artObject);
   };
 
   const handleSignInDialogCloseClick = () => {
@@ -246,6 +260,19 @@ export default function MainPage() {
     setOpenImagesCarousel(true);
     setImages(selectedArtObject.Images.map(img => ({ original: `${imagesPath}${img.path}` })));
     console.log(images);
+  };
+
+  const handleMessageSend = async (text) => {
+    try {
+      const res = await axios.post(`http://localhost:3000/${selectedArtObject.id}/comment`, { text }, {
+        headers: {
+          Authorization: localStorage.getItem('jwt'),
+        },
+      });
+      // window.location.reload(false);
+    } catch (err) {
+      console.error(err);
+    }
   };
 
   return (
@@ -340,22 +367,31 @@ export default function MainPage() {
           </div>
         </div>
         <Divider />
-        <div style={{
-          overflowY: 'scroll',
-        }}
-        >
-          {selectedArtObject ? (<ArtObjectCard artObject={selectedArtObject} onCardImageClick={onCardImageClick} />) : (
-            artObjects.map((obj, index) => (
+        {selectedArtObject ? (
+          <div>
+            <ArtObjectCard artObject={selectedArtObject} onCardImageClick={onCardImageClick} />
+            <CommentsBox
+              comments={selectedArtObject.comments}
+              currentUser={user}
+              handleMessageSend={handleMessageSend}
+            />
+          </div>
+        ) : (
+          <div style={{
+            overflowY: 'scroll',
+          }}
+          >
+            {artObjects.map((obj, index) => (
               <ArtObjectCardSmall
                 key={index}
                 artObject={obj}
                 onClick={() => {
-                  setSelectedArtObject(obj);
+                  handleSelectArtObject(obj);
                 }}
               />
-            ))
-          )}
-        </div>
+            ))}
+          </div>
+        )}
       </Drawer>
       <Menu
         anchorEl={anchorEl}

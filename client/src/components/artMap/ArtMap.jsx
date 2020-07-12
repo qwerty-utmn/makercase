@@ -95,6 +95,7 @@ function Map({
         },
       });
       alert('Место успешно добавлено');
+      window.location.reload(false);
     } catch (err) {
       console.error(err);
     }
@@ -120,6 +121,7 @@ function Map({
         },
       });
       alert('Стрит-арт успешно добавлен');
+      window.location.reload(false);
     } catch (err) {
       console.error(err);
     }
